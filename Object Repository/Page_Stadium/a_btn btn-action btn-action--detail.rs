@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_btn btn-action btn-action--detail</name>
+   <tag></tag>
+   <elementGuidId>63596d66-d7c3-4af2-b473-178b33517739</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table_data']/tbody/tr/td[6]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;table_data&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;d-flex justify-content-center&quot;]/a[@class=&quot;btn btn-action btn-action--detail&quot;][count(. | //a[@href = '/cctv/detail/64fea065acbef66fd5476494' and @class = 'btn btn-action btn-action--detail']) = count(//a[@href = '/cctv/detail/64fea065acbef66fd5476494' and @class = 'btn btn-action btn-action--detail'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-action.btn-action--detail</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f7f950f2-df6b-4ac4-ae4a-8fcae7cb716f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cctv/detail/64fea065acbef66fd5476494</value>
+      <webElementGuid>f9e83859-2fd9-4a6d-955a-9800e19b7470</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-action btn-action--detail</value>
+      <webElementGuid>a41254a2-0182-4e94-840d-4ae06aea6b33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table_data&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;d-flex justify-content-center&quot;]/a[@class=&quot;btn btn-action btn-action--detail&quot;]</value>
+      <webElementGuid>20ce858c-4057-45ea-9a40-95a4e20cbbc3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table_data']/tbody/tr/td[6]/a</value>
+      <webElementGuid>5b503712-0f5c-48af-ad19-726f946abe29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/cctv/detail/64fea065acbef66fd5476494')]</value>
+      <webElementGuid>f30bb941-e5cb-4198-a2b2-b02e6a5dd725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/a</value>
+      <webElementGuid>bb427a56-ea2d-4c3d-a412-ebdf3447461d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/cctv/detail/64fea065acbef66fd5476494']</value>
+      <webElementGuid>c2356c77-22a7-4c75-a7de-5556bbad83ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

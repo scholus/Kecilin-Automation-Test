@@ -1,0 +1,11 @@
+.classpath
+.project
+/.settings
+Reports/
+.cache/
+bin/
+Libs/
+*.log
+*.bak
+*.swp
+.DS_Store
