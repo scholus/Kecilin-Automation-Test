@@ -15,14 +15,14 @@
       <guid>ff049bff-b5e1-4c49-9361-e5a1c1006538</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PSSI Dashboard Function/Sign In/SignInValidData</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>84bbdc0a-0b91-45ae-96a2-71c019a87aee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PSSI Dashboard Function/Add CCTV/AddCCTVValidDataOfflineWeb</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Add CCTV/Positive Test Case/PSSIAddCCTVValidDataOfflineWeb</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

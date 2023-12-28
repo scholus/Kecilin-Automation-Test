@@ -31,9 +31,9 @@ class BDDCucumberTestListener {
 //	def beforeTestCase(TestCaseContext context) {
 //	  CucumberGlueGenerator.addDefaultPackages();
 //	}
-	@BeforeTestCase
-	def beforeTestCase(TestCaseContext testCaseContext) {
-		CucumberKW.GLUE = ['']
-		CucumberGlueGenerator.addDefaultPackages();
-	}
+//	@BeforeTestCase
+//	def beforeTestCase(TestCaseContext testCaseContext) {
+//		CucumberKW.GLUE = ['']
+//		CucumberGlueGenerator.addDefaultPackages();
+//	}
 }

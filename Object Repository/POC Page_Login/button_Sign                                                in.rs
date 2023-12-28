@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Sign                                                in</name>
+   <tag></tag>
+   <elementGuidId>5253ff40-1e99-4e61-9a91-661a2272481e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.bg-gradient-primary.w-100.mt-4.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e1c1b2f3-5b55-4e36-acbe-86f01f2f8d4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>c9d35c19-e5ac-4470-b6c3-00121ac2239f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn bg-gradient-primary w-100 mt-4 mb-0</value>
+      <webElementGuid>3a3ed575-3e8f-446b-879e-274d4da51046</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign
+                                                in</value>
+      <webElementGuid>f799e239-d5a9-4b34-b917-9315e95f7614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/main[@class=&quot;main-content mt-0 ps&quot;]/section[1]/div[@class=&quot;page-header min-vh-100&quot;]/div[@class=&quot;w-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-4 col-lg-5 col-md-7 d-flex flex-column mx-auto px-5&quot;]/div[@class=&quot;card card-plain my-auto shadow-lg&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;text-center&quot;]/button[@class=&quot;btn bg-gradient-primary w-100 mt-4 mb-0&quot;]</value>
+      <webElementGuid>3d21466e-8f5c-4f17-a8d7-8db3ffd8b0d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>ea50237c-48f3-4312-9351-1a358027ab6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>7f2a3609-8066-4949-8ebd-c56637dbadb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Sign
+                                                in' or . = 'Sign
+                                                in')]</value>
+      <webElementGuid>6fdcec64-c4c3-4f4a-8b47-974613b970da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

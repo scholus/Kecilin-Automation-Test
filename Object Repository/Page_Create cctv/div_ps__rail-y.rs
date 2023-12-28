@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ps__rail-y</name>
+   <tag></tag>
+   <elementGuidId>06b9b2f5-048e-49d4-b348-7604e7d16d48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main.main-content.position-relative.max-height-vh-100.h-100.border-radius-lg.ps.ps--active-y.ps--scrolling-y > div.ps__rail-y</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cd55cdfd-4ef4-49af-b9dd-838afdbd8711</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps__rail-y</value>
+      <webElementGuid>eeafad4b-31a3-4dc5-858a-125dbfa9a465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;g-sidenav-show  bg-gray-100&quot;]/main[@class=&quot;main-content position-relative max-height-vh-100 h-100 border-radius-lg ps ps--active-y ps--scrolling-y&quot;]/div[@class=&quot;ps__rail-y&quot;]</value>
+      <webElementGuid>6613eb7e-7595-4b2f-ad0d-a5f7fb208daf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div[3]</value>
+      <webElementGuid>6308281f-b7b0-4775-b228-7c2569c9f6d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

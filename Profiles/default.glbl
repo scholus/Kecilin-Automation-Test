@@ -14,4 +14,9 @@
       <initValue>'https://monitoring.pssi-dev.kecilin.id'</initValue>
       <name>online_pssi_dashboard_url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://172.188.18.152'</initValue>
+      <name>poc_dashboard_url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

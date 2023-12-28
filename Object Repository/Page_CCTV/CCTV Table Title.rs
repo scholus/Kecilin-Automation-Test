@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCTV Table Title</name>
+   <tag></tag>
+   <elementGuidId>b19f3eec-a31e-4e0e-b0fe-262d27ad00f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='navbarBlur']/div/nav/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>nav > h6.font-weight-bolder.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>96c070f1-bbe9-48a9-a881-07b99d377bef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-weight-bolder mb-0</value>
+      <webElementGuid>9bffd4b0-3ab6-41ec-99c8-83539e6a3a40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CCTV</value>
+      <webElementGuid>15accced-13cd-4c18-8fb2-badf270fe00d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarBlur&quot;)/div[@class=&quot;container-fluid py-1 px-3&quot;]/nav[1]/h6[@class=&quot;font-weight-bolder mb-0&quot;]</value>
+      <webElementGuid>3c4ccfb2-cebd-4b4b-b667-693c4dc0963e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='navbarBlur']/div/nav/h6</value>
+      <webElementGuid>11b9b735-6657-4ef8-81c8-4cef34249996</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/h6</value>
+      <webElementGuid>56d828b8-c83e-4a4f-a3e8-c0c8b1c4f73b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'CCTV' or . = 'CCTV')]</value>
+      <webElementGuid>e9febf2a-acec-42ea-8bba-4d4942d47199</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

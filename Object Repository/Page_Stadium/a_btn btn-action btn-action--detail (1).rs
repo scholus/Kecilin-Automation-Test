@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_btn btn-action btn-action--detail (1)</name>
+   <tag></tag>
+   <elementGuidId>90ccfc8e-e77a-4bda-af22-a98787d92f41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table_data']/tbody/tr/td[6]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-action.btn-action--detail</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6533ac91-ea2e-4b58-8916-f21aa44c212a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cctv/detail/64fea065acbef66fd5476494</value>
+      <webElementGuid>cad97090-ca08-4f3b-a63d-4300f254fb86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-action btn-action--detail</value>
+      <webElementGuid>8ae0db74-e0c8-405c-963a-4aea2c8c201e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table_data&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;d-flex justify-content-center&quot;]/a[@class=&quot;btn btn-action btn-action--detail&quot;]</value>
+      <webElementGuid>f2f0af63-b7f1-454e-b6d0-2ef36c4bc640</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table_data']/tbody/tr/td[6]/a</value>
+      <webElementGuid>2e60dcce-7870-4c51-9500-c78ed343bd35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/cctv/detail/64fea065acbef66fd5476494')]</value>
+      <webElementGuid>a37f2f67-8c8a-44b2-933e-26029e41bbc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/a</value>
+      <webElementGuid>6c9bea50-19ae-4295-8ec2-d193095e2234</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/cctv/detail/64fea065acbef66fd5476494']</value>
+      <webElementGuid>0fbe05d6-137f-45dd-893b-e71397c8516c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

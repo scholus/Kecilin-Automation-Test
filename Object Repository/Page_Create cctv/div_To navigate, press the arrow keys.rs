@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_To navigate, press the arrow keys</name>
+   <tag></tag>
+   <elementGuidId>ca9be2da-3e4b-43ff-a02f-991ee7c748ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='map']/div/div[3]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gm-style > div > div:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c9bab01d-bf34-4445-9140-230fe8d64732</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>To navigate, press the arrow keys.</value>
+      <webElementGuid>b43edadc-3f09-4df6-aa9c-df150b80ce06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;map&quot;)/div[1]/div[@class=&quot;gm-style&quot;]/div[1]/div[2]</value>
+      <webElementGuid>59a1553e-8797-46a5-b15e-77c5ca3b825a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='map']/div/div[3]/div/div[2]</value>
+      <webElementGuid>2a0dae0f-6872-4de7-b670-5edd70532a14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]</value>
+      <webElementGuid>47864b70-1dff-4522-adb1-fcfc1f705de2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'To navigate, press the arrow keys.' or . = 'To navigate, press the arrow keys.')]</value>
+      <webElementGuid>ce0cbace-2c60-4fce-aee5-85ff5f418c41</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

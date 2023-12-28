@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Stadium Table Title</name>
+   <tag></tag>
+   <elementGuidId>916e5dce-7333-434b-8d4b-1ae14bd589c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='navbarBlur']/div/nav/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>nav > h6.font-weight-bolder.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>f35d67ae-d620-4743-814d-1a412aa430a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-weight-bolder mb-0</value>
+      <webElementGuid>c461ec12-dc36-4af5-a9c6-ca7a84124c4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stadium</value>
+      <webElementGuid>cc0ffe70-7081-4be9-8883-3b3e0912fb94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarBlur&quot;)/div[@class=&quot;container-fluid py-1 px-3&quot;]/nav[1]/h6[@class=&quot;font-weight-bolder mb-0&quot;]</value>
+      <webElementGuid>efdc0b5c-9f2d-46a0-be67-fbfe1492ebd8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='navbarBlur']/div/nav/h6</value>
+      <webElementGuid>dd469731-4891-4c8f-b849-31a56151c2c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/h6</value>
+      <webElementGuid>a472281d-b449-49f3-a326-020d9e6bd9ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Stadium' or . = 'Stadium')]</value>
+      <webElementGuid>b49a93b9-9c05-493b-8d58-5df11c768675</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
