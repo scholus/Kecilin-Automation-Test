@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Sharing Vision BDD Cucumber Project</name>
+   <name>Kecilin Automation Test Project</name>
    <tag></tag>
    <UUID>fbdb805a-243f-41e8-b354-0628b439d1bb</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Scholus\Katalon Studio\Sharing Vision BDD Cucumber Project\Sharing Vision BDD Cucumber Project.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\USER\git\Kecilin-Automation-Test\Sharing Vision BDD Cucumber Project.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -5,14 +5,9 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>Url for PSSI dashboard monitoring</description>
-      <initValue>'http://192.168.0.100:7000'</initValue>
-      <name>offline_pssi_dashboard_url</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description></description>
       <initValue>'https://monitoring.pssi-dev.kecilin.id'</initValue>
-      <name>online_pssi_dashboard_url</name>
+      <name>offline_pssi_dashboard_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
