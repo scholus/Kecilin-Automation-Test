@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign In Test Suite,Chrome 120.0.0.0,,,29-12-2023 11:28:52,29-12-2023 11:29:00,8.275s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData,Chrome 120.0.0.0,,,29-12-2023 11:28:52,29-12-2023 11:29:00,7.973s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,29-12-2023 11:28:52,29-12-2023 11:28:52,0.050s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,29-12-2023 11:28:52,29-12-2023 11:28:53,0.224s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,29-12-2023 11:28:53,29-12-2023 11:28:55,2.510s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,,,29-12-2023 11:28:55,29-12-2023 11:28:56,0.849s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,29-12-2023 11:28:56,29-12-2023 11:28:56,0.171s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_email""), ""superadmin@app.com"")",Chrome 120.0.0.0,,,29-12-2023 11:28:56,29-12-2023 11:28:57,1.236s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 120.0.0.0,,,29-12-2023 11:28:57,29-12-2023 11:28:58,0.598s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Sign In""))",Chrome 120.0.0.0,,,29-12-2023 11:28:58,29-12-2023 11:29:00,1.841s,PASSED

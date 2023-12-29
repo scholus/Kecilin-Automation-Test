@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Entries and Pages Test Suite,Chrome 120.0.0.0,,,29-12-2023 11:23:00,29-12-2023 11:23:17,16.510s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVDataTableEntriesAndPages,Chrome 120.0.0.0,,,29-12-2023 11:23:00,29-12-2023 11:23:17,16.250s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,29-12-2023 11:23:01,29-12-2023 11:23:01,0.045s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,29-12-2023 11:23:01,29-12-2023 11:23:01,0.197s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,29-12-2023 11:23:01,29-12-2023 11:23:10,8.534s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""))",Chrome 120.0.0.0,,,29-12-2023 11:23:10,29-12-2023 11:23:10,0.671s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""), ""100"", true)",Chrome 120.0.0.0,,,29-12-2023 11:23:10,29-12-2023 11:23:12,1.381s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 1""), 1)",Chrome 120.0.0.0,,,29-12-2023 11:23:12,29-12-2023 11:23:12,0.677s,PASSED
+"page1Object = findTestObject(""Object Repository/Page_CCTV/page 1"")",Chrome 120.0.0.0,,,29-12-2023 11:23:12,29-12-2023 11:23:12,0.034s,PASSED
+"page1Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,29-12-2023 11:23:12,29-12-2023 11:23:12,0.022s,PASSED
+"is1Active = verifyElementPresent(page1Object, 3)",Chrome 120.0.0.0,,,29-12-2023 11:23:12,29-12-2023 11:23:13,0.359s,PASSED
+if (is1Active),Chrome 120.0.0.0,,,29-12-2023 11:23:13,29-12-2023 11:23:13,0.018s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV//Data Entries Option""), 1)",Chrome 120.0.0.0,,,29-12-2023 11:23:13,29-12-2023 11:23:13,0.383s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""))",Chrome 120.0.0.0,,,29-12-2023 11:23:13,29-12-2023 11:23:13,0.398s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""), ""25"", true)",Chrome 120.0.0.0,,,29-12-2023 11:23:13,29-12-2023 11:23:15,1.257s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 2""), 1)",Chrome 120.0.0.0,,,29-12-2023 11:23:15,29-12-2023 11:23:15,0.574s,PASSED
+"click(findTestObject(""Object Repository/Page_CCTV/page 2""))",Chrome 120.0.0.0,,,29-12-2023 11:23:15,29-12-2023 11:23:16,0.428s,PASSED
+"page2Object = findTestObject(""Object Repository/Page_CCTV/page 2"")",Chrome 120.0.0.0,,,29-12-2023 11:23:16,29-12-2023 11:23:16,0.052s,PASSED
+"page2Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,29-12-2023 11:23:16,29-12-2023 11:23:16,0.004s,PASSED
+"is2Active = verifyElementPresent(page2Object, 3)",Chrome 120.0.0.0,,,29-12-2023 11:23:16,29-12-2023 11:23:16,0.515s,PASSED
+if (is2Active),Chrome 120.0.0.0,,,29-12-2023 11:23:16,29-12-2023 11:23:16,0.005s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,29-12-2023 11:23:16,29-12-2023 11:23:17,0.290s,PASSED

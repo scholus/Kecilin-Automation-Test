@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign In Test Suite" time="8.275" tests="1" failures="0" errors="0">
+   <testsuite name="Sign In Test Suite" tests="1" failures="0" errors="0" time="8.275" skipped="0" timestamp="29-12-2023T11:28:52" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE CCTV Data/Sign In Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20231229_111847\\Create BE CCTV Data\\Sign In Test Suite\\20231229_111859"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20231229_111847\\Create BE CCTV Data\\Sign In Test Suite\\20231229_111859\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.183"/>
+         <property name="sessionId" value="edcd5016d71f8712fe1540b73e5ace82"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData" time="7.973" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData" status="PASSED">
+         <system-out><![CDATA[29-12-2023T11:28:52 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+29-12-2023T11:28:52 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+29-12-2023T11:28:52 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+29-12-2023T11:28:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-12-2023T11:28:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-12-2023T11:28:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-12-2023T11:28:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-12-2023T11:28:55 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+29-12-2023T11:28:56 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+29-12-2023T11:28:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-12-2023T11:28:56 - [MESSAGE][PASSED] - Current window maximized
+
+29-12-2023T11:28:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+29-12-2023T11:28:57 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+29-12-2023T11:28:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+29-12-2023T11:28:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+29-12-2023T11:28:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+29-12-2023T11:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-12-2023T11:28:52 - [TEST_SUITE][PASSED] - Sign In Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

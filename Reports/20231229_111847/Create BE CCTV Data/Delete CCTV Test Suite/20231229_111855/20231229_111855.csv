@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Delete CCTV Test Suite,Chrome 120.0.0.0,,,29-12-2023 11:23:34,29-12-2023 11:23:56,21.743s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Delete CCTV/Negative Test Case/PSSICancelDeleteCCTV,Chrome 120.0.0.0,,,29-12-2023 11:23:34,29-12-2023 11:23:46,11.670s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,29-12-2023 11:23:35,29-12-2023 11:23:35,0.060s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,29-12-2023 11:23:35,29-12-2023 11:23:35,0.200s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,29-12-2023 11:23:35,29-12-2023 11:23:45,10.042s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/delete/658cfcc212ca78ff5334e8ed"", failureHandling)",Chrome 120.0.0.0,,,29-12-2023 11:23:45,29-12-2023 11:23:46,0.537s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_CCTV/Button Cancel""), 0, failureHandling))",Chrome 120.0.0.0,,,29-12-2023 11:23:46,29-12-2023 11:23:46,0.354s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Delete CCTV/Positive Test Case/PSSIDeleteCCTV,Chrome 120.0.0.0,,,29-12-2023 11:23:46,29-12-2023 11:23:56,9.726s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,29-12-2023 11:23:47,29-12-2023 11:23:47,0.002s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,29-12-2023 11:23:47,29-12-2023 11:23:47,0.004s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,29-12-2023 11:23:47,29-12-2023 11:23:54,7.451s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/delete/658cfcc212ca78ff5334e8ed"", failureHandling)",Chrome 120.0.0.0,,,29-12-2023 11:23:54,29-12-2023 11:23:55,0.331s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_CCTV/CCTV Data Title""), 0, failureHandling))",Chrome 120.0.0.0,,,29-12-2023 11:23:55,29-12-2023 11:23:56,0.724s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,29-12-2023 11:23:56,29-12-2023 11:23:56,0.351s,PASSED
