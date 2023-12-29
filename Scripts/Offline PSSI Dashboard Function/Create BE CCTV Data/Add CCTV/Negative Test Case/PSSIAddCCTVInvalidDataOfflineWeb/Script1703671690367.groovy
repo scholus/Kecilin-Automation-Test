@@ -36,9 +36,9 @@ WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/in
 WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), failureHandling)
 
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CCTV/CCTV Data Title'), 0, failureHandling)) {
-    KeywordUtil.markFailed('Test failed because conditionFails is true')
+    KeywordUtil.markFailed('Test failed because data is added')
 } else {
-    KeywordUtil.markPassed('Test passed because conditionPass is true')
+    KeywordUtil.markPassed('Test passed because data is not added')
 }
 
 WebUI.closeBrowser()

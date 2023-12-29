@@ -28,9 +28,9 @@ WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV 
 
 WebUI.navigateToUrl(baseUrl + '/cctv/cctv_log/658be0a112ca78ff5334de2d', failureHandling)
 
-if (WebUI.verifyElementPresent(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'), 0, failureHandling)) {
-	WebUI.verifyElementClickable(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'), failureHandling)
-	WebUI.click(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'), failureHandling)
+if (WebUI.verifyElementPresent(findTestObject('Page_Camera Logs/CCTV Breadcrumb'), 0, failureHandling)) {
+	WebUI.verifyElementClickable(findTestObject('Page_Camera Logs/CCTV Breadcrumb'), failureHandling)
+	WebUI.click(findTestObject('Page_Camera Logs/CCTV Breadcrumb'), failureHandling)
 	
 	if (WebUI.verifyTextPresent('CCTV Data', false)) {
 	KeywordUtil.markPassed('Test passed because user can navigate through breadcrumb')
@@ -43,9 +43,9 @@ if (WebUI.verifyElementPresent(findTestObject('Page_Add new CCTV/CCTV Breadcrumb
 
 WebUI.navigateToUrl(baseUrl + '/cctv/cctv_log/658be0a112ca78ff5334de2d', failureHandling)
 
-if (WebUI.verifyElementPresent(findTestObject('Page_CCTV/Stadium Breadcrumb'), 0, failureHandling)) {
-	WebUI.verifyElementClickable(findTestObject('Page_CCTV/Stadium Breadcrumb'))
-	WebUI.click(findTestObject('Page_Add new CCTV/Stadium Breadcrumb'))
+if (WebUI.verifyElementPresent(findTestObject('Page_Camera Logs/Stadium Breadcrumb'), 0, failureHandling)) {
+	WebUI.verifyElementClickable(findTestObject('Page_Camera Logs/Stadium Breadcrumb'))
+	WebUI.click(findTestObject('Page_Camera Logs/Stadium Breadcrumb'))
 	
 	if (WebUI.verifyElementPresent(findTestObject('Page_Stadium/Stadium Table Title'), 0, failureHandling)) {
 	KeywordUtil.markPassed('Test passed because user can navigate through breadcrumb')

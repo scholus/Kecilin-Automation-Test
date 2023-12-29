@@ -36,11 +36,13 @@ WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/in
 
 WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), failureHandling)
 
-if (WebUI.verifyElementPresent(findTestObject('Page_CCTV/CCTV Data Title'), 0, failureHandling)) {
+def isElementPresent = WebUI.verifyElementPresent(findTestObject('Page_CCTV/CCTV Data Title'), 0, failureHandling)
+
+if (isElementPresent) {
     KeywordUtil.markFailed('Test failed because data is added')
 } else {
     if (WebUI.verifyElementPresent(findTestObject('Page_Edit Stadium/Error Message The cctv id is exists'), 0, failureHandling)) {
-        KeywordUtil.markFailed('Test failed because cctv id is exists')
+        KeywordUtil.markFailedAndStop('Test failed because cctv id is exists')
     }
     KeywordUtil.markPassed('Test passed because user cannot add cctv data with duplicate cctv id')
 }

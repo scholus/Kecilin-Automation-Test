@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCTV Breadcrumb</name>
+   <tag></tag>
+   <elementGuidId>0df58b77-bf35-44c3-8016-d89d0eb8efce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='navbarBlur']/div/nav/ol/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2dc19048-e9c3-4ef6-96ad-f96670c828a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>opacity-5 text-dark</value>
+      <webElementGuid>ee6b7b73-0478-4838-ba21-fd59ab7489d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CCTV</value>
+      <webElementGuid>5c74255e-6fde-4c32-b913-17b94566ce93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarBlur&quot;)/div[@class=&quot;container-fluid py-1 px-3&quot;]/nav[1]/ol[@class=&quot;breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5&quot;]/li[@class=&quot;breadcrumb-item text-sm&quot;]/a[@class=&quot;opacity-5 text-dark&quot;]</value>
+      <webElementGuid>bf13cd89-e82d-455e-bde8-bd500c69e5a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='navbarBlur']/div/nav/ol/li[3]/a</value>
+      <webElementGuid>e7cac553-df9a-47a1-b719-a74d7e4872f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'CCTV')]</value>
+      <webElementGuid>ede854ca-9852-4e36-b693-800d9014841d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[14]</value>
+      <webElementGuid>eb8c8781-10c4-40ec-af5f-e96d9b35c1f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>93cb42a2-a2f7-4512-ba2b-2ac8033b30c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'CCTV' or . = 'CCTV')]</value>
+      <webElementGuid>f63ae56c-d1de-4e9d-b16e-dcb2cc33df10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

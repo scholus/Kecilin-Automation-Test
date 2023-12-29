@@ -4,7 +4,7 @@
    <name>Edit CCTV Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>zatihulwani@kecilin.id;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
