@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View CCTV Logs Test Suite,Chrome 120.0.0.0,,,02-01-2024 22:55:13,02-01-2024 22:55:33,20.517s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs,Chrome 120.0.0.0,,,02-01-2024 22:55:13,02-01-2024 22:55:26,12.557s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 22:55:14,02-01-2024 22:55:14,0.050s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 22:55:14,02-01-2024 22:55:14,0.669s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 22:55:14,02-01-2024 22:55:24,9.298s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/cctv_log/658be0a112ca78ff5334de2d"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 22:55:24,02-01-2024 22:55:24,0.359s,PASSED
+"if (verifyTextPresent(""Camera Logs"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 22:55:24,02-01-2024 22:55:25,1.522s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 22:55:25,02-01-2024 22:55:26,0.235s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs,Chrome 120.0.0.0,,,02-01-2024 22:55:26,02-01-2024 22:55:33,7.635s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 22:55:26,02-01-2024 22:55:26,0.002s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 22:55:26,02-01-2024 22:55:26,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 22:55:26,02-01-2024 22:55:32,6.189s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/cctv_log/658be0a112ca78ff5334de2d"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 22:55:32,02-01-2024 22:55:32,0.333s,PASSED
+"if (verifyTextPresent(""Camera Logs"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 22:55:32,02-01-2024 22:55:33,0.675s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 22:55:33,02-01-2024 22:55:33,0.196s,PASSED

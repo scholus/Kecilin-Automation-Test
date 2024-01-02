@@ -45,10 +45,10 @@ def verifyRTSPEmptyNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.rtspEm
 
 // Skenario kalau semua field kosong
 if (WebUI.verifyElementNotPresent(findTestObject('Page_Add new CCTV/Add new CCTV Field Title'), 0, failureHandling)) {
-	// kalau masuk kesini artinya suda tidak di page edit cctv dan validasi tidak ada yang bekerja
-	throw new AssertionError('Test failed')
+	// kalau masuk kesini artinya suda tidak di page add cctv dan validasi tidak ada yang bekerja
+	assert false
 } else {
-	// kalau masuk kesini artinya masih di page edit cctv dan cek wording validasi
+	// kalau masuk kesini artinya masih di page add cctv dan cek wording validasi
     if (!verifyIDInvalidNotPresent) {
     } else {
         if (!verifyIDEmptyNotPresent && !verifyNameEmptyNotPresent && !verifyRTSPEmptyNotPresent) {
@@ -65,7 +65,7 @@ scrollThenClickSave()
 
 // Skenario kalau field ID dan RTSP kosong
 if (WebUI.verifyElementNotPresent(findTestObject('Page_Add new CCTV/Add new CCTV Field Title'), 0, failureHandling)) {
-	throw new AssertionError('Test failed')
+	assert false
 } else {
     if (!verifyIDInvalidNotPresent) {
     } else {
@@ -83,7 +83,7 @@ scrollThenClickSave()
 
 // Skenario kalau field RTSP kosong
 if (WebUI.verifyElementNotPresent(findTestObject('Page_Add new CCTV/Add new CCTV Field Title'), 0, failureHandling)) {
-	throw new AssertionError('Test failed')
+	assert false
 } else {
     if (!verifyRTSPEmptyNotPresent) {
     } else {
@@ -101,7 +101,7 @@ scrollThenClickSave()
 
 // Skenario kalau field name dan ID kosong
 if (WebUI.verifyElementNotPresent(findTestObject('Page_Add new CCTV/Add new CCTV Field Title'), 0, failureHandling)) {
-	throw new AssertionError('Test failed')
+	assert false
 } else {
     if (!verifyIDInvalidNotPresent) {
     } else {
@@ -119,7 +119,7 @@ scrollThenClickSave()
 
 // Skenario kalau field name dan RTSP kosong
 if (WebUI.verifyElementNotPresent(findTestObject('Page_Add new CCTV/Add new CCTV Field Title'), 0, failureHandling)) {
-	throw new AssertionError('Test failed')
+	assert false
 } else {
     if (!verifyNameEmptyNotPresent && !verifyRTSPEmptyNotPresent) {
     } else {
@@ -135,7 +135,7 @@ scrollThenClickSave()
 
 // Skenario kalau field name kosong
 if (WebUI.verifyElementNotPresent(findTestObject('Page_Add new CCTV/Add new CCTV Field Title'), 0, failureHandling)) {
-	throw new AssertionError('Test failed')
+	assert false
 } else {
 	if (!verifyNameEmptyNotPresent) {
 	} else {

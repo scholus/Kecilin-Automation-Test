@@ -38,16 +38,13 @@ WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/in
 scrollThenClickSave()
 
 String errorMessageAppear = GlobalVariable.negativeTestPassedErrorMessageAppear
-
-if (WebUI.verifyTextPresent('Add new CCTV', false)) {
-
-	def verifyIDInvalidPresent = WebUI.verifyTextPresent(GlobalVariable.cctvIdInvalid, false)
-	def verifyNameInvalidPresent = WebUI.verifyTextPresent(GlobalVariable.cctvNameInvalid, false)
-	def verifyRTSPInvalidPresent = WebUI.verifyTextPresent(GlobalVariable.cctvRTSPInvalid, false)
-	if (verifyIDInvalidPresent && verifyNameInvalidPresent && verifyRTSPInvalidPresent) {
+WebUI.verifyTextPresent('Add new CCTV',false)
+	
+if (WebUI.verifyTextPresent(GlobalVariable.cctvNameInvalid, false) 
+	&& WebUI.verifyTextPresent(GlobalVariable.cctvIdInvalid, false)
+	&& WebUI.verifyTextPresent(GlobalVariable.cctvRTSPInvalid, false)) {
 		KeywordUtil.markPassed(errorMessageAppear)
-	}
-	KeywordUtil.markPassed('Negative test passed because user can not edit cctv with invalid data')
+		KeywordUtil.markPassed('Negative test passed because user can not edit cctv with invalid data')
 }
 
 WebUI.closeBrowser()

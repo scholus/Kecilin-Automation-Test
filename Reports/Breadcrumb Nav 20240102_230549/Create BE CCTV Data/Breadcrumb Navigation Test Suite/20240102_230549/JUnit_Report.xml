@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Breadcrumb Navigation Test Suite" time="49.694" tests="4" failures="1" errors="0">
+   <testsuite name="Breadcrumb Navigation Test Suite" tests="4" failures="1" errors="0" time="49.694" skipped="0" timestamp="02-01-2024T23:05:58" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE CCTV Data/Breadcrumb Navigation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_230549\\Create BE CCTV Data\\Breadcrumb Navigation Test Suite\\20240102_230549"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_230549\\Create BE CCTV Data\\Breadcrumb Navigation Test Suite\\20240102_230549\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_230549\\Create BE CCTV Data\\Breadcrumb Navigation Test Suite\\20240102_230549\\1704211607631.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_230549\\Create BE CCTV Data\\Breadcrumb Navigation Test Suite\\20240102_230549\\1704211607842.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="d57bc94a1439e051bffe3ce9be5e9803"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInAddCCTVPage" time="16.177" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInAddCCTVPage" status="PASSED">
+         <system-out><![CDATA[02-01-2024T23:05:58 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInAddCCTVPage: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInAddCCTVPage
+
+02-01-2024T23:05:59 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:05:59 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:05:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:00 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:00 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:00 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T23:06:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T23:06:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T23:06:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T23:06:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:03 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2024T23:06:04 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2024T23:06:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:05 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:08 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:08 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:08 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:09 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:09 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+02-01-2024T23:06:09 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+02-01-2024T23:06:09 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Add new CCTV/CCTV Breadcrumb"), 0, failureHandling)): null
+
+02-01-2024T23:06:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present
+
+02-01-2024T23:06:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Add new CCTV/CCTV Breadcrumb")): Object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is clickable
+
+02-01-2024T23:06:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is clickable
+
+02-01-2024T23:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Add new CCTV/CCTV Breadcrumb")): Object: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is clicked on
+
+02-01-2024T23:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is clicked on
+
+02-01-2024T23:06:11 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_CCTV/CCTV Table Title"), 0, failureHandling)): null
+
+02-01-2024T23:06:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/CCTV Table Title' is present
+
+02-01-2024T23:06:11 - [TEST_STEP][PASSED] - markPassed("Test passed because user can navigate through breadcrumb"): Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:11 - [MESSAGE][PASSED] - Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:11 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+02-01-2024T23:06:12 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+02-01-2024T23:06:12 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_CCTV/Stadium Breadcrumb"), 0, failureHandling)): null
+
+02-01-2024T23:06:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Stadium Breadcrumb' is present
+
+02-01-2024T23:06:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_CCTV/Stadium Breadcrumb")): Object 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clickable
+
+02-01-2024T23:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clickable
+
+02-01-2024T23:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_CCTV/Stadium Breadcrumb")): Object: 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clicked on
+
+02-01-2024T23:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clicked on
+
+02-01-2024T23:06:13 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Stadium/Stadium Table Title"), 0, failureHandling)): null
+
+02-01-2024T23:06:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Stadium/Stadium Table Title' is present
+
+02-01-2024T23:06:14 - [TEST_STEP][PASSED] - markPassed("Test passed because user can navigate through breadcrumb"): Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:14 - [MESSAGE][PASSED] - Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T23:06:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVLogs" time="12.854" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVLogs" status="PASSED">
+         <system-out><![CDATA[02-01-2024T23:06:14 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVLogs: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVLogs
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:15 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:15 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:15 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T23:06:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T23:06:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T23:06:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T23:06:16 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:17 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2024T23:06:17 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2024T23:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:18 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:20 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:21 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:21 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:21 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:21 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/cctv_log/658be0a112ca78ff5334de2d", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T23:06:22 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T23:06:22 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Camera Logs/CCTV Breadcrumb"), 0, failureHandling)): null
+
+02-01-2024T23:06:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Camera Logs/CCTV Breadcrumb' is present
+
+02-01-2024T23:06:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Camera Logs/CCTV Breadcrumb"), failureHandling): Object 'Object Repository/Page_Camera Logs/CCTV Breadcrumb' is clickable
+
+02-01-2024T23:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Camera Logs/CCTV Breadcrumb' is clickable
+
+02-01-2024T23:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Camera Logs/CCTV Breadcrumb"), failureHandling): Object: 'Object Repository/Page_Camera Logs/CCTV Breadcrumb' is clicked on
+
+02-01-2024T23:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Camera Logs/CCTV Breadcrumb' is clicked on
+
+02-01-2024T23:06:24 - [TEST_STEP][PASSED] - if (verifyTextPresent("CCTV Data", false)): null
+
+02-01-2024T23:06:24 - [MESSAGE][PASSED] - Text 'CCTV Data' is present on page 
+
+02-01-2024T23:06:24 - [TEST_STEP][PASSED] - markPassed("Test passed because user can navigate through breadcrumb"): Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:24 - [MESSAGE][PASSED] - Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:24 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/cctv_log/658be0a112ca78ff5334de2d", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T23:06:25 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T23:06:25 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Camera Logs/Stadium Breadcrumb"), 0, failureHandling)): null
+
+02-01-2024T23:06:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Camera Logs/Stadium Breadcrumb' is present
+
+02-01-2024T23:06:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Camera Logs/Stadium Breadcrumb")): Object 'Object Repository/Page_Camera Logs/Stadium Breadcrumb' is clickable
+
+02-01-2024T23:06:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Camera Logs/Stadium Breadcrumb' is clickable
+
+02-01-2024T23:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Camera Logs/Stadium Breadcrumb")): Object: 'Object Repository/Page_Camera Logs/Stadium Breadcrumb' is clicked on
+
+02-01-2024T23:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Camera Logs/Stadium Breadcrumb' is clicked on
+
+02-01-2024T23:06:26 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Stadium/Stadium Table Title"), 0, failureHandling)): null
+
+02-01-2024T23:06:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Stadium/Stadium Table Title' is present
+
+02-01-2024T23:06:27 - [TEST_STEP][PASSED] - markPassed("Test passed because user can navigate through breadcrumb"): Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:27 - [MESSAGE][PASSED] - Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T23:06:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVPage" time="10.098" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVPage" status="PASSED">
+         <system-out><![CDATA[02-01-2024T23:06:27 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVPage: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVPage
+
+02-01-2024T23:06:27 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:27 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:28 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:28 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:28 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T23:06:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T23:06:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T23:06:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T23:06:29 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:30 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2024T23:06:30 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2024T23:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:31 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:33 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:34 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:34 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:35 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:35 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_CCTV/Stadium Breadcrumb"), 0, failureHandling)): null
+
+02-01-2024T23:06:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Stadium Breadcrumb' is present
+
+02-01-2024T23:06:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_CCTV/Stadium Breadcrumb")): Object 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clickable
+
+02-01-2024T23:06:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clickable
+
+02-01-2024T23:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_CCTV/Stadium Breadcrumb")): Object: 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clicked on
+
+02-01-2024T23:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCTV/Stadium Breadcrumb' is clicked on
+
+02-01-2024T23:06:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Stadium/Stadium Table Title"), 0, failureHandling)): null
+
+02-01-2024T23:06:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Stadium/Stadium Table Title' is present
+
+02-01-2024T23:06:37 - [TEST_STEP][PASSED] - markPassed("Test passed because user can navigate through breadcrumb"): Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:37 - [MESSAGE][PASSED] - Test passed because user can navigate through breadcrumb
+
+02-01-2024T23:06:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T23:06:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage" time="10.21" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)&#xa;	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[02-01-2024T23:06:37 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:38 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:38 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:38 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T23:06:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T23:06:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T23:06:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T23:06:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T23:06:39 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:40 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T23:06:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2024T23:06:40 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2024T23:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:41 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T23:06:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T23:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T23:06:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T23:06:43 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:44 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T23:06:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T23:06:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:44 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T23:06:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T23:06:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/edit/6594292412ca78ff5335423c", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/edit/6594292412ca78ff5335423c' successfully
+
+02-01-2024T23:06:45 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/edit/6594292412ca78ff5335423c' successfully
+
+02-01-2024T23:06:45 - [TEST_STEP][FAILED] - if (verifyElementPresent(findTestObject("Page_Add new CCTV/CCTV Breadcrumb"), 0, failureHandling)): Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+02-01-2024T23:06:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+02-01-2024T23:06:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //nav[@id='navbarBlur']/div/nav/ol/li[3]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2024T23:06:47 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_230549\\Create BE CCTV Data\\Breadcrumb Navigation Test Suite\\20240102_230549\\1704211607631.png]]
+
+02-01-2024T23:06:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_230549\\Create BE CCTV Data\\Breadcrumb Navigation Test Suite\\20240102_230549\\1704211607842.png]]]]></system-out>
+         <system-err><![CDATA[02-01-2024T23:06:37 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2024T23:05:58 - [TEST_SUITE][FAILED] - Breadcrumb Navigation Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[02-01-2024T23:05:58 - [TEST_SUITE][FAILED] - Breadcrumb Navigation Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at PSSIBreadcrumbInEditCCTVPage.run(PSSIBreadcrumbInEditCCTVPage:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704211549523.run(TempTestSuite1704211549523.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/CCTV Breadcrumb' located by '//nav[@id='navbarBlur']/div/nav/ol/li[3]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

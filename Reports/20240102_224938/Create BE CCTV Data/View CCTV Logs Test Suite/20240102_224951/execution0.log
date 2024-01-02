@@ -1,0 +1,2591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-02T15:55:13.280245200Z</date>
+  <millis>1704210913280</millis>
+  <nanos>245200</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Create BE CCTV Data/View CCTV Logs Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">0</property>
+  <property name="name">View CCTV Logs Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Create BE CCTV Data/View CCTV Logs Test Suite</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:13.307175300Z</date>
+  <millis>1704210913307</millis>
+  <nanos>175300</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = USER - DESKTOP-HLRVE9S</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">USER - DESKTOP-HLRVE9S</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:13.310168700Z</date>
+  <millis>1704210913310</millis>
+  <nanos>168700</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:13.311162500Z</date>
+  <millis>1704210913311</millis>
+  <nanos>162500</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.8</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.8</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:13.315153Z</date>
+  <millis>1704210913315</millis>
+  <nanos>153000</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 9.2.0.212</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">9.2.0.212</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:13.587448800Z</date>
+  <millis>1704210913587</millis>
+  <nanos>448800</nanos>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\View CCTV Logs\PSSIViewCCTVEmptyLogs.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:14.004868300Z</date>
+  <millis>1704210914004</millis>
+  <nanos>868300</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:14.054735100Z</date>
+  <millis>1704210914054</millis>
+  <nanos>735100</nanos>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:14.055732400Z</date>
+  <millis>1704210914055</millis>
+  <nanos>732400</nanos>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:14.724943300Z</date>
+  <millis>1704210914724</millis>
+  <nanos>943300</nanos>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:14.724943300Z</date>
+  <millis>1704210914724</millis>
+  <nanos>943300</nanos>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:14.976275200Z</date>
+  <millis>1704210914976</millis>
+  <nanos>275200</nanos>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\View CCTV Table\PSSIViewCCTVData.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.145572500Z</date>
+  <millis>1704210915145</millis>
+  <nanos>572500</nanos>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.150557200Z</date>
+  <millis>1704210915150</millis>
+  <nanos>557200</nanos>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.151555900Z</date>
+  <millis>1704210915151</millis>
+  <nanos>555900</nanos>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.155545Z</date>
+  <millis>1704210915155</millis>
+  <nanos>545000</nanos>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.156542600Z</date>
+  <millis>1704210915156</millis>
+  <nanos>542600</nanos>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.231962Z</date>
+  <millis>1704210915231</millis>
+  <nanos>962000</nanos>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\View Stadium\PSSIViewStadiumData.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.402527300Z</date>
+  <millis>1704210915402</millis>
+  <nanos>527300</nanos>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.408511600Z</date>
+  <millis>1704210915408</millis>
+  <nanos>511600</nanos>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.409508800Z</date>
+  <millis>1704210915409</millis>
+  <nanos>508800</nanos>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.414496300Z</date>
+  <millis>1704210915414</millis>
+  <nanos>496300</nanos>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.414496300Z</date>
+  <millis>1704210915414</millis>
+  <nanos>496300</nanos>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.497330800Z</date>
+  <millis>1704210915497</millis>
+  <nanos>330800</nanos>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\Sign In\PSSISignInValidData.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.696795900Z</date>
+  <millis>1704210915696</millis>
+  <nanos>795900</nanos>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.707765300Z</date>
+  <millis>1704210915707</millis>
+  <nanos>765300</nanos>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.709759800Z</date>
+  <millis>1704210915709</millis>
+  <nanos>759800</nanos>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.711755500Z</date>
+  <millis>1704210915711</millis>
+  <nanos>755500</nanos>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:15.713749900Z</date>
+  <millis>1704210915713</millis>
+  <nanos>749900</nanos>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:16.051844300Z</date>
+  <millis>1704210916051</millis>
+  <nanos>844300</nanos>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:16.111684600Z</date>
+  <millis>1704210916111</millis>
+  <nanos>684600</nanos>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.163667700Z</date>
+  <millis>1704210918163</millis>
+  <nanos>667700</nanos>
+  <sequence>44</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 354cb9c218d07f3f81b0f747b74c4593</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">354cb9c218d07f3f81b0f747b74c4593</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.194583700Z</date>
+  <millis>1704210918194</millis>
+  <nanos>583700</nanos>
+  <sequence>45</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 120.0.0.0</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 120.0.0.0</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.194583700Z</date>
+  <millis>1704210918194</millis>
+  <nanos>583700</nanos>
+  <sequence>46</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.195583200Z</date>
+  <millis>1704210918195</millis>
+  <nanos>583200</nanos>
+  <sequence>47</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.197584800Z</date>
+  <millis>1704210918197</millis>
+  <nanos>584800</nanos>
+  <sequence>48</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.215528600Z</date>
+  <millis>1704210918215</millis>
+  <nanos>528600</nanos>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.218520Z</date>
+  <millis>1704210918218</millis>
+  <nanos>520000</nanos>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.219517500Z</date>
+  <millis>1704210918219</millis>
+  <nanos>517500</nanos>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.803467400Z</date>
+  <millis>1704210918803</millis>
+  <nanos>467400</nanos>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id&amp;apos; successfully</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.808454600Z</date>
+  <millis>1704210918808</millis>
+  <nanos>454600</nanos>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:18.809450900Z</date>
+  <millis>1704210918809</millis>
+  <nanos>450900</nanos>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:19.042462200Z</date>
+  <millis>1704210919042</millis>
+  <nanos>462200</nanos>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:19.045454Z</date>
+  <millis>1704210919045</millis>
+  <nanos>454000</nanos>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:19.045454Z</date>
+  <millis>1704210919045</millis>
+  <nanos>454000</nanos>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Page_Login/input_email&amp;quot;), &amp;quot;superadmin@app.com&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:20.282839500Z</date>
+  <millis>1704210920282</millis>
+  <nanos>839500</nanos>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;superadmin@app.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Login/input_email&amp;apos;</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:20.286828600Z</date>
+  <millis>1704210920286</millis>
+  <nanos>828600</nanos>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Page_Login/input_email&amp;quot;), &amp;quot;superadmin@app.com&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:20.286828600Z</date>
+  <millis>1704210920286</millis>
+  <nanos>828600</nanos>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(&amp;quot;Object Repository/Page_Login/input_password&amp;quot;), &amp;quot;8SQVv/p9jVScEs4/2CZsLw==&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:20.965022200Z</date>
+  <millis>1704210920965</millis>
+  <nanos>22200</nanos>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_Login/input_password&amp;apos;</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:20.970001800Z</date>
+  <millis>1704210920970</millis>
+  <nanos>1800</nanos>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(&amp;quot;Object Repository/Page_Login/input_password&amp;quot;), &amp;quot;8SQVv/p9jVScEs4/2CZsLw==&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:20.970999Z</date>
+  <millis>1704210920970</millis>
+  <nanos>999000</nanos>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/Page_Login/button_Sign In&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:22.995727700Z</date>
+  <millis>1704210922995</millis>
+  <nanos>727700</nanos>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Login/button_Sign In&amp;apos; is clicked on</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:22.996726Z</date>
+  <millis>1704210922996</millis>
+  <nanos>726000</nanos>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/Page_Login/button_Sign In&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:22.997722Z</date>
+  <millis>1704210922997</millis>
+  <nanos>722000</nanos>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:22.997722Z</date>
+  <millis>1704210922997</millis>
+  <nanos>722000</nanos>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.014675900Z</date>
+  <millis>1704210923014</millis>
+  <nanos>675900</nanos>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData&amp;apos; successfully</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.018665900Z</date>
+  <millis>1704210923018</millis>
+  <nanos>665900</nanos>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.019663Z</date>
+  <millis>1704210923019</millis>
+  <nanos>663000</nanos>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl + &amp;quot;/cctv/stadion&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.544276Z</date>
+  <millis>1704210923544</millis>
+  <nanos>276000</nanos>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id/cctv/stadion&amp;apos; successfully</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.545273900Z</date>
+  <millis>1704210923545</millis>
+  <nanos>273900</nanos>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl + &amp;quot;/cctv/stadion&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.545273900Z</date>
+  <millis>1704210923545</millis>
+  <nanos>273900</nanos>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.546270900Z</date>
+  <millis>1704210923546</millis>
+  <nanos>270900</nanos>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.547268900Z</date>
+  <millis>1704210923547</millis>
+  <nanos>268900</nanos>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.552255500Z</date>
+  <millis>1704210923552</millis>
+  <nanos>255500</nanos>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:23.554249600Z</date>
+  <millis>1704210923554</millis>
+  <nanos>249600</nanos>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl + &amp;quot;/cctv/detail/64fea065acbef66fd5476494&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.013023500Z</date>
+  <millis>1704210924013</millis>
+  <nanos>23500</nanos>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.013023500Z</date>
+  <millis>1704210924013</millis>
+  <nanos>23500</nanos>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl + &amp;quot;/cctv/detail/64fea065acbef66fd5476494&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.014021Z</date>
+  <millis>1704210924014</millis>
+  <nanos>21000</nanos>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.015019200Z</date>
+  <millis>1704210924015</millis>
+  <nanos>19200</nanos>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.017014Z</date>
+  <millis>1704210924017</millis>
+  <nanos>14000</nanos>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.022997400Z</date>
+  <millis>1704210924022</millis>
+  <nanos>997400</nanos>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.023993700Z</date>
+  <millis>1704210924023</millis>
+  <nanos>993700</nanos>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl + &amp;quot;/cctv/cctv_log/658be0a112ca78ff5334de2d&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.377558900Z</date>
+  <millis>1704210924377</millis>
+  <nanos>558900</nanos>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.382545200Z</date>
+  <millis>1704210924382</millis>
+  <nanos>545200</nanos>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl + &amp;quot;/cctv/cctv_log/658be0a112ca78ff5334de2d&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:24.383542300Z</date>
+  <millis>1704210924383</millis>
+  <nanos>542300</nanos>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextPresent(&amp;quot;Camera Logs&amp;quot;, false, failureHandling))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.049262600Z</date>
+  <millis>1704210925049</millis>
+  <nanos>262600</nanos>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Camera Logs&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.065222100Z</date>
+  <millis>1704210925065</millis>
+  <nanos>222100</nanos>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextPresent(&amp;quot;Showing 0 to 0 of 0 entries&amp;quot;, false) &amp;amp;&amp;amp; verifyTextPresent(&amp;quot;No data available in table&amp;quot;, false))</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.472200Z</date>
+  <millis>1704210925472</millis>
+  <nanos>200000</nanos>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Showing 0 to 0 of 0 entries&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.887090Z</date>
+  <millis>1704210925887</millis>
+  <nanos>90000</nanos>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;No data available in table&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.888090700Z</date>
+  <millis>1704210925888</millis>
+  <nanos>90700</nanos>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(&amp;quot;Test passed because user successfully redirected to camera logs and display no data message&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">35</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.903048500Z</date>
+  <millis>1704210925903</millis>
+  <nanos>48500</nanos>
+  <sequence>146</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test passed because user successfully redirected to camera logs and display no data message</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:343)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:337)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:57)
+PSSIViewCCTVEmptyLogs.run(PSSIViewCCTVEmptyLogs:35)
+</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.904046400Z</date>
+  <millis>1704210925904</millis>
+  <nanos>46400</nanos>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(&amp;quot;Test passed because user successfully redirected to camera logs and display no data message&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.905042900Z</date>
+  <millis>1704210925905</millis>
+  <nanos>42900</nanos>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextPresent(&amp;quot;Showing 0 to 0 of 0 entries&amp;quot;, false) &amp;amp;&amp;amp; verifyTextPresent(&amp;quot;No data available in table&amp;quot;, false))</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.905042900Z</date>
+  <millis>1704210925905</millis>
+  <nanos>42900</nanos>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextPresent(&amp;quot;Camera Logs&amp;quot;, false, failureHandling))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:25.905042900Z</date>
+  <millis>1704210925905</millis>
+  <nanos>42900</nanos>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">44</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.136935300Z</date>
+  <millis>1704210926136</millis>
+  <nanos>935300</nanos>
+  <sequence>152</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.140924700Z</date>
+  <millis>1704210926140</millis>
+  <nanos>924700</nanos>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.141923100Z</date>
+  <millis>1704210926141</millis>
+  <nanos>923100</nanos>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.144912600Z</date>
+  <millis>1704210926144</millis>
+  <nanos>912600</nanos>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.162862700Z</date>
+  <millis>1704210926162</millis>
+  <nanos>862700</nanos>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\View CCTV Logs\PSSIViewCCTVLogs.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.394898400Z</date>
+  <millis>1704210926394</millis>
+  <nanos>898400</nanos>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.396892600Z</date>
+  <millis>1704210926396</millis>
+  <nanos>892600</nanos>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.400881800Z</date>
+  <millis>1704210926400</millis>
+  <nanos>881800</nanos>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.401879500Z</date>
+  <millis>1704210926401</millis>
+  <nanos>879500</nanos>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.402876700Z</date>
+  <millis>1704210926402</millis>
+  <nanos>876700</nanos>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.472677800Z</date>
+  <millis>1704210926472</millis>
+  <nanos>677800</nanos>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\View CCTV Table\PSSIViewCCTVData.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.516554400Z</date>
+  <millis>1704210926516</millis>
+  <nanos>554400</nanos>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.519544800Z</date>
+  <millis>1704210926519</millis>
+  <nanos>544800</nanos>
+  <sequence>168</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.519544800Z</date>
+  <millis>1704210926519</millis>
+  <nanos>544800</nanos>
+  <sequence>169</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.520545400Z</date>
+  <millis>1704210926520</millis>
+  <nanos>545400</nanos>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.521540400Z</date>
+  <millis>1704210926521</millis>
+  <nanos>540400</nanos>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.602645300Z</date>
+  <millis>1704210926602</millis>
+  <nanos>645300</nanos>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\View Stadium\PSSIViewStadiumData.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.650513800Z</date>
+  <millis>1704210926650</millis>
+  <nanos>513800</nanos>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.651510900Z</date>
+  <millis>1704210926651</millis>
+  <nanos>510900</nanos>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.652508300Z</date>
+  <millis>1704210926652</millis>
+  <nanos>508300</nanos>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.653506200Z</date>
+  <millis>1704210926653</millis>
+  <nanos>506200</nanos>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.654503300Z</date>
+  <millis>1704210926654</millis>
+  <nanos>503300</nanos>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.721226200Z</date>
+  <millis>1704210926721</millis>
+  <nanos>226200</nanos>
+  <sequence>183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</property>
+  <property name="source">C:\Users\USER\git\Kecilin-Automation-Test\Test Cases\Offline PSSI Dashboard Function\Create BE CCTV Data\Sign In\PSSISignInValidData.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.773119100Z</date>
+  <millis>1704210926773</millis>
+  <nanos>119100</nanos>
+  <sequence>185</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.774082100Z</date>
+  <millis>1704210926774</millis>
+  <nanos>82100</nanos>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : failureHandling = STOP_ON_FAILURE</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.775079500Z</date>
+  <millis>1704210926775</millis>
+  <nanos>79500</nanos>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.775079500Z</date>
+  <millis>1704210926775</millis>
+  <nanos>79500</nanos>
+  <sequence>188</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = offline_pssi_dashboard_url</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.776079100Z</date>
+  <millis>1704210926776</millis>
+  <nanos>79100</nanos>
+  <sequence>189</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.780065600Z</date>
+  <millis>1704210926780</millis>
+  <nanos>65600</nanos>
+  <sequence>191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:26.783058600Z</date>
+  <millis>1704210926783</millis>
+  <nanos>58600</nanos>
+  <sequence>193</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.818083100Z</date>
+  <millis>1704210927818</millis>
+  <nanos>83100</nanos>
+  <sequence>195</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = b52c4e65ea6620f57cb07a16257d194a</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">b52c4e65ea6620f57cb07a16257d194a</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.847992100Z</date>
+  <millis>1704210927847</millis>
+  <nanos>992100</nanos>
+  <sequence>196</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 120.0.0.0</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 120.0.0.0</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.849986600Z</date>
+  <millis>1704210927849</millis>
+  <nanos>986600</nanos>
+  <sequence>197</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.850984700Z</date>
+  <millis>1704210927850</millis>
+  <nanos>984700</nanos>
+  <sequence>198</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.851982600Z</date>
+  <millis>1704210927851</millis>
+  <nanos>982600</nanos>
+  <sequence>199</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.861954900Z</date>
+  <millis>1704210927861</millis>
+  <nanos>954900</nanos>
+  <sequence>200</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.862950900Z</date>
+  <millis>1704210927862</millis>
+  <nanos>950900</nanos>
+  <sequence>201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:27.862950900Z</date>
+  <millis>1704210927862</millis>
+  <nanos>950900</nanos>
+  <sequence>202</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:28.316738700Z</date>
+  <millis>1704210928316</millis>
+  <nanos>738700</nanos>
+  <sequence>205</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id&amp;apos; successfully</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:28.317735800Z</date>
+  <millis>1704210928317</millis>
+  <nanos>735800</nanos>
+  <sequence>206</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:28.319749500Z</date>
+  <millis>1704210928319</millis>
+  <nanos>749500</nanos>
+  <sequence>207</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:28.460354300Z</date>
+  <millis>1704210928460</millis>
+  <nanos>354300</nanos>
+  <sequence>209</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:28.461352300Z</date>
+  <millis>1704210928461</millis>
+  <nanos>352300</nanos>
+  <sequence>210</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:28.461352300Z</date>
+  <millis>1704210928461</millis>
+  <nanos>352300</nanos>
+  <sequence>211</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Page_Login/input_email&amp;quot;), &amp;quot;superadmin@app.com&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:29.553837Z</date>
+  <millis>1704210929553</millis>
+  <nanos>837000</nanos>
+  <sequence>227</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;superadmin@app.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Login/input_email&amp;apos;</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:29.554835300Z</date>
+  <millis>1704210929554</millis>
+  <nanos>835300</nanos>
+  <sequence>228</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Page_Login/input_email&amp;quot;), &amp;quot;superadmin@app.com&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:29.554835300Z</date>
+  <millis>1704210929554</millis>
+  <nanos>835300</nanos>
+  <sequence>229</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(&amp;quot;Object Repository/Page_Login/input_password&amp;quot;), &amp;quot;8SQVv/p9jVScEs4/2CZsLw==&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:30.153234900Z</date>
+  <millis>1704210930153</millis>
+  <nanos>234900</nanos>
+  <sequence>240</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_Login/input_password&amp;apos;</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:30.154233400Z</date>
+  <millis>1704210930154</millis>
+  <nanos>233400</nanos>
+  <sequence>241</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(&amp;quot;Object Repository/Page_Login/input_password&amp;quot;), &amp;quot;8SQVv/p9jVScEs4/2CZsLw==&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:30.154233400Z</date>
+  <millis>1704210930154</millis>
+  <nanos>233400</nanos>
+  <sequence>242</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/Page_Login/button_Sign In&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:31.631653800Z</date>
+  <millis>1704210931631</millis>
+  <nanos>653800</nanos>
+  <sequence>252</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Login/button_Sign In&amp;apos; is clicked on</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:31.632661Z</date>
+  <millis>1704210931632</millis>
+  <nanos>661000</nanos>
+  <sequence>253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/Page_Login/button_Sign In&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:31.632661Z</date>
+  <millis>1704210931632</millis>
+  <nanos>661000</nanos>
+  <sequence>254</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:31.633649Z</date>
+  <millis>1704210931633</millis>
+  <nanos>649000</nanos>
+  <sequence>255</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:31.635643200Z</date>
+  <millis>1704210931635</millis>
+  <nanos>643200</nanos>
+  <sequence>256</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData&amp;apos; successfully</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:31.636640900Z</date>
+  <millis>1704210931636</millis>
+  <nanos>640900</nanos>
+  <sequence>257</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:31.636640900Z</date>
+  <millis>1704210931636</millis>
+  <nanos>640900</nanos>
+  <sequence>258</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl + &amp;quot;/cctv/stadion&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.074021Z</date>
+  <millis>1704210932074</millis>
+  <nanos>21000</nanos>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id/cctv/stadion&amp;apos; successfully</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.074021Z</date>
+  <millis>1704210932074</millis>
+  <nanos>21000</nanos>
+  <sequence>262</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl + &amp;quot;/cctv/stadion&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.075020Z</date>
+  <millis>1704210932075</millis>
+  <nanos>20000</nanos>
+  <sequence>263</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.075020Z</date>
+  <millis>1704210932075</millis>
+  <nanos>20000</nanos>
+  <sequence>264</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.076015200Z</date>
+  <millis>1704210932076</millis>
+  <nanos>15200</nanos>
+  <sequence>265</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.077012300Z</date>
+  <millis>1704210932077</millis>
+  <nanos>12300</nanos>
+  <sequence>266</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.078010400Z</date>
+  <millis>1704210932078</millis>
+  <nanos>10400</nanos>
+  <sequence>267</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl + &amp;quot;/cctv/detail/64fea065acbef66fd5476494&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.586650600Z</date>
+  <millis>1704210932586</millis>
+  <nanos>650600</nanos>
+  <sequence>270</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.586650600Z</date>
+  <millis>1704210932586</millis>
+  <nanos>650600</nanos>
+  <sequence>271</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl + &amp;quot;/cctv/detail/64fea065acbef66fd5476494&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.587647600Z</date>
+  <millis>1704210932587</millis>
+  <nanos>647600</nanos>
+  <sequence>272</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.587647600Z</date>
+  <millis>1704210932587</millis>
+  <nanos>647600</nanos>
+  <sequence>273</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.589641600Z</date>
+  <millis>1704210932589</millis>
+  <nanos>641600</nanos>
+  <sequence>274</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.591636700Z</date>
+  <millis>1704210932591</millis>
+  <nanos>636700</nanos>
+  <sequence>275</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData&amp;quot;), [:], failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.591636700Z</date>
+  <millis>1704210932591</millis>
+  <nanos>636700</nanos>
+  <sequence>276</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(baseUrl + &amp;quot;/cctv/cctv_log/658be0a112ca78ff5334de2d&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.923750500Z</date>
+  <millis>1704210932923</millis>
+  <nanos>750500</nanos>
+  <sequence>279</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.924747400Z</date>
+  <millis>1704210932924</millis>
+  <nanos>747400</nanos>
+  <sequence>280</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(baseUrl + &amp;quot;/cctv/cctv_log/658be0a112ca78ff5334de2d&amp;quot;, failureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:32.925744Z</date>
+  <millis>1704210932925</millis>
+  <nanos>744000</nanos>
+  <sequence>281</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextPresent(&amp;quot;Camera Logs&amp;quot;, false, failureHandling))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.595391800Z</date>
+  <millis>1704210933595</millis>
+  <nanos>391800</nanos>
+  <sequence>285</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Camera Logs&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.596401100Z</date>
+  <millis>1704210933596</millis>
+  <nanos>401100</nanos>
+  <sequence>286</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(&amp;quot;Test passed because user successfully redirected to camera logs&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.598417400Z</date>
+  <millis>1704210933598</millis>
+  <nanos>417400</nanos>
+  <sequence>288</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test passed because user successfully redirected to camera logs</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:343)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:337)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:57)
+PSSIViewCCTVLogs.run(PSSIViewCCTVLogs:33)
+</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.600380Z</date>
+  <millis>1704210933600</millis>
+  <nanos>380000</nanos>
+  <sequence>289</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(&amp;quot;Test passed because user successfully redirected to camera logs&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.600380Z</date>
+  <millis>1704210933600</millis>
+  <nanos>380000</nanos>
+  <sequence>290</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextPresent(&amp;quot;Camera Logs&amp;quot;, false, failureHandling))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.600380Z</date>
+  <millis>1704210933600</millis>
+  <nanos>380000</nanos>
+  <sequence>291</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.796853800Z</date>
+  <millis>1704210933796</millis>
+  <nanos>853800</nanos>
+  <sequence>293</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.796853800Z</date>
+  <millis>1704210933796</millis>
+  <nanos>853800</nanos>
+  <sequence>294</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.796853800Z</date>
+  <millis>1704210933796</millis>
+  <nanos>853800</nanos>
+  <sequence>295</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.797850700Z</date>
+  <millis>1704210933797</millis>
+  <nanos>850700</nanos>
+  <sequence>296</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-01-02T15:55:33.799852800Z</date>
+  <millis>1704210933799</millis>
+  <nanos>852800</nanos>
+  <sequence>297</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:34.197175200Z</date>
+  <millis>1704210934197</millis>
+  <nanos>175200</nanos>
+  <sequence>639</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\USER\git\Kecilin-Automation-Test\Reports\20240102_224938\Create BE CCTV Data\View CCTV Logs Test Suite\20240102_224951...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:34.262000600Z</date>
+  <millis>1704210934262</millis>
+  <nanos>600</nanos>
+  <sequence>640</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:34.262998700Z</date>
+  <millis>1704210934262</millis>
+  <nanos>998700</nanos>
+  <sequence>641</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\USER\git\Kecilin-Automation-Test\Reports\20240102_224938\Create BE CCTV Data\View CCTV Logs Test Suite\20240102_224951...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:34.293916300Z</date>
+  <millis>1704210934293</millis>
+  <nanos>916300</nanos>
+  <sequence>642</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:34.294914600Z</date>
+  <millis>1704210934294</millis>
+  <nanos>914600</nanos>
+  <sequence>643</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating PDF report folder at: C:\Users\USER\git\Kecilin-Automation-Test\Reports\20240102_224938\Create BE CCTV Data\View CCTV Logs Test Suite\20240102_224951...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:39.598990100Z</date>
+  <millis>1704210939598</millis>
+  <nanos>990100</nanos>
+  <sequence>644</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PDF report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:39.629905400Z</date>
+  <millis>1704210939629</millis>
+  <nanos>905400</nanos>
+  <sequence>646</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-02T15:55:39.668800300Z</date>
+  <millis>1704210939668</millis>
+  <nanos>800300</nanos>
+  <sequence>647</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Create BE CCTV Data/View CCTV Logs Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

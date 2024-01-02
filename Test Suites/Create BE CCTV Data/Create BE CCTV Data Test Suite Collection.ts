@@ -4,8 +4,8 @@
    <name>Create BE CCTV Data Test Suite Collection</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>9</maxConcurrentInstances>
+   <executionMode>SEQUENTIAL</executionMode>
+   <maxConcurrentInstances>5</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

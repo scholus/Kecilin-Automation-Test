@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Breadcrumb Navigation Test Suite,Chrome 120.0.0.0,,,02-01-2024 23:05:58,02-01-2024 23:06:48,49.694s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInAddCCTVPage,Chrome 120.0.0.0,,,02-01-2024 23:05:58,02-01-2024 23:06:14,16.177s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 23:05:59,02-01-2024 23:05:59,0.038s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 23:05:59,02-01-2024 23:05:59,0.717s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:05:59,02-01-2024 23:06:09,9.272s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/create"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:09,02-01-2024 23:06:09,0.340s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Add new CCTV/CCTV Breadcrumb""), 0, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 23:06:09,02-01-2024 23:06:11,2.318s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/create"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:11,02-01-2024 23:06:12,0.253s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_CCTV/Stadium Breadcrumb""), 0, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 23:06:12,02-01-2024 23:06:14,2.437s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 23:06:14,02-01-2024 23:06:14,0.281s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVLogs,Chrome 120.0.0.0,,,02-01-2024 23:06:14,02-01-2024 23:06:27,12.854s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 23:06:15,02-01-2024 23:06:15,0.004s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 23:06:15,02-01-2024 23:06:15,0.002s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:15,02-01-2024 23:06:21,6.478s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/cctv_log/658be0a112ca78ff5334de2d"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:21,02-01-2024 23:06:22,0.433s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Camera Logs/CCTV Breadcrumb""), 0, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 23:06:22,02-01-2024 23:06:24,2.714s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/cctv_log/658be0a112ca78ff5334de2d"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:24,02-01-2024 23:06:25,0.295s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Camera Logs/Stadium Breadcrumb""), 0, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 23:06:25,02-01-2024 23:06:27,2.383s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 23:06:27,02-01-2024 23:06:27,0.222s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInCCTVPage,Chrome 120.0.0.0,,,02-01-2024 23:06:27,02-01-2024 23:06:37,10.098s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 23:06:27,02-01-2024 23:06:27,0.002s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 23:06:27,02-01-2024 23:06:27,0.004s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:27,02-01-2024 23:06:35,7.060s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_CCTV/Stadium Breadcrumb""), 0, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 23:06:35,02-01-2024 23:06:37,2.493s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 23:06:37,02-01-2024 23:06:37,0.305s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Breadcrumb Navigation/PSSIBreadcrumbInEditCCTVPage,Chrome 120.0.0.0,,,02-01-2024 23:06:37,02-01-2024 23:06:48,10.210s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 23:06:38,02-01-2024 23:06:38,0.003s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 23:06:38,02-01-2024 23:06:38,0.002s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:38,02-01-2024 23:06:44,6.768s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/edit/6594292412ca78ff5335423c"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 23:06:44,02-01-2024 23:06:45,0.394s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Add new CCTV/CCTV Breadcrumb""), 0, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 23:06:45,02-01-2024 23:06:48,2.759s,FAILED

@@ -29,7 +29,7 @@ WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV 
     [:], failureHandling)
 
 // id cctv masih hardcode, akan diganti http request menggunakan API doc
-WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/6593c0e340b15d7cc480d690', failureHandling)
+WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/6594291712ca78ff5335420a', failureHandling)
 
 // Path test object dan nama test object diganti kalo udh ada button cancel
 WebUI.verifyTextPresent('Cancel', false)

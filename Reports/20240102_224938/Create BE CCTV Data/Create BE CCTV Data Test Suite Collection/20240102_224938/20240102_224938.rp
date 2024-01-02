@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240102_224938</name>
+   <tag></tag>
+   <displayName>20240102_224938</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/Add CCTV Test Suite/20240102_224939</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/Breadcrumb Navigation Test Suite/20240102_224941</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/Data Entries and Pages Test Suite/20240102_224943</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/Delete CCTV Test Suite/20240102_224945</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/Edit CCTV Test Suite/20240102_224947</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/Sign In Test Suite/20240102_224949</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/View CCTV Logs Test Suite/20240102_224951</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/View CCTV Table Test Suite/20240102_224953</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240102_224938/Create BE CCTV Data/View Stadium Test Suite/20240102_224955</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Create BE CCTV Data/Create BE CCTV Data Test Suite Collection</testSuiteCollectionId>
+</ReportCollectionEntity>

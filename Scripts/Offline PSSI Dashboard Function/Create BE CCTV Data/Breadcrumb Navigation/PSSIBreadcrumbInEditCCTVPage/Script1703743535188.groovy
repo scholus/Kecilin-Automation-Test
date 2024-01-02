@@ -27,36 +27,26 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
 // id stadion masih di hard code, akan diganti ke http request kalau sudah ada API doc
-WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/edit/658be0a112ca78ff5334de2d', failureHandling)
+WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/edit/6594292412ca78ff5335423c', failureHandling)
 
-if (WebUI.verifyElementNotPresent(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'), 0, failureHandling)) {
-		KeywordUtil.markFailedAndStop('Test failed because breadcrumb doesnot exist')
-} else {
-	
+if (WebUI.verifyElementPresent(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'), 0, failureHandling)) {
 	WebUI.verifyElementClickable(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'))
 	WebUI.click(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'))
 
 	if (WebUI.verifyElementPresent(findTestObject('Page_CCTV/CCTV Table Title'), 0, failureHandling)) {
 	KeywordUtil.markPassed('Test passed because user can navigate through breadcrumb')
-} else {
-	KeywordUtil.markFailedAndStop('Test failed because user cannot navigate through breadcrumb')
-}
+	}
 }
 
-WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/edit/658cfd5e12ca78ff5334e922', failureHandling)
+WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/edit/6594292412ca78ff5335423c', failureHandling)
 
-if (WebUI.verifyElementNotPresent(findTestObject('Page_CCTV/Stadium Breadcrumb'), 0, failureHandling)) {
-	KeywordUtil.markFailedAndStop('Test failed because breadcrumb doesnot exist')
-} else {
-
-WebUI.verifyElementClickable(findTestObject('Page_CCTV/Stadium Breadcrumb'))
-WebUI.click(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'))
-
-if (WebUI.verifyElementPresent(findTestObject('Page_Stadium/Stadium Table Title'), 0, failureHandling)) {
-KeywordUtil.markPassed('Test passed because user can navigate through breadcrumb')
-} else {
-KeywordUtil.markFailedAndStop('Test failed because user cannot navigate through breadcrumb')
-}
+if (WebUI.verifyElementPresent(findTestObject('Page_CCTV/Stadium Breadcrumb'), 0, failureHandling)) {
+	WebUI.verifyElementClickable(findTestObject('Page_CCTV/Stadium Breadcrumb'))
+	WebUI.click(findTestObject('Page_Add new CCTV/CCTV Breadcrumb'))
+	
+	if (WebUI.verifyElementPresent(findTestObject('Page_Stadium/Stadium Table Title'), 0, failureHandling)) {
+	KeywordUtil.markPassed('Test passed because user can navigate through breadcrumb')
+	}
 }
 
 WebUI.closeBrowser()
