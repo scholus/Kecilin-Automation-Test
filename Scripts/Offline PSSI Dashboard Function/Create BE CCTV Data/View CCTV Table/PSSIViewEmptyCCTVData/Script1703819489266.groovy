@@ -27,17 +27,18 @@ WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV 
 
 WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea04aacbef66fd547646c', failureHandling)
 
+def verifyEntriesTextNotPresent = WebUI.verifyTextNotPresent('Showing 0 to 0 of 0 entries', false)
+def verifyEmptyMessageNotPresent = WebUI.verifyTextNotPresent('No matching records found', false)
+
 // Validasi kalau ada angka 'Showing 0 to 0 of 0 entries' dan ada tulisan 'No matching records found' maka sukses,
 // Karena artinya memang beneran gak ada data
-if (WebUI.verifyTextPresent('CCTV Data', false, failureHandling)) {
-    if (WebUI.verifyTextPresent('Showing 0 to 0 of 0 entries', false) && WebUI.verifyTextPresent('No matching records found', 
-        false)) {
-        KeywordUtil.markPassed('Test passed because user successfully redirected to camera logs and display no data message')
-    } else {
-        KeywordUtil.markFailed('Test failed because either entries is broken or no empty message')
+if (WebUI.verifyTextPresent('Total Camera', false, failureHandling)) {
+    if (!verifyEntriesTextNotPresent && !verifyEmptyMessageNotPresent) {
+        KeywordUtil.markFailedAndStop('Test failed because either entries is broken or no empty message')
     }
+    KeywordUtil.markPassed('Test passed because user successfully redirected to camera logs, display no data message and entries message')  
 } else {
-    KeywordUtil.markFailed('Test failed because user is not redirected to camera logs')
+    KeywordUtil.markFailedAndStop('Test failed because user is not redirected to camera logs')
 }
 
 WebUI.closeBrowser()

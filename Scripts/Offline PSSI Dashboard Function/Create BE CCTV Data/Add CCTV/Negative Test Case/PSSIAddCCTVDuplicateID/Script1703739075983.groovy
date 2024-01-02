@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-// Akan diubah menggunakan WebUI request kalau sudah ada API documentation
 FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE
 
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
+// id stadion masih di hard code, akan diganti ke http request kalau sudah ada API doc
 WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/create', failureHandling)
 
 WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_Name_name'), 'camera2', failureHandling)
@@ -34,18 +34,22 @@ WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/in
 
 WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'), 'googeru', failureHandling)
 
-WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), failureHandling)
+scrollThenClickSave()
+def isElementStadiumNameNotPresent = WebUI.verifyTextNotPresent('Stadium Name',false)
+def isElementErrorMessageIDPresent = WebUI.verifyTextPresent('The cctv id is exists',false)
 
-def isElementPresent = WebUI.verifyElementPresent(findTestObject('Page_CCTV/CCTV Data Title'), 0, failureHandling)
-
-if (isElementPresent) {
-    KeywordUtil.markFailed('Test failed because data is added')
-} else {
-    if (WebUI.verifyElementPresent(findTestObject('Page_Edit Stadium/Error Message The cctv id is exists'), 0, failureHandling)) {
-        KeywordUtil.markFailedAndStop('Test failed because cctv id is exists')
+// Akan diubah menggunakan WebUI request kalau sudah ada API documentation
+if (!isElementStadiumNameNotPresent) {
+	throw new AssertionError('Test failed')
+    if (isElementErrorMessageIDPresent) {
+		KeywordUtil.markPassed('Test passed because user cannot edit cctv data with duplicate cctv id')
     }
-    KeywordUtil.markPassed('Test passed because user cannot add cctv data with duplicate cctv id')
 }
 
 WebUI.closeBrowser()
 
+def scrollThenClickSave() {
+	WebUI.scrollToElement(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), 1)
+
+	WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'))
+}

@@ -33,7 +33,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CCTV/Data Entri
 
 WebUI.scrollToElement(findTestObject('Page_CCTV/page 1'), 1)
 
-//String backgroundColor = WebUI.getCSSValue('Object Repository/Page_CCTV/page 1', 'background-color')
+// cek apakah button 1 aktif karena lagi di halaman 1
 TestObject page1Object = findTestObject('Object Repository/Page_CCTV/page 1')
 page1Object.addProperty('css', ConditionType.EQUALS, 'li.paginate_button.page-item.active > a.page-link')
 boolean is1Active = WebUI.verifyElementPresent(page1Object, 3)
@@ -41,32 +41,8 @@ boolean is1Active = WebUI.verifyElementPresent(page1Object, 3)
 if (is1Active) {
 	KeywordUtil.markPassed('Test passed because user still on page 1')
 } else {
-	KeywordUtil.markFailed('Test failed because page function is broken')
+	KeywordUtil.markFailedAndStop('Test failed because page function is broken')
 }
-
-//TestObject tableObject = findTestObject('Object Repository/Page_CCTV/Data Entries Option and Table')
-//
-//TestObject dataEntryObject = findTestObject('Object Repository/Page_CCTV/Data Entries Information')
-//ResponseObject tableResponse = WS.sendRequest(findTestObject('path/to/tableRequest'))
-//
-//// Extract the last number from the table row
-//String tableData = WS.getResponseText(tableResponse)
-//String[] tableRows = tableData.split('\n')
-//String lastTableRow = tableRows[tableRows.length - 1]
-//int lastNumberInTableRow = Integer.parseInt(lastTableRow.split('\t').last())
-//
-//// Get the total data from the data entry information
-//String totalData = WebUI.getText(dataEntryObject)
-//int totalDataNumber = Integer.parseInt(totalData)
-//
-//// Compare the last number in the table row with the total data
-//if (lastNumberInTableRow == totalDataNumber) {
-//	// Last number matches the total data
-//	println('Last number in table matches total data')
-//} else {
-//	// Last number does not match the total data
-//	println('Last number in table does not match total data')
-//}
 
 WebUI.scrollToElement(findTestObject('Page_CCTV//Data Entries Option'), 1)
 
@@ -78,6 +54,7 @@ WebUI.scrollToElement(findTestObject('Page_CCTV/page 2'), 1)
 
 WebUI.click(findTestObject('Object Repository/Page_CCTV/page 2'))
 
+// cek apakah button 2 aktif karena lagi di halaman 2
 TestObject page2Object = findTestObject('Object Repository/Page_CCTV/page 2')
 page2Object.addProperty('css', ConditionType.EQUALS, 'li.paginate_button.page-item.active > a.page-link')
 boolean is2Active = WebUI.verifyElementPresent(page2Object, 3)
@@ -85,7 +62,7 @@ boolean is2Active = WebUI.verifyElementPresent(page2Object, 3)
 if (is2Active) {
 	KeywordUtil.markPassed('Test passed because user still on page 2')
 } else {
-	KeywordUtil.markFailed('Test failed because page function is broken')
+	KeywordUtil.markFailedAndStop('Test failed because page function is broken')
 }
 
 WebUI.closeBrowser()

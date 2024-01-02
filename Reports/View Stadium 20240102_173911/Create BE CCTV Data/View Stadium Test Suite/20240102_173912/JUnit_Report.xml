@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View Stadium Test Suite" time="16.828" tests="1" failures="0" errors="0">
+   <testsuite name="View Stadium Test Suite" tests="1" failures="0" errors="0" time="16.828" skipped="0" timestamp="02-01-2024T17:39:23" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE CCTV Data/View Stadium Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_173911\\Create BE CCTV Data\\View Stadium Test Suite\\20240102_173912"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_173911\\Create BE CCTV Data\\View Stadium Test Suite\\20240102_173912\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="06ec7d63f5ce6f58d522bc5077fe9b23"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData" time="16.516" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData" status="PASSED">
+         <system-out><![CDATA[02-01-2024T17:39:23 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+02-01-2024T17:39:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:39:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:39:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T17:39:25 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+02-01-2024T17:39:25 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:39:25 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:39:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T17:39:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T17:39:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T17:39:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T17:39:28 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T17:39:34 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T17:39:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2024T17:39:35 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2024T17:39:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T17:39:36 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T17:39:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T17:39:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T17:39:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T17:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T17:39:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T17:39:39 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T17:39:40 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2024T17:39:23 - [TEST_SUITE][PASSED] - View Stadium Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

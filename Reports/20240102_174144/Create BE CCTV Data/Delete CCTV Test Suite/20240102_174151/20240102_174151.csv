@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Delete CCTV Test Suite,Chrome 120.0.0.0,,,02-01-2024 17:42:46,02-01-2024 17:47:41,4m - 55.087s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Delete CCTV/Negative Test Case/PSSICancelDeleteCCTV,Chrome 120.0.0.0,,,02-01-2024 17:42:48,02-01-2024 17:46:06,3m - 17.266s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:42:50,02-01-2024 17:42:50,0.072s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 17:42:50,02-01-2024 17:42:53,2.349s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:42:53,02-01-2024 17:45:50,2m - 57.658s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/delete/6593c0e340b15d7cc480d690"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:45:50,02-01-2024 17:45:56,6.048s,PASSED
+"verifyTextPresent(""Cancel"", false)",Chrome 120.0.0.0,,,02-01-2024 17:45:56,02-01-2024 17:46:02,5.406s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Delete CCTV/Positive Test Case/PSSIDeleteCCTV,Chrome 120.0.0.0,,,02-01-2024 17:46:06,02-01-2024 17:47:41,1m - 35.555s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:46:08,02-01-2024 17:46:08,0.017s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 17:46:08,02-01-2024 17:46:08,0.007s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:46:08,02-01-2024 17:47:31,1m - 22.367s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/delete/6593c0e340b15d7cc480d690"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:47:31,02-01-2024 17:47:33,1.926s,PASSED
+"verifyDeletedNotPresent = verifyTextNotPresent(""1002"", false)",Chrome 120.0.0.0,,,02-01-2024 17:47:33,02-01-2024 17:47:37,3.893s,FAILED

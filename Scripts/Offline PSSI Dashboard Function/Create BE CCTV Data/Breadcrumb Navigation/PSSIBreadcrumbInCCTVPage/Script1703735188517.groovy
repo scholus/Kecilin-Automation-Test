@@ -26,6 +26,7 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
+// id stadion masih di hard code, akan diganti ke http request kalau sudah ada API doc
 if (WebUI.verifyElementPresent(findTestObject('Page_CCTV/Stadium Breadcrumb'), 0, failureHandling)) {
 	
 	WebUI.verifyElementClickable(findTestObject('Page_CCTV/Stadium Breadcrumb'))
@@ -34,10 +35,10 @@ if (WebUI.verifyElementPresent(findTestObject('Page_CCTV/Stadium Breadcrumb'), 0
 	if (WebUI.verifyElementPresent(findTestObject('Page_Stadium/Stadium Table Title'), 0, failureHandling)) {
 	KeywordUtil.markPassed('Test passed because user can navigate through breadcrumb')
 	} else {
-	KeywordUtil.markFailed('Test failed because user cannot navigate through breadcrumb')
+	KeywordUtil.markFailedAndStop('Test failed because user cannot navigate through breadcrumb')
 	}
 } else {
-	KeywordUtil.markFailed('Test failed because breadcrumb doesnot exist')
+	KeywordUtil.markFailedAndStop('Test failed because breadcrumb doesnot exist')
 }
 
 WebUI.closeBrowser()

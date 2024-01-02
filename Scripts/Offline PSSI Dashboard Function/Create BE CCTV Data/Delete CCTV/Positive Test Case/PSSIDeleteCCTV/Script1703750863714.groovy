@@ -25,18 +25,17 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
-WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/658cfcc212ca78ff5334e8ed', failureHandling)
+// id cctv masih hardcode, akan diganti http request menggunakan API doc
+WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/6593c0e340b15d7cc480d690', failureHandling)
 
+def verifyDeletedNotPresent = WebUI.verifyTextNotPresent('1002', false)
+
+// belum fix akan cari cara gimana validasi data ada di 1 row
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CCTV/CCTV Data Title'), 0, failureHandling)) {
-	String pageSource = DriverFactory.getWebDriver().getPageSource()
-	
-		boolean isDataExist = (pageSource.contains('1002') && pageSource.contains('camera2')) && pageSource.contains('googeru')
-	
-		if (isDataExist) {
-			KeywordUtil.markFailed('Test failed because data exists on table')
-		} else {
-			KeywordUtil.markPassed('Test passed because data does not exists on table')
+		if (!verifyDeletedNotPresent) {
+			KeywordUtil.markFailedAndStop('Test failed because data exists on table')
 		}
+			KeywordUtil.markPassed('Test passed because data does not exists on table')
 }
 
 WebUI.closeBrowser()

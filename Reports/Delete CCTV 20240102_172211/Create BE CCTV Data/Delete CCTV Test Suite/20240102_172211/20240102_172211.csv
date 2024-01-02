@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Delete CCTV Test Suite,Chrome 120.0.0.0,,,02-01-2024 17:22:21,02-01-2024 17:22:49,27.384s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Delete CCTV/Negative Test Case/PSSICancelDeleteCCTV,Chrome 120.0.0.0,,,02-01-2024 17:22:22,02-01-2024 17:22:38,16.837s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:22:22,02-01-2024 17:22:22,0.049s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 17:22:22,02-01-2024 17:22:23,0.813s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:22:23,02-01-2024 17:22:37,13.835s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/delete/6593cb6912ca78ff53352564"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:22:37,02-01-2024 17:22:37,0.410s,PASSED
+"verifyTextPresent(""Cancel"", false)",Chrome 120.0.0.0,,,02-01-2024 17:22:37,02-01-2024 17:22:38,1.138s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Delete CCTV/Positive Test Case/PSSIDeleteCCTV,Chrome 120.0.0.0,,,02-01-2024 17:22:39,02-01-2024 17:22:49,10.140s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:22:39,02-01-2024 17:22:39,0.003s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 17:22:39,02-01-2024 17:22:39,0.002s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:22:39,02-01-2024 17:22:47,8.409s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/delete/6593cb6912ca78ff53352564"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:22:47,02-01-2024 17:22:48,0.390s,PASSED
+"verifyDeletedNotPresent = verifyTextNotPresent(""1002"", false)",Chrome 120.0.0.0,,,02-01-2024 17:22:48,02-01-2024 17:22:49,1.067s,FAILED

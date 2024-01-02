@@ -22,9 +22,11 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE
 
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url
+String failedToAddData = GlobalVariable.negativeTestPassedDataNotAdded
 
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
+// id stadion masih di hard code, akan diganti ke http request kalau sudah ada API doc
 WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/create', failureHandling)
 
 WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_Name_name'), 'camera2', failureHandling)
@@ -33,21 +35,26 @@ WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/in
 
 WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'), 'googeru', failureHandling)
 
-WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), failureHandling)
+scrollThenClickSave()
 
-if (WebUI.verifyElementPresent(findTestObject('Page_CCTV/CCTV Data Title'), 0, failureHandling)) {
-	KeywordUtil.markFailed('Test failed because data is added')
-} else {
+if (WebUI.verifyElementNotPresent(findTestObject('Page_CCTV/CCTV Data Title'), 0, failureHandling)) {
 	def inputRTSP = findTestObject('Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp')
 	def searchText = "invalid rtsp format"
 	
-	def isVerificationPass = WebUI.verifyTextPresent(inputRTSP, searchText, false)
+	def isVerificationNotPass = WebUI.verifyTextNotPresent(inputRTSP, searchText, false)
 	
-	if (isVerificationPass) {
-		KeywordUtil.markPassed('The text "invalid rtsp format" is present under the input_RTSP_rtsp test object')
+	if (!isVerificationNotPass) {
 	}
-    KeywordUtil.markPassed('Test passed because user cannot add cctv data with invalid RTSP')
+	else {
+		KeywordUtil.markPassed('The text "invalid rtsp format" is present under the RTSP field')
+		KeywordUtil.markPassed('Negative test passed because user cannot add cctv data with invalid RTSP')
+	}
 }
 
 WebUI.closeBrowser()
 
+def scrollThenClickSave() {
+	WebUI.scrollToElement(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), 1)
+
+	WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'))
+}

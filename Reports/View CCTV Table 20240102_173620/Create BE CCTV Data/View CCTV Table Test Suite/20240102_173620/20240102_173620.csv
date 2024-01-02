@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View CCTV Table Test Suite,Chrome 120.0.0.0,,,02-01-2024 17:36:29,02-01-2024 17:37:59,1m - 30.102s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIValidateViewCCTVData,Chrome 120.0.0.0,,,02-01-2024 17:36:29,02-01-2024 17:37:28,58.216s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:36:30,02-01-2024 17:36:30,0.045s,PASSED
+"baseUrl = offline_pssi_dashboard_url + ""/cctv/detail/""",Chrome 120.0.0.0,,,02-01-2024 17:36:30,02-01-2024 17:36:31,0.666s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:36:31,02-01-2024 17:36:41,10.190s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""))",Chrome 120.0.0.0,,,02-01-2024 17:36:41,02-01-2024 17:36:42,0.690s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""), ""100"", true)",Chrome 120.0.0.0,,,02-01-2024 17:36:42,02-01-2024 17:36:43,1.357s,PASSED
+"navigateToUrl(baseUrl + ""64fea065acbef66fd5476494"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:36:43,02-01-2024 17:36:44,0.644s,PASSED
+"if (verifyTextPresent(""Stadion Gelora Bangkalan"", false, failureHandling) && verifyTextPresent(""Bangkalan, Jawa Timur"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:36:44,02-01-2024 17:36:45,1.422s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:36:45,02-01-2024 17:36:45,0.003s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:45,02-01-2024 17:36:45,0.405s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:45,02-01-2024 17:36:46,0.808s,PASSED
+"navigateToUrl(baseUrl + ""64fea04aacbef66fd547646c"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:36:46,02-01-2024 17:36:47,0.377s,PASSED
+"if (verifyTextPresent(""Stadion Gelora Bung Tomo"", false, failureHandling) && verifyTextPresent(""Jawa timur"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:36:47,02-01-2024 17:36:48,1.102s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:36:48,02-01-2024 17:36:48,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:48,02-01-2024 17:36:48,0.430s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:48,02-01-2024 17:36:49,0.934s,PASSED
+"navigateToUrl(baseUrl + ""651fc74ee8351d2a27c0b013"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:36:49,02-01-2024 17:36:50,0.586s,PASSED
+"if (verifyTextPresent(""Stadium Teladan"", false, failureHandling) && verifyTextPresent(""Jalan Utara"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:36:50,02-01-2024 17:36:51,1.212s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:36:51,02-01-2024 17:36:51,0.002s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:51,02-01-2024 17:36:51,0.488s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:51,02-01-2024 17:36:53,1.458s,PASSED
+"navigateToUrl(baseUrl + ""6503d9fc8b2999b8c86abf13"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:36:53,02-01-2024 17:36:54,1.092s,PASSED
+"if (verifyTextPresent(""Stadion Surajaya"", false, failureHandling) && verifyTextPresent(""Jl. Raya Gresik - Babat, Deket Kulon"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:36:54,02-01-2024 17:36:55,1.203s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:36:55,02-01-2024 17:36:55,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:55,02-01-2024 17:36:56,0.363s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:56,02-01-2024 17:36:56,0.752s,PASSED
+"navigateToUrl(baseUrl + ""65015f469914027913bf9aed"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:36:56,02-01-2024 17:36:57,0.403s,PASSED
+"if (verifyTextPresent(""Stadion Gajayana Malang"", false, failureHandling) && verifyTextPresent(""Malang, Jawa Timur"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:36:57,02-01-2024 17:36:58,1.088s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:36:58,02-01-2024 17:36:58,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:58,02-01-2024 17:36:58,0.428s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:36:58,02-01-2024 17:36:59,0.834s,PASSED
+"navigateToUrl(baseUrl + ""650140a5acbef66fd5476771"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:36:59,02-01-2024 17:37:00,0.735s,PASSED
+"if (verifyTextPresent(""Stadion Brawijaya Kediri"", false, failureHandling) && verifyTextPresent(""Kediri, Jawa Timur"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:00,02-01-2024 17:37:01,1.066s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:01,02-01-2024 17:37:01,0.002s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:01,02-01-2024 17:37:01,0.370s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:01,02-01-2024 17:37:02,0.791s,PASSED
+"navigateToUrl(baseUrl + ""65013f34c3de4ca4d18e0361"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:02,02-01-2024 17:37:02,0.455s,PASSED
+"if (verifyTextPresent(""Stadion Gelora Delta"", false, failureHandling) && verifyTextPresent(""Sidoarjo, Jawa Timur"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:02,02-01-2024 17:37:04,1.101s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:04,02-01-2024 17:37:04,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:04,02-01-2024 17:37:04,0.451s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:04,02-01-2024 17:37:05,0.754s,PASSED
+"navigateToUrl(baseUrl + ""64fe9fe4acbef66fd5476434"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:05,02-01-2024 17:37:05,0.653s,PASSED
+"if (verifyTextPresent(""Stadion Maguwoharjo Sleman"", false, failureHandling) && verifyTextPresent(""Sleman, Daerah Istimewa Yogyakarta"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:05,02-01-2024 17:37:06,1.004s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:06,02-01-2024 17:37:06,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:06,02-01-2024 17:37:07,0.379s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:07,02-01-2024 17:37:08,0.773s,PASSED
+"navigateToUrl(baseUrl + ""64fe9fd0acbef66fd547641b"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:08,02-01-2024 17:37:08,0.393s,PASSED
+"if (verifyTextPresent(""Stadion Manahan"", false, failureHandling) && verifyTextPresent(""Surakarta, Jawa Tengah"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:08,02-01-2024 17:37:09,1.075s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:09,02-01-2024 17:37:09,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:09,02-01-2024 17:37:09,0.378s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:09,02-01-2024 17:37:10,0.787s,PASSED
+"navigateToUrl(baseUrl + ""64fe98eeacbef66fd54761ca"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:10,02-01-2024 17:37:11,0.417s,PASSED
+"if (verifyTextPresent(""Stadion Gelora Bandung Lautan Api"", false, failureHandling) && verifyTextPresent(""Gedebage, Kota Bandung"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:11,02-01-2024 17:37:12,1.115s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:12,02-01-2024 17:37:12,0.000s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:12,02-01-2024 17:37:12,0.387s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:12,02-01-2024 17:37:13,0.702s,PASSED
+"navigateToUrl(baseUrl + ""64fe9700acbef66fd5476193"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:13,02-01-2024 17:37:13,0.396s,PASSED
+"if (verifyTextPresent(""Stadion Si Jalak Harupat"", false, failureHandling) && verifyTextPresent(""Bandung, Jawa Barat 40911"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:13,02-01-2024 17:37:14,1.083s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:14,02-01-2024 17:37:14,0.008s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:14,02-01-2024 17:37:15,0.353s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:15,02-01-2024 17:37:15,0.775s,PASSED
+"navigateToUrl(baseUrl + ""64fe92a6acbef66fd547616a"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:15,02-01-2024 17:37:16,0.370s,PASSED
+"if (verifyTextPresent(""Stadion Patriot"", false, failureHandling) && verifyTextPresent(""Bekasi"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:16,02-01-2024 17:37:17,1.060s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:17,02-01-2024 17:37:17,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:17,02-01-2024 17:37:17,0.395s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:17,02-01-2024 17:37:18,0.812s,PASSED
+"navigateToUrl(baseUrl + ""64fe9101acbef66fd5476111"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:18,02-01-2024 17:37:19,0.443s,PASSED
+"if (verifyTextPresent(""Indomilk Arena Stadium"", false, failureHandling) && verifyTextPresent(""Kabupaten Tangerang, Banten"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:19,02-01-2024 17:37:20,1.114s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:20,02-01-2024 17:37:20,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:20,02-01-2024 17:37:20,0.402s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:20,02-01-2024 17:37:21,0.809s,PASSED
+"navigateToUrl(baseUrl + ""64f19cd1cd8a9e11041e3929"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:21,02-01-2024 17:37:21,0.354s,PASSED
+"if (verifyTextPresent(""Stadion Madya Gelora Bung Karno"", false, failureHandling) && verifyTextPresent(""Daerah Khusus Ibukota Jakarta"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:21,02-01-2024 17:37:22,1.009s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:22,02-01-2024 17:37:22,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:22,02-01-2024 17:37:23,0.385s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:23,02-01-2024 17:37:23,0.792s,PASSED
+"navigateToUrl(baseUrl + ""64e781017d48807cc246b18f"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:23,02-01-2024 17:37:24,0.677s,PASSED
+"if (verifyTextPresent(""Stadion Utama Gelora Bung Karno"", false, failureHandling) && verifyTextPresent(""Daerah Khusus Ibukota Jakarta"", false, failureHandling))",Chrome 120.0.0.0,,,02-01-2024 17:37:24,02-01-2024 17:37:25,1.102s,PASSED
+breadcrumbClick(),Chrome 120.0.0.0,,,02-01-2024 17:37:25,02-01-2024 17:37:25,0.001s,PASSED
+"verifyElementClickable(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:25,02-01-2024 17:37:26,0.363s,PASSED
+"click(findTestObject(""Page_CCTV/Stadium Breadcrumb""))",Chrome 120.0.0.0,,,02-01-2024 17:37:26,02-01-2024 17:37:27,1.786s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 17:37:27,02-01-2024 17:37:28,0.290s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData,Chrome 120.0.0.0,,,02-01-2024 17:37:28,02-01-2024 17:37:41,12.997s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:37:28,02-01-2024 17:37:28,0.002s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 17:37:28,02-01-2024 17:37:28,0.003s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:28,02-01-2024 17:37:40,12.139s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:40,02-01-2024 17:37:41,0.583s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewEmptyCCTVData,Chrome 120.0.0.0,,,02-01-2024 17:37:41,02-01-2024 17:37:59,18.566s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:37:41,02-01-2024 17:37:41,0.001s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 17:37:41,02-01-2024 17:37:41,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:41,02-01-2024 17:37:56,15.075s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea04aacbef66fd547646c"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:37:56,02-01-2024 17:37:58,1.687s,PASSED
+"verifyEntriesTextNotPresent = verifyTextNotPresent(""Showing 0 to 0 of 0 entries"", false)",Chrome 120.0.0.0,,,02-01-2024 17:37:58,02-01-2024 17:37:58,0.734s,PASSED
+"verifyEmptyMessageNotPresent = verifyTextNotPresent(""No matching records found"", false)",Chrome 120.0.0.0,,,02-01-2024 17:37:58,02-01-2024 17:37:59,0.782s,FAILED

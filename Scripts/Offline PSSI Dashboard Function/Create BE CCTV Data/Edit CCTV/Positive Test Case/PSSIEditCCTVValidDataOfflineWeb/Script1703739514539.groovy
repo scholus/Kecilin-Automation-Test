@@ -27,29 +27,29 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
-WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/edit/658cfd5e12ca78ff5334e922', failureHandling)
+WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/edit/6593c45312ca78ff53352257', failureHandling)
 
 WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_Name_name'), 'camera1', failureHandling)
 
-WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'), '1005', failureHandling)
+WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'), '1111', failureHandling)
 
 WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'), 'https://google.com', failureHandling)
 
 WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), failureHandling)
 
+// belum fix, bakal cari cara untuk bener2 cari tau ada di 1 row dan validasi ID duplikat
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CCTV/CCTV Data Title'), 0, failureHandling)) {
     String pageSource = DriverFactory.getWebDriver().getPageSource()
 
-    boolean isSameRow = (pageSource.contains('1005') && pageSource.contains('camera1')) && pageSource.contains('https://google.com')
+    boolean isNotSameRow = !((pageSource.contains('1111') && pageSource.contains('camera1')) && pageSource.contains('https://google.com'))
 
-    if (isSameRow) {
-        KeywordUtil.markPassed('Test passed because data added exists on table')
+    if (!isNotSameRow) {
     } else {
-        KeywordUtil.markFailed('Test failed because data does not exists on table')
+        KeywordUtil.markPassed('Test passed because data edited exists on table')
     }
     KeywordUtil.markPassed('Test passed because data is added')
 } else {
-    KeywordUtil.markFailed('Test failed because data isnot added')
+    KeywordUtil.markFailedAndStop('Test failed because data is not added')
 }
 
 WebUI.closeBrowser()

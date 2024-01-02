@@ -26,9 +26,10 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
+// id cctv log masih hardcode
 WebUI.navigateToUrl(baseUrl + '/cctv/cctv_log/658be0a112ca78ff5334de2d', failureHandling)
 
-if(WebUI.verifyTextPresent('Camera Logs', false, FailureHandling.STOP_ON_FAILURE)) {
+if(WebUI.verifyTextPresent('Camera Logs', false, failureHandling)) {
 	KeywordUtil.markPassed('Test passed because user successfully redirected to camera logs')
 } else {
 	KeywordUtil.markFailed('Test failed because user is not redirected to camera logs')

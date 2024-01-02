@@ -22,30 +22,28 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 // Belum ada tombol konfirmasi cancel jadi validasi seadanya dulu
 FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE
+
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
-WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
+WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), 
+    [:], failureHandling)
 
-WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/658cfcc212ca78ff5334e8ed', failureHandling)
+// id cctv masih hardcode, akan diganti http request menggunakan API doc
+WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/6593c0e340b15d7cc480d690', failureHandling)
 
 // Path test object dan nama test object diganti kalo udh ada button cancel
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CCTV/Button Cancel'), 0, failureHandling)) {
-		WebUI.click(findTestObject('Object Repository/Page_CCTV/Button Cancel'), failureHandling)
-		KeywordUtil.markPassed('Test passed because data added exists on table')
-} else {
-	KeywordUtil.markFailed('Test failed because data does not exists on table')
-}
+WebUI.verifyTextPresent('Cancel', false)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CCTV/Button Cancel'), 0, failureHandling)
+WebUI.click(findTestObject('Object Repository/Page_CCTV/Button Cancel'), failureHandling)
 
 String currentUrl = DriverFactory.getWebDriver().getCurrentUrl()
 
-// Define the expected URL
-String expectedUrl = baseUrl+'/cctv/detail/64fea065bef66fd5476494'
+String expectedUrl = baseUrl + '/cctv/detail/64fea065bef66fd5476494'
 
-// Verify if the current URL matches the expected URL
 if (currentUrl == expectedUrl) {
-	KeywordUtil.markPassed('Test passed because user on the right page')
+    KeywordUtil.markPassed('Test passed because user on the right page')
 } else {
-	KeywordUtil.markFailed('Test failed because user not on the right page')
+    KeywordUtil.markFailedAndStop('Test failed because user not on the right page')
 }
 
 WebUI.closeBrowser()

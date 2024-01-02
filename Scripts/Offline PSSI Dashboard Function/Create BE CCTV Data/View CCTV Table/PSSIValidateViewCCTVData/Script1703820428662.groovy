@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+// untuk validasi tiap button tampilin kamera dari stadium yang terpilih
 FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url+'/cctv/detail/'
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData'), [:], failureHandling)

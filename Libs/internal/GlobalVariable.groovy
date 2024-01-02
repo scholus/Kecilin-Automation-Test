@@ -17,7 +17,52 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object poc_dashboard_url
+    public static Object cctvIdInvalid
+     
+    /**
+     * <p></p>
+     */
+    public static Object cctvNameInvalid
+     
+    /**
+     * <p></p>
+     */
+    public static Object cctvRTSPInvalid
+     
+    /**
+     * <p></p>
+     */
+    public static Object cctvIdEmpty
+     
+    /**
+     * <p></p>
+     */
+    public static Object nameEmpty
+     
+    /**
+     * <p></p>
+     */
+    public static Object rtspEmpty
+     
+    /**
+     * <p></p>
+     */
+    public static Object negativeTestPassedErrorMessageAppear
+     
+    /**
+     * <p></p>
+     */
+    public static Object negativeTestFailedUserRedirToOtherPage
+     
+    /**
+     * <p></p>
+     */
+    public static Object negativeTestPassedCannotSaveCCTVEmptyMandatory
+     
+    /**
+     * <p></p>
+     */
+    public static Object negativeTestPassedDataNotAdded
      
 
     static {
@@ -27,7 +72,16 @@ public class GlobalVariable {
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
             offline_pssi_dashboard_url = selectedVariables['offline_pssi_dashboard_url']
-            poc_dashboard_url = selectedVariables['poc_dashboard_url']
+            cctvIdInvalid = selectedVariables['cctvIdInvalid']
+            cctvNameInvalid = selectedVariables['cctvNameInvalid']
+            cctvRTSPInvalid = selectedVariables['cctvRTSPInvalid']
+            cctvIdEmpty = selectedVariables['cctvIdEmpty']
+            nameEmpty = selectedVariables['nameEmpty']
+            rtspEmpty = selectedVariables['rtspEmpty']
+            negativeTestPassedErrorMessageAppear = selectedVariables['negativeTestPassedErrorMessageAppear']
+            negativeTestFailedUserRedirToOtherPage = selectedVariables['negativeTestFailedUserRedirToOtherPage']
+            negativeTestPassedCannotSaveCCTVEmptyMandatory = selectedVariables['negativeTestPassedCannotSaveCCTVEmptyMandatory']
+            negativeTestPassedDataNotAdded = selectedVariables['negativeTestPassedDataNotAdded']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

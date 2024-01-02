@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Stadium Test Suite,Chrome 120.0.0.0,,,02-01-2024 17:39:23,02-01-2024 17:39:40,16.828s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData,Chrome 120.0.0.0,,,02-01-2024 17:39:23,02-01-2024 17:39:40,16.516s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,02-01-2024 17:39:24,02-01-2024 17:39:24,0.067s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,02-01-2024 17:39:24,02-01-2024 17:39:24,0.677s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData""), [:], failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:39:24,02-01-2024 17:39:39,14.741s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/stadion"", failureHandling)",Chrome 120.0.0.0,,,02-01-2024 17:39:39,02-01-2024 17:39:40,0.671s,PASSED

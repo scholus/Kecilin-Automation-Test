@@ -25,11 +25,12 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
+// id cctv log masih hardcode
 WebUI.navigateToUrl(baseUrl + '/cctv/cctv_log/658be0a112ca78ff5334de2d', failureHandling)
 
 // Validasi kalau ada angka 'Showing 0 to 0 of 0 entries' dan ada tulisan 'No data available in table' maka sukses,
 // Karena artinya memang beneran gak ada data
-if (WebUI.verifyTextPresent('Camera Logs', false, FailureHandling.STOP_ON_FAILURE)) {
+if (WebUI.verifyTextPresent('Camera Logs', false, failureHandling)) {
 	if (WebUI.verifyTextPresent('Showing 0 to 0 of 0 entries', false) && WebUI.verifyTextPresent('No data available in table', false)) {
     	KeywordUtil.markPassed('Test passed because user successfully redirected to camera logs and display no data message')
 	}

@@ -11,7 +11,52 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://172.188.18.152'</initValue>
-      <name>poc_dashboard_url</name>
+      <initValue>'Invalid value'</initValue>
+      <name>cctvIdInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Invalid name'</initValue>
+      <name>cctvNameInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Invalid RTSP'</initValue>
+      <name>cctvRTSPInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Field CCTV ID is required'</initValue>
+      <name>cctvIdEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Field Name is required'</initValue>
+      <name>nameEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Field RTSP is required'</initValue>
+      <name>rtspEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Negative test passed because error message appear'</initValue>
+      <name>negativeTestPassedErrorMessageAppear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Negative test failed because user redirected to other page'</initValue>
+      <name>negativeTestFailedUserRedirToOtherPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Negative test passed because user cannot save cctv with emtpy mandatory'</initValue>
+      <name>negativeTestPassedCannotSaveCCTVEmptyMandatory</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Negative test passed because data is not added'</initValue>
+      <name>negativeTestPassedDataNotAdded</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

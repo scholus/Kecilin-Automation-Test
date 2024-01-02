@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View CCTV Logs Test Suite" time="267.471" tests="2" failures="0" errors="0">
+   <testsuite name="View CCTV Logs Test Suite" tests="2" failures="0" errors="0" time="267.471" skipped="0" timestamp="02-01-2024T17:43:42" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE CCTV Data/View CCTV Logs Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_174144\\Create BE CCTV Data\\View CCTV Logs Test Suite\\20240102_174157"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240102_174144\\Create BE CCTV Data\\View CCTV Logs Test Suite\\20240102_174157\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="87d20ec093636048d25cc9e78272cab3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs" time="190.429" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs" status="PASSED">
+         <system-out><![CDATA[02-01-2024T17:43:44 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVEmptyLogs
+
+02-01-2024T17:43:47 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:43:47 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:43:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T17:43:54 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+02-01-2024T17:43:55 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:43:55 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:43:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T17:43:55 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+02-01-2024T17:43:56 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:43:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:43:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T17:43:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+02-01-2024T17:43:57 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:43:57 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:43:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T17:43:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T17:43:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T17:44:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T17:44:21 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T17:44:37 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T17:44:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2024T17:44:38 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2024T17:44:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T17:44:47 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T17:44:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T17:44:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T17:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T17:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T17:45:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T17:45:37 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T17:45:43 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T17:45:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T17:45:43 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T17:45:48 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T17:45:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T17:45:48 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/cctv_log/658be0a112ca78ff5334de2d", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T17:45:51 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T17:45:51 - [TEST_STEP][PASSED] - if (verifyTextPresent("Camera Logs", false, failureHandling)): null
+
+02-01-2024T17:45:59 - [MESSAGE][PASSED] - Text 'Camera Logs' is present on page 
+
+02-01-2024T17:45:59 - [TEST_STEP][PASSED] - if (verifyTextPresent("Showing 0 to 0 of 0 entries", false) && verifyTextPresent("No data available in table", false)): null
+
+02-01-2024T17:46:04 - [MESSAGE][PASSED] - Text 'Showing 0 to 0 of 0 entries' is present on page 
+
+02-01-2024T17:46:07 - [MESSAGE][PASSED] - Text 'No data available in table' is present on page 
+
+02-01-2024T17:46:07 - [TEST_STEP][PASSED] - markPassed("Test passed because user successfully redirected to camera logs and display no data message"): Test passed because user successfully redirected to camera logs and display no data message
+
+02-01-2024T17:46:07 - [MESSAGE][PASSED] - Test passed because user successfully redirected to camera logs and display no data message
+
+02-01-2024T17:46:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T17:46:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs" time="75.213" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs" status="PASSED">
+         <system-out><![CDATA[02-01-2024T17:46:54 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T17:46:55 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T17:46:55 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T17:46:55 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+02-01-2024T17:46:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T17:46:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T17:46:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T17:47:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T17:47:00 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T17:47:14 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+02-01-2024T17:47:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2024T17:47:16 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2024T17:47:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T17:47:18 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+02-01-2024T17:47:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T17:47:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+02-01-2024T17:47:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T17:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+02-01-2024T17:47:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+02-01-2024T17:47:29 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T17:47:29 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+02-01-2024T17:47:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+02-01-2024T17:47:29 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T17:47:33 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+02-01-2024T17:47:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+02-01-2024T17:47:33 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/cctv_log/658be0a112ca78ff5334de2d", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T17:47:36 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/cctv_log/658be0a112ca78ff5334de2d' successfully
+
+02-01-2024T17:47:36 - [TEST_STEP][PASSED] - if (verifyTextPresent("Camera Logs", false, failureHandling)): null
+
+02-01-2024T17:47:40 - [MESSAGE][PASSED] - Text 'Camera Logs' is present on page 
+
+02-01-2024T17:47:40 - [TEST_STEP][PASSED] - markPassed("Test passed because user successfully redirected to camera logs"): Test passed because user successfully redirected to camera logs
+
+02-01-2024T17:47:40 - [MESSAGE][PASSED] - Test passed because user successfully redirected to camera logs
+
+02-01-2024T17:47:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T17:48:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2024T17:43:42 - [TEST_SUITE][PASSED] - View CCTV Logs Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Logs/PSSIViewCCTVLogs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
