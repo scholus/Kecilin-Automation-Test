@@ -41,7 +41,7 @@ String errorMessageAppear = GlobalVariable.negativeTestPassedErrorMessageAppear
 WebUI.verifyTextPresent('Add new CCTV',false)
 	
 if (WebUI.verifyTextPresent(GlobalVariable.cctvNameInvalid, false) 
-	&& WebUI.verifyTextPresent(GlobalVariable.cctvIdInvalid, false)
+	&& WebUI.verifyTextPresent(GlobalVariable.dataInvalid, false)
 	&& WebUI.verifyTextPresent(GlobalVariable.cctvRTSPInvalid, false)) {
 		KeywordUtil.markPassed(errorMessageAppear)
 		KeywordUtil.markPassed('Negative test passed because user can not edit cctv with invalid data')

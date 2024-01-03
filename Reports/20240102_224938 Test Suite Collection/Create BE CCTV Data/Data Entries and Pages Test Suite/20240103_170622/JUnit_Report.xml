@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Entries and Pages Test Suite" time="58.963" tests="2" failures="0" errors="0">
+   <testsuite name="Data Entries and Pages Test Suite" tests="2" failures="0" errors="0" time="58.963" skipped="0" timestamp="03-01-2024T17:06:36" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE CCTV Data/Data Entries and Pages Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240103_170622\\Create BE CCTV Data\\Data Entries and Pages Test Suite\\20240103_170622"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240103_170622\\Create BE CCTV Data\\Data Entries and Pages Test Suite\\20240103_170622\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="4daa591350c9906b5f9f0aeff5dd6f92"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVDataTableEntriesAndPages" time="32.356" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVDataTableEntriesAndPages" status="PASSED">
+         <system-out><![CDATA[03-01-2024T17:06:36 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVDataTableEntriesAndPages: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVDataTableEntriesAndPages
+
+03-01-2024T17:06:37 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+03-01-2024T17:06:37 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+03-01-2024T17:06:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+03-01-2024T17:06:39 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+03-01-2024T17:06:39 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+03-01-2024T17:06:39 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+03-01-2024T17:06:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+03-01-2024T17:06:39 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+03-01-2024T17:06:40 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+03-01-2024T17:06:40 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+03-01-2024T17:06:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+03-01-2024T17:06:40 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+03-01-2024T17:06:40 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+03-01-2024T17:06:40 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+03-01-2024T17:06:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-01-2024T17:06:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-01-2024T17:06:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-01-2024T17:06:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-01-2024T17:06:46 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+03-01-2024T17:06:47 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+03-01-2024T17:06:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-01-2024T17:06:48 - [MESSAGE][PASSED] - Current window maximized
+
+03-01-2024T17:06:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-01-2024T17:06:50 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-01-2024T17:06:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+03-01-2024T17:06:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+03-01-2024T17:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+03-01-2024T17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+03-01-2024T17:06:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+03-01-2024T17:06:53 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+03-01-2024T17:06:54 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+03-01-2024T17:06:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+03-01-2024T17:06:54 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+03-01-2024T17:06:55 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+03-01-2024T17:06:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+03-01-2024T17:06:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CCTV/Data Entries Option")): Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:06:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:06:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CCTV/Data Entries Option"), "100", true): All options with value '100' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:06:58 - [MESSAGE][PASSED] - All options with value '100' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:06:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV/page 1"), 1): Scroll to object 'Object Repository/Page_CCTV/page 1' successfully
+
+03-01-2024T17:06:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV/page 1' successfully
+
+03-01-2024T17:06:59 - [TEST_STEP][PASSED] - page1Object = findTestObject("Object Repository/Page_CCTV/page 1"): null
+
+03-01-2024T17:07:00 - [TEST_STEP][PASSED] - page1Object.addProperty("css", EQUALS, "li.paginate_button.page-item.active > a.page-link"): null
+
+03-01-2024T17:07:00 - [TEST_STEP][PASSED] - is1Active = verifyElementPresent(page1Object, 3): Object 'Object Repository/Page_CCTV/page 1' is present
+
+03-01-2024T17:07:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/page 1' is present
+
+03-01-2024T17:07:00 - [TEST_STEP][PASSED] - if (is1Active): Test passed because user still on page 1
+
+03-01-2024T17:07:00 - [TEST_STEP][PASSED] - markPassed("Test passed because user still on page 1"): Test passed because user still on page 1
+
+03-01-2024T17:07:00 - [MESSAGE][PASSED] - Test passed because user still on page 1
+
+03-01-2024T17:07:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV//Data Entries Option"), 1): Scroll to object 'Object Repository/Page_CCTV//Data Entries Option' successfully
+
+03-01-2024T17:07:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV//Data Entries Option' successfully
+
+03-01-2024T17:07:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CCTV/Data Entries Option")): Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:07:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:07:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CCTV/Data Entries Option"), "25", true): All options with value '25' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:07:03 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:07:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV/page 2"), 1): Scroll to object 'Object Repository/Page_CCTV/page 2' successfully
+
+03-01-2024T17:07:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV/page 2' successfully
+
+03-01-2024T17:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CCTV/page 2")): Object: 'Object Repository/Page_CCTV/page 2' is clicked on
+
+03-01-2024T17:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCTV/page 2' is clicked on
+
+03-01-2024T17:07:04 - [TEST_STEP][PASSED] - page2Object = findTestObject("Object Repository/Page_CCTV/page 2"): null
+
+03-01-2024T17:07:05 - [TEST_STEP][PASSED] - page2Object.addProperty("css", EQUALS, "li.paginate_button.page-item.active > a.page-link"): null
+
+03-01-2024T17:07:05 - [TEST_STEP][PASSED] - is2Active = verifyElementPresent(page2Object, 3): Object 'Object Repository/Page_CCTV/page 2' is present
+
+03-01-2024T17:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/page 2' is present
+
+03-01-2024T17:07:05 - [TEST_STEP][PASSED] - if (is2Active): Test passed because user still on page 2
+
+03-01-2024T17:07:05 - [TEST_STEP][PASSED] - markPassed("Test passed because user still on page 2"): Test passed because user still on page 2
+
+03-01-2024T17:07:05 - [MESSAGE][PASSED] - Test passed because user still on page 2
+
+03-01-2024T17:07:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-01-2024T17:07:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSIStadiumTableEntriesAndPages" time="26.126" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSIStadiumTableEntriesAndPages" status="PASSED">
+         <system-out><![CDATA[03-01-2024T17:07:08 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSIStadiumTableEntriesAndPages: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSIStadiumTableEntriesAndPages
+
+03-01-2024T17:07:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+03-01-2024T17:07:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+03-01-2024T17:07:09 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+03-01-2024T17:07:10 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+03-01-2024T17:07:10 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+03-01-2024T17:07:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+03-01-2024T17:07:10 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+03-01-2024T17:07:10 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+03-01-2024T17:07:10 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+03-01-2024T17:07:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-01-2024T17:07:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-01-2024T17:07:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-01-2024T17:07:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-01-2024T17:07:12 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+03-01-2024T17:07:13 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+03-01-2024T17:07:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-01-2024T17:07:13 - [MESSAGE][PASSED] - Current window maximized
+
+03-01-2024T17:07:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-01-2024T17:07:15 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-01-2024T17:07:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+03-01-2024T17:07:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+03-01-2024T17:07:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+03-01-2024T17:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+03-01-2024T17:07:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+03-01-2024T17:07:18 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+03-01-2024T17:07:19 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+03-01-2024T17:07:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+03-01-2024T17:07:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CCTV/Data Entries Option")): Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:07:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:07:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CCTV/Data Entries Option"), "100", true): All options with value '100' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:07:24 - [MESSAGE][PASSED] - All options with value '100' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:07:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV/page 1"), 1): Scroll to object 'Object Repository/Page_CCTV/page 1' successfully
+
+03-01-2024T17:07:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV/page 1' successfully
+
+03-01-2024T17:07:25 - [TEST_STEP][PASSED] - page1Object = findTestObject("Object Repository/Page_CCTV/page 1"): null
+
+03-01-2024T17:07:25 - [TEST_STEP][PASSED] - page1Object.addProperty("css", EQUALS, "li.paginate_button.page-item.active > a.page-link"): null
+
+03-01-2024T17:07:25 - [TEST_STEP][PASSED] - is1Active = verifyElementPresent(page1Object, 3): Object 'Object Repository/Page_CCTV/page 1' is present
+
+03-01-2024T17:07:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/page 1' is present
+
+03-01-2024T17:07:25 - [TEST_STEP][PASSED] - if (is1Active): Test passed because user still on page 1
+
+03-01-2024T17:07:25 - [TEST_STEP][PASSED] - markPassed("Test passed because user still on page 1"): Test passed because user still on page 1
+
+03-01-2024T17:07:25 - [MESSAGE][PASSED] - Test passed because user still on page 1
+
+03-01-2024T17:07:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV//Data Entries Option"), 1): Scroll to object 'Object Repository/Page_CCTV//Data Entries Option' successfully
+
+03-01-2024T17:07:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV//Data Entries Option' successfully
+
+03-01-2024T17:07:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CCTV/Data Entries Option")): Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:07:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+03-01-2024T17:07:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CCTV/Data Entries Option"), "10", true): All options with value '10' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:07:29 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+03-01-2024T17:07:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV/page 2"), 1): Scroll to object 'Object Repository/Page_CCTV/page 2' successfully
+
+03-01-2024T17:07:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV/page 2' successfully
+
+03-01-2024T17:07:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CCTV/page 2")): Object: 'Object Repository/Page_CCTV/page 2' is clicked on
+
+03-01-2024T17:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCTV/page 2' is clicked on
+
+03-01-2024T17:07:31 - [TEST_STEP][PASSED] - page2Object = findTestObject("Object Repository/Page_CCTV/page 2"): null
+
+03-01-2024T17:07:31 - [TEST_STEP][PASSED] - page2Object.addProperty("css", EQUALS, "li.paginate_button.page-item.active > a.page-link"): null
+
+03-01-2024T17:07:31 - [TEST_STEP][PASSED] - is2Active = verifyElementPresent(page2Object, 3): Object 'Object Repository/Page_CCTV/page 2' is present
+
+03-01-2024T17:07:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/page 2' is present
+
+03-01-2024T17:07:31 - [TEST_STEP][PASSED] - if (is2Active): Test passed because user still on page 2
+
+03-01-2024T17:07:31 - [TEST_STEP][PASSED] - markPassed("Test passed because user still on page 2"): Test passed because user still on page 2
+
+03-01-2024T17:07:31 - [MESSAGE][PASSED] - Test passed because user still on page 2
+
+03-01-2024T17:07:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-01-2024T17:07:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-01-2024T17:06:36 - [TEST_SUITE][PASSED] - Data Entries and Pages Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSIStadiumTableEntriesAndPages]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

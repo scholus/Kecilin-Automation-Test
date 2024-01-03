@@ -12,7 +12,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Invalid value'</initValue>
-      <name>cctvIdInvalid</name>
+      <name>dataInvalid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -23,6 +23,11 @@
       <description></description>
       <initValue>'Invalid RTSP'</initValue>
       <name>cctvRTSPInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Exceed max char'</initValue>
+      <name>excMaxChar</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -58,5 +63,10 @@
       <description></description>
       <initValue>'Negative test passed because data is not added'</initValue>
       <name>negativeTestPassedDataNotAdded</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Negative test passed because user can\'t add cctv exceeding max char'</initValue>
+      <name>negativeTestPassedExcMaxChar</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

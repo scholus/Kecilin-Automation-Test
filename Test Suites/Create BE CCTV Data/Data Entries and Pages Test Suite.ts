@@ -18,4 +18,18 @@
       <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVDataTableEntriesAndPages</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>19ec99d6-d7ba-4807-9891-357baabc7015</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVLogsEntriesAndPages</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b26dd91d-c9e8-4fee-a75b-643fcd865021</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSIStadiumTableEntriesAndPages</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

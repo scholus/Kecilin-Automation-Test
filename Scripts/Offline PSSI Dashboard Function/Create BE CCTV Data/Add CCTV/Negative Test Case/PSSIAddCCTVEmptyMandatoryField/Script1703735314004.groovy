@@ -35,7 +35,7 @@ WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/create', fa
 
 WebUI.click(findTestObject('Object Repository/Page Add new CCTV Offline Web/button_Save'), failureHandling)
 
-def verifyIDInvalidNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.cctvIdInvalid, false)
+def verifyIDInvalidNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.dataInvalid, false)
 
 def verifyIDEmptyNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.cctvIdEmpty, false)
 

@@ -21,13 +21,11 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.testobject.ConditionType
 
 // Belum lengkap, belum bisa cek data shown, entry dan page nya bener atau engga
-// Belum sempurna, butuh api doc untuk bisa http request
-FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE
 
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
-WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
-
+WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:])
+WebUI.navigateToUrl(baseUrl+'/cctv/cctv_log/6593cf1812ca78ff5335276d')
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CCTV/Data Entries Option'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CCTV/Data Entries Option'), '100', true)

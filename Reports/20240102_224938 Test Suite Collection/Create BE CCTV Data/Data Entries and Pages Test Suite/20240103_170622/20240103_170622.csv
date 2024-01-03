@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Entries and Pages Test Suite,Chrome 120.0.0.0,,,03-01-2024 17:06:36,03-01-2024 17:07:35,58.963s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSICCTVDataTableEntriesAndPages,Chrome 120.0.0.0,,,03-01-2024 17:06:36,03-01-2024 17:07:08,32.356s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,03-01-2024 17:06:37,03-01-2024 17:06:37,0.051s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,03-01-2024 17:06:37,03-01-2024 17:06:38,1.104s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,03-01-2024 17:06:38,03-01-2024 17:06:55,17.188s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""))",Chrome 120.0.0.0,,,03-01-2024 17:06:55,03-01-2024 17:06:56,0.782s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""), ""100"", true)",Chrome 120.0.0.0,,,03-01-2024 17:06:56,03-01-2024 17:06:58,2.108s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 1""), 1)",Chrome 120.0.0.0,,,03-01-2024 17:06:58,03-01-2024 17:06:59,1.179s,PASSED
+"page1Object = findTestObject(""Object Repository/Page_CCTV/page 1"")",Chrome 120.0.0.0,,,03-01-2024 17:06:59,03-01-2024 17:07:00,0.114s,PASSED
+"page1Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,03-01-2024 17:07:00,03-01-2024 17:07:00,0.124s,PASSED
+"is1Active = verifyElementPresent(page1Object, 3)",Chrome 120.0.0.0,,,03-01-2024 17:07:00,03-01-2024 17:07:00,0.616s,PASSED
+if (is1Active),Chrome 120.0.0.0,,,03-01-2024 17:07:00,03-01-2024 17:07:00,0.042s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV//Data Entries Option""), 1)",Chrome 120.0.0.0,,,03-01-2024 17:07:00,03-01-2024 17:07:01,0.752s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""))",Chrome 120.0.0.0,,,03-01-2024 17:07:01,03-01-2024 17:07:02,0.520s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""), ""25"", true)",Chrome 120.0.0.0,,,03-01-2024 17:07:02,03-01-2024 17:07:03,1.640s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 2""), 1)",Chrome 120.0.0.0,,,03-01-2024 17:07:03,03-01-2024 17:07:04,0.745s,PASSED
+"click(findTestObject(""Object Repository/Page_CCTV/page 2""))",Chrome 120.0.0.0,,,03-01-2024 17:07:04,03-01-2024 17:07:04,0.498s,PASSED
+"page2Object = findTestObject(""Object Repository/Page_CCTV/page 2"")",Chrome 120.0.0.0,,,03-01-2024 17:07:04,03-01-2024 17:07:05,0.359s,PASSED
+"page2Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,03-01-2024 17:07:05,03-01-2024 17:07:05,0.021s,PASSED
+"is2Active = verifyElementPresent(page2Object, 3)",Chrome 120.0.0.0,,,03-01-2024 17:07:05,03-01-2024 17:07:05,0.543s,PASSED
+if (is2Active),Chrome 120.0.0.0,,,03-01-2024 17:07:05,03-01-2024 17:07:05,0.009s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,03-01-2024 17:07:05,03-01-2024 17:07:08,3.048s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Data Entries and Pages/PSSIStadiumTableEntriesAndPages,Chrome 120.0.0.0,,,03-01-2024 17:07:08,03-01-2024 17:07:35,26.126s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,03-01-2024 17:07:09,03-01-2024 17:07:09,0.013s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData""), [:])",Chrome 120.0.0.0,,,03-01-2024 17:07:09,03-01-2024 17:07:19,9.702s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""))",Chrome 120.0.0.0,,,03-01-2024 17:07:19,03-01-2024 17:07:21,1.908s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""), ""100"", true)",Chrome 120.0.0.0,,,03-01-2024 17:07:21,03-01-2024 17:07:24,2.598s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 1""), 1)",Chrome 120.0.0.0,,,03-01-2024 17:07:24,03-01-2024 17:07:25,0.953s,PASSED
+"page1Object = findTestObject(""Object Repository/Page_CCTV/page 1"")",Chrome 120.0.0.0,,,03-01-2024 17:07:25,03-01-2024 17:07:25,0.137s,PASSED
+"page1Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,03-01-2024 17:07:25,03-01-2024 17:07:25,0.005s,PASSED
+"is1Active = verifyElementPresent(page1Object, 3)",Chrome 120.0.0.0,,,03-01-2024 17:07:25,03-01-2024 17:07:25,0.493s,PASSED
+if (is1Active),Chrome 120.0.0.0,,,03-01-2024 17:07:25,03-01-2024 17:07:25,0.009s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV//Data Entries Option""), 1)",Chrome 120.0.0.0,,,03-01-2024 17:07:25,03-01-2024 17:07:26,0.750s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""))",Chrome 120.0.0.0,,,03-01-2024 17:07:26,03-01-2024 17:07:27,0.731s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CCTV/Data Entries Option""), ""10"", true)",Chrome 120.0.0.0,,,03-01-2024 17:07:27,03-01-2024 17:07:29,2.636s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 2""), 1)",Chrome 120.0.0.0,,,03-01-2024 17:07:29,03-01-2024 17:07:30,0.675s,PASSED
+"click(findTestObject(""Object Repository/Page_CCTV/page 2""))",Chrome 120.0.0.0,,,03-01-2024 17:07:30,03-01-2024 17:07:31,0.600s,PASSED
+"page2Object = findTestObject(""Object Repository/Page_CCTV/page 2"")",Chrome 120.0.0.0,,,03-01-2024 17:07:31,03-01-2024 17:07:31,0.130s,PASSED
+"page2Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,03-01-2024 17:07:31,03-01-2024 17:07:31,0.045s,PASSED
+"is2Active = verifyElementPresent(page2Object, 3)",Chrome 120.0.0.0,,,03-01-2024 17:07:31,03-01-2024 17:07:31,0.584s,PASSED
+if (is2Active),Chrome 120.0.0.0,,,03-01-2024 17:07:31,03-01-2024 17:07:31,0.006s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,03-01-2024 17:07:31,03-01-2024 17:07:35,3.225s,PASSED

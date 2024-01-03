@@ -39,7 +39,7 @@ WebUI.clearText(findTestObject('Object Repository/Page Add new CCTV Offline Web/
 
 scrollThenClickSave()
 
-def verifyIDInvalidNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.cctvIdInvalid, false)
+def verifyIDInvalidNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.dataInvalid, false)
 def verifyIDEmptyNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.cctvIdEmpty, false)
 def verifyNameEmptyNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.nameEmpty, false)
 def verifyRTSPEmptyNotPresent = WebUI.verifyTextNotPresent(GlobalVariable.rtspEmpty, false)

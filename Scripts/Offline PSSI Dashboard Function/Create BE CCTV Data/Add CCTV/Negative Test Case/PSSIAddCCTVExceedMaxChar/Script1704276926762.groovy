@@ -21,6 +21,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url
+
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData'), [:], failureHandling)
 
 WebUI.navigateToUrl(baseUrl+'/cctv/stadion', failureHandling)
@@ -28,29 +29,30 @@ WebUI.navigateToUrl(baseUrl+'/cctv/stadion', failureHandling)
 // id stadion masih di hard code, akan diganti ke http request kalau sudah ada API doc
 WebUI.navigateToUrl(baseUrl+'/cctv/detail/64fea065acbef66fd5476494', failureHandling)
 
-WebUI.navigateToUrl(baseUrl+'/cctv/detail/64fea065acbef66fd5476494/edit/6593c45312ca78ff53352257', failureHandling)
+WebUI.navigateToUrl(baseUrl+'/cctv/detail/64fea065acbef66fd5476494/create', failureHandling)
 
-WebUI.clearText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_Name_name'))
-
-WebUI.clearText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'))
-
-WebUI.clearText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'))
-WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_Name_name'), 'a', failureHandling)
-WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'), '-@$#', failureHandling)
-WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'), 'a', failureHandling)
+WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_Name_name'), 
+'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm', failureHandling)
+WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'),
+'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm', failureHandling)
+WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'),
+'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm', failureHandling)
 
 scrollThenClickSave()
 
-String errorMessageAppear = GlobalVariable.negativeTestPassedErrorMessageAppear
+WebUI.verifyTextPresent('Add new CCTV',false)
 
-WebUI.verifyTextPresent('Edit CCTV',false)
-	
-if (WebUI.verifyTextPresent(GlobalVariable.cctvNameInvalid, false) 
-	&& WebUI.verifyTextPresent(GlobalVariable.dataInvalid, false)
-	&& WebUI.verifyTextPresent(GlobalVariable.cctvRTSPInvalid, false)) {
+String excMaxChar = GlobalVariable.negativeTestPassedExcMaxChar
+String errorMessageAppear = GlobalVariable.negativeTestPassedErrorMessageAppear
+String dataInvalid = GlobalVariable.dataInvalid
+
+int count = WebUI.verifyTextPresent(dataInvalid, false)
+if (count == 3) {
 		KeywordUtil.markPassed(errorMessageAppear)
-		KeywordUtil.markPassed('Negative test passed because user can not edit cctv with invalid data')
+		KeywordUtil.markPassed(excMaxChar)
 }
+
+WebUI.verifyTextNotPresent('Add new CCTV', false)
 
 WebUI.closeBrowser()
 

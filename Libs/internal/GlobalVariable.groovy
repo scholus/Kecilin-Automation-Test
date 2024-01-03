@@ -17,7 +17,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object cctvIdInvalid
+    public static Object dataInvalid
      
     /**
      * <p></p>
@@ -28,6 +28,11 @@ public class GlobalVariable {
      * <p></p>
      */
     public static Object cctvRTSPInvalid
+     
+    /**
+     * <p></p>
+     */
+    public static Object excMaxChar
      
     /**
      * <p></p>
@@ -64,6 +69,11 @@ public class GlobalVariable {
      */
     public static Object negativeTestPassedDataNotAdded
      
+    /**
+     * <p></p>
+     */
+    public static Object negativeTestPassedExcMaxChar
+     
 
     static {
         try {
@@ -72,9 +82,10 @@ public class GlobalVariable {
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
             offline_pssi_dashboard_url = selectedVariables['offline_pssi_dashboard_url']
-            cctvIdInvalid = selectedVariables['cctvIdInvalid']
+            dataInvalid = selectedVariables['dataInvalid']
             cctvNameInvalid = selectedVariables['cctvNameInvalid']
             cctvRTSPInvalid = selectedVariables['cctvRTSPInvalid']
+            excMaxChar = selectedVariables['excMaxChar']
             cctvIdEmpty = selectedVariables['cctvIdEmpty']
             nameEmpty = selectedVariables['nameEmpty']
             rtspEmpty = selectedVariables['rtspEmpty']
@@ -82,6 +93,7 @@ public class GlobalVariable {
             negativeTestFailedUserRedirToOtherPage = selectedVariables['negativeTestFailedUserRedirToOtherPage']
             negativeTestPassedCannotSaveCCTVEmptyMandatory = selectedVariables['negativeTestPassedCannotSaveCCTVEmptyMandatory']
             negativeTestPassedDataNotAdded = selectedVariables['negativeTestPassedDataNotAdded']
+            negativeTestPassedExcMaxChar = selectedVariables['negativeTestPassedExcMaxChar']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

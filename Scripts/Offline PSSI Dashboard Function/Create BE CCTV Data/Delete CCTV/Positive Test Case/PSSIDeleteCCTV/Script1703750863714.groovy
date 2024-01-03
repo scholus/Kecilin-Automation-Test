@@ -26,9 +26,9 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData'), [:], failureHandling)
 
 // id cctv masih hardcode, akan diganti http request menggunakan API doc
-WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/6594291712ca78ff5335420a', failureHandling)
+WebUI.navigateToUrl(baseUrl + '/cctv/detail/64fea065acbef66fd5476494/delete/65952af212ca78ff53354c5c', failureHandling)
 
-def verifyDeletedNotPresent = WebUI.verifyTextNotPresent('1002', false)
+def verifyDeletedNotPresent = WebUI.verifyTextNotPresent('1050', false)
 
 // belum fix akan cari cara gimana validasi data ada di 1 row
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CCTV/CCTV Data Title'), 0, failureHandling)) {
