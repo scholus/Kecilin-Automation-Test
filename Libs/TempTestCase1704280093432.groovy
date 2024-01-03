@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\USER\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Offline PSSI Dashboard Function\\Create BE CCTV Data\\Edit CCTV\\Negative Test Case\\PSSIEditCCTVExceedMaxChar\\20240103_180309\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\USER\\AppData\\Local\\Temp\\Katalon\\20240103_180813\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVExceedMaxChar', new TestCaseBinding('Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVExceedMaxChar',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

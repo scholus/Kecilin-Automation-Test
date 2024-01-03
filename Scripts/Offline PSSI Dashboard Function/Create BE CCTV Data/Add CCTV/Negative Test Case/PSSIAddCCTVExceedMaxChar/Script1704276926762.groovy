@@ -44,9 +44,18 @@ WebUI.verifyTextPresent('Add new CCTV',false)
 
 String excMaxChar = GlobalVariable.negativeTestPassedExcMaxChar
 String errorMessageAppear = GlobalVariable.negativeTestPassedErrorMessageAppear
-String dataInvalid = GlobalVariable.dataInvalid
 
-int count = WebUI.verifyTextPresent(dataInvalid, false)
+int count = 0
+
+for (int i = 1; i <= 3; i++) {
+	boolean isPresent = WebUI.verifyElementPresent(findTestObject('Page_Add new CCTV/Error Message CCTV ID Invalid value'), 1)
+	if (isPresent) {
+		count++
+	} else {
+		break
+	}
+}
+
 if (count == 3) {
 		KeywordUtil.markPassed(errorMessageAppear)
 		KeywordUtil.markPassed(excMaxChar)

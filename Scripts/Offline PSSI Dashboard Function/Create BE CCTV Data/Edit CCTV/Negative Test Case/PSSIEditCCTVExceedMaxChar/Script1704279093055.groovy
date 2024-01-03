@@ -44,7 +44,6 @@ WebUI.verifyTextPresent('Add new CCTV',false)
 
 String excMaxChar = GlobalVariable.negativeTestPassedExcMaxChar
 String errorMessageAppear = GlobalVariable.negativeTestPassedErrorMessageAppear
-String dataInvalid = GlobalVariable.dataInvalid
 
 int count = 0
 
@@ -57,7 +56,6 @@ for (int i = 1; i <= 3; i++) {
 	}
 }
 
-//int count = WebUI.verifyTextPresent(dataInvalid, false)
 if (count == 3) {
 		KeywordUtil.markPassed(errorMessageAppear)
 		KeywordUtil.markPassed(excMaxChar)
