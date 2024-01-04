@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add CCTV Test Suite" time="151.889" tests="6" failures="5" errors="0">
+   <testsuite name="Add CCTV Test Suite" tests="6" failures="5" errors="0" time="151.889" skipped="0" timestamp="04-01-2024T09:56:06" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE CCTV Data/Add CCTV Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337000478.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337024188.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337043274.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337064779.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337065212.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337117864.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337118346.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="sessionId" value="5fe87fdb02bf0ff64bfa9dda0aa7de59"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID" time="34.397" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Stadium Name' is not present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)&#xa;	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[04-01-2024T09:56:07 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Stadium Name' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+04-01-2024T09:56:08 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:56:11 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+04-01-2024T09:56:12 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:12 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:56:12 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+04-01-2024T09:56:13 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:13 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:56:13 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+04-01-2024T09:56:14 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:14 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T09:56:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T09:56:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T09:56:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T09:56:20 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:56:20 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:56:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-01-2024T09:56:21 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T09:56:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:56:23 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:56:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:56:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:56:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:56:27 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:56:29 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:56:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:56:29 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:56:32 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:56:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:56:32 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:56:33 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:56:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_Name_name"), "camera2", failureHandling): Text 'camera2' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:56:34 - [MESSAGE][PASSED] - Text 'camera2' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:56:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id"), "1002", failureHandling): Text '1002' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:56:35 - [MESSAGE][PASSED] - Text '1002' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp"), "googeru", failureHandling): Text 'googeru' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:56:36 - [MESSAGE][PASSED] - Text 'googeru' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:56:36 - [TEST_STEP][PASSED] - scrollThenClickSave(): null
+
+04-01-2024T09:56:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save"), 1): Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:56:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save")): Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:56:38 - [TEST_STEP][FAILED] - isElementStadiumNameNotPresent = verifyTextNotPresent("Stadium Name", false): Unable to verify text 'Stadium Name' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Stadium Name' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-01-2024T09:56:40 - [MESSAGE][FAILED] - Text 'Stadium Name' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+04-01-2024T09:56:41 - [MESSAGE][FAILED] - Unable to verify text 'Stadium Name' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Stadium Name' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337000478.png]]]]></system-out>
+         <system-err><![CDATA[04-01-2024T09:56:07 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Stadium Name' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVEmptyMandatoryField" time="22.513" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVEmptyMandatoryField" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVEmptyMandatoryField FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)&#xa;	at PSSIAddCCTVEmptyMandatoryField.run(PSSIAddCCTVEmptyMandatoryField:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[04-01-2024T09:56:42 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVEmptyMandatoryField: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVEmptyMandatoryField FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVEmptyMandatoryField.run(PSSIAddCCTVEmptyMandatoryField:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - errorMessageAppear = negativeTestPassedErrorMessageAppear: null
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - failedToAddCCTVWithEmptyMandatory = negativeTestPassedCannotSaveCCTVEmptyMandatory: null
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:56:44 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:56:45 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+04-01-2024T09:56:45 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:45 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:56:45 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+04-01-2024T09:56:45 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:56:45 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:56:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T09:56:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2024T09:56:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T09:56:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T09:56:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T09:56:49 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:56:50 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:56:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-01-2024T09:56:50 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T09:56:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:56:52 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:56:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:56:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:56:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:56:55 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:56:56 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:56:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:56:56 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:56:58 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:56:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:56:58 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:56:59 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save"), failureHandling): Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:57:03 - [TEST_STEP][FAILED] - verifyIDInvalidNotPresent = verifyTextNotPresent(dataInvalid, false): Unable to verify text 'Invalid value' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVEmptyMandatoryField.run(PSSIAddCCTVEmptyMandatoryField:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-01-2024T09:57:04 - [MESSAGE][FAILED] - Text 'Invalid value' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVEmptyMandatoryField.run(PSSIAddCCTVEmptyMandatoryField:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+04-01-2024T09:57:04 - [MESSAGE][FAILED] - Unable to verify text 'Invalid value' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVEmptyMandatoryField.run(PSSIAddCCTVEmptyMandatoryField:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337024188.png]]]]></system-out>
+         <system-err><![CDATA[04-01-2024T09:56:42 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVEmptyMandatoryField: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVEmptyMandatoryField FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVEmptyMandatoryField.run(PSSIAddCCTVEmptyMandatoryField:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidData" time="18.964" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidData" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidData FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid name' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at PSSIAddCCTVInvalidData.run(PSSIAddCCTVInvalidData:43)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid name' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[04-01-2024T09:57:04 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddCCTVInvalidData.run(PSSIAddCCTVInvalidData:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+04-01-2024T09:57:05 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:05 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:57:05 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+04-01-2024T09:57:05 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:05 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T09:57:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2024T09:57:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T09:57:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T09:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T09:57:08 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:57:09 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:57:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-01-2024T09:57:09 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T09:57:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:57:11 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:57:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:57:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:57:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:57:14 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:57:15 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:57:15 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:57:16 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:57:16 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:57:17 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_Name_name"), "a", failureHandling): Text 'a' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:57:18 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:57:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id"), "-", failureHandling): Text '-' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:57:19 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp"), "a", failureHandling): Text 'a' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:57:20 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:57:20 - [TEST_STEP][PASSED] - scrollThenClickSave(): null
+
+04-01-2024T09:57:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save"), 1): Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:57:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save")): Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:57:22 - [TEST_STEP][PASSED] - errorMessageAppear = negativeTestPassedErrorMessageAppear: null
+
+04-01-2024T09:57:22 - [TEST_STEP][PASSED] - verifyTextPresent("Add new CCTV", false): Text 'Add new CCTV' is present on page 
+
+04-01-2024T09:57:22 - [MESSAGE][PASSED] - Text 'Add new CCTV' is present on page 
+
+04-01-2024T09:57:22 - [TEST_STEP][FAILED] - if (verifyTextPresent(cctvNameInvalid, false) && verifyTextPresent(dataInvalid, false) && verifyTextPresent(cctvRTSPInvalid, false)): Unable to verify text 'Invalid name' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddCCTVInvalidData.run(PSSIAddCCTVInvalidData:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-01-2024T09:57:23 - [MESSAGE][FAILED] - Text 'Invalid name' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddCCTVInvalidData.run(PSSIAddCCTVInvalidData:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+04-01-2024T09:57:23 - [MESSAGE][FAILED] - Unable to verify text 'Invalid name' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddCCTVInvalidData.run(PSSIAddCCTVInvalidData:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337043274.png]]]]></system-out>
+         <system-err><![CDATA[04-01-2024T09:57:04 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddCCTVInvalidData.run(PSSIAddCCTVInvalidData:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidRTSPFormat" time="22.095" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidRTSPFormat" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidRTSPFormat FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CCTV/CCTV Data Title' is not present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)&#xa;	at PSSIAddCCTVInvalidRTSPFormat.run(PSSIAddCCTVInvalidRTSPFormat:40)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_CCTV/CCTV Data Title' located by 'By.xpath: //div/div/span' is present after '1' second(s)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[04-01-2024T09:57:23 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidRTSPFormat: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidRTSPFormat FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CCTV/CCTV Data Title' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at PSSIAddCCTVInvalidRTSPFormat.run(PSSIAddCCTVInvalidRTSPFormat:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_CCTV/CCTV Data Title' located by 'By.xpath: //div/div/span' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - failedToAddData = negativeTestPassedDataNotAdded: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:57:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:57:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:57:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T09:57:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2024T09:57:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T09:57:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T09:57:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T09:57:29 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:57:29 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:57:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-01-2024T09:57:30 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T09:57:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:57:30 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:57:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:57:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:57:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:57:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:57:33 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:57:34 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:57:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:57:34 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:57:36 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:57:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:57:36 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:57:37 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:57:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_Name_name"), "camera2", failureHandling): Text 'camera2' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:57:38 - [MESSAGE][PASSED] - Text 'camera2' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:57:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id"), "1002", failureHandling): Text '1002' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:57:39 - [MESSAGE][PASSED] - Text '1002' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp"), "googeru", failureHandling): Text 'googeru' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:57:40 - [MESSAGE][PASSED] - Text 'googeru' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:57:40 - [TEST_STEP][PASSED] - scrollThenClickSave(): null
+
+04-01-2024T09:57:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save"), 1): Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:57:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save")): Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:57:42 - [TEST_STEP][FAILED] - if (verifyElementNotPresent(findTestObject("Page_CCTV/CCTV Data Title"), 0, failureHandling)): Unable to verify object 'Object Repository/Page_CCTV/CCTV Data Title' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CCTV/CCTV Data Title' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at PSSIAddCCTVInvalidRTSPFormat.run(PSSIAddCCTVInvalidRTSPFormat:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_CCTV/CCTV Data Title' located by 'By.xpath: //div/div/span' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+04-01-2024T09:57:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+04-01-2024T09:57:45 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_CCTV/CCTV Data Title' located by 'By.xpath: //div/div/span' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_CCTV/CCTV Data Title' located by 'By.xpath: //div/div/span' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at PSSIAddCCTVInvalidRTSPFormat.run(PSSIAddCCTVInvalidRTSPFormat:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337064779.png]]
+
+04-01-2024T09:57:45 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_CCTV/CCTV Data Title' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CCTV/CCTV Data Title' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at PSSIAddCCTVInvalidRTSPFormat.run(PSSIAddCCTVInvalidRTSPFormat:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_CCTV/CCTV Data Title' located by 'By.xpath: //div/div/span' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337065212.png]]]]></system-out>
+         <system-err><![CDATA[04-01-2024T09:57:23 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidRTSPFormat: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVInvalidRTSPFormat FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CCTV/CCTV Data Title' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at PSSIAddCCTVInvalidRTSPFormat.run(PSSIAddCCTVInvalidRTSPFormat:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_CCTV/CCTV Data Title' located by 'By.xpath: //div/div/span' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Positive Test Case/PSSIAddCCTVValidData" time="27.316" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Positive Test Case/PSSIAddCCTVValidData" status="PASSED">
+         <system-out><![CDATA[04-01-2024T09:57:45 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Positive Test Case/PSSIAddCCTVValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Positive Test Case/PSSIAddCCTVValidData
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:57:47 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:57:47 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:57:48 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+04-01-2024T09:57:48 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:57:48 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:57:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T09:57:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2024T09:57:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T09:57:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T09:57:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T09:57:51 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:57:52 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:57:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-01-2024T09:57:52 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T09:57:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:57:54 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:57:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:57:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:57:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:58:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:58:00 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:58:01 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:58:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View Stadium/PSSIViewStadiumData' successfully
+
+04-01-2024T09:58:01 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:58:03 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:58:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData' successfully
+
+04-01-2024T09:58:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:58:03 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_Name_name"), "camera1", failureHandling): Text 'camera1' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:58:04 - [MESSAGE][PASSED] - Text 'camera1' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:58:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id"), "1001", failureHandling): Text '1001' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:58:05 - [MESSAGE][PASSED] - Text '1001' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp"), "https://google.com", failureHandling): Text 'https://google.com' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:58:07 - [MESSAGE][PASSED] - Text 'https://google.com' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:58:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save"), failureHandling): Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:58:09 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_CCTV/CCTV Data Title"), 0, failureHandling)): null
+
+04-01-2024T09:58:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+04-01-2024T09:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/CCTV Data Title' is present
+
+04-01-2024T09:58:10 - [TEST_STEP][PASSED] - pageSource = getWebDriver().getPageSource(): null
+
+04-01-2024T09:58:11 - [TEST_STEP][PASSED] - isNotSameRow = !(pageSource.contains("1001") && pageSource.contains("camera1") && pageSource.contains("https://google.com")): null
+
+04-01-2024T09:58:11 - [TEST_STEP][PASSED] - if (!(isNotSameRow)): null
+
+04-01-2024T09:58:11 - [TEST_STEP][PASSED] - markPassed("Test passed because data is added"): Test passed because data is added
+
+04-01-2024T09:58:11 - [MESSAGE][PASSED] - Test passed because data is added
+
+04-01-2024T09:58:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-01-2024T09:58:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVExceedMaxChar" time="25.773" classname="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVExceedMaxChar" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVExceedMaxChar FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at PSSIAddCCTVExceedMaxChar.run(PSSIAddCCTVExceedMaxChar:51)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[04-01-2024T09:58:13 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVExceedMaxChar: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVExceedMaxChar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIAddCCTVExceedMaxChar.run(PSSIAddCCTVExceedMaxChar:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+04-01-2024T09:58:14 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:58:14 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:58:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:58:14 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData
+
+04-01-2024T09:58:14 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+04-01-2024T09:58:14 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+04-01-2024T09:58:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T09:58:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T09:58:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T09:58:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T09:58:16 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:58:17 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+04-01-2024T09:58:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-01-2024T09:58:18 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T09:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:58:19 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+04-01-2024T09:58:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:58:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+04-01-2024T09:58:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+04-01-2024T09:58:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData' successfully
+
+04-01-2024T09:58:23 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/stadion", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:58:24 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/stadion' successfully
+
+04-01-2024T09:58:24 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:58:25 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494' successfully
+
+04-01-2024T09:58:25 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/cctv/detail/64fea065acbef66fd5476494/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:58:26 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/cctv/detail/64fea065acbef66fd5476494/create' successfully
+
+04-01-2024T09:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_Name_name"), "qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm", failureHandling): Text 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:58:28 - [MESSAGE][PASSED] - Text 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_Name_name'
+
+04-01-2024T09:58:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id"), "qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm", failureHandling): Text 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:58:30 - [MESSAGE][PASSED] - Text 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id'
+
+04-01-2024T09:58:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp"), "qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm", failureHandling): Text 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:58:32 - [MESSAGE][PASSED] - Text 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm' is set on object 'Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp'
+
+04-01-2024T09:58:32 - [TEST_STEP][PASSED] - scrollThenClickSave(): null
+
+04-01-2024T09:58:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save"), 1): Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:58:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page Add new CCTV Offline Web/button_Save' successfully
+
+04-01-2024T09:58:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Add new CCTV Offline Web/button_Save")): Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Add new CCTV Offline Web/button_Save' is clicked on
+
+04-01-2024T09:58:34 - [TEST_STEP][PASSED] - verifyTextPresent("Add new CCTV", false): Text 'Add new CCTV' is present on page 
+
+04-01-2024T09:58:35 - [MESSAGE][PASSED] - Text 'Add new CCTV' is present on page 
+
+04-01-2024T09:58:35 - [TEST_STEP][PASSED] - excMaxChar = negativeTestPassedExcMaxChar: null
+
+04-01-2024T09:58:35 - [TEST_STEP][PASSED] - errorMessageAppear = negativeTestPassedErrorMessageAppear: null
+
+04-01-2024T09:58:35 - [TEST_STEP][PASSED] - count = 0: null
+
+04-01-2024T09:58:35 - [TEST_STEP][FAILED] - for ([i = 1, i <= 3, (i++)]): Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIAddCCTVExceedMaxChar.run(PSSIAddCCTVExceedMaxChar:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-01-2024T09:58:35 - [TEST_STEP][FAILED] - isPresent = verifyElementPresent(findTestObject("Page_Add new CCTV/Error Message CCTV ID Invalid value"), 1): Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIAddCCTVExceedMaxChar.run(PSSIAddCCTVExceedMaxChar:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-01-2024T09:58:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div/div[2]/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-01-2024T09:58:38 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIAddCCTVExceedMaxChar.run(PSSIAddCCTVExceedMaxChar:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337117864.png]]
+
+04-01-2024T09:58:38 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIAddCCTVExceedMaxChar.run(PSSIAddCCTVExceedMaxChar:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240104_095552\\Create BE CCTV Data\\Add CCTV Test Suite\\20240104_095552\\1704337118346.png]]]]></system-out>
+         <system-err><![CDATA[04-01-2024T09:58:13 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVExceedMaxChar: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVExceedMaxChar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIAddCCTVExceedMaxChar.run(PSSIAddCCTVExceedMaxChar:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Add new CCTV/Error Message CCTV ID Invalid value' located by '//div/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-01-2024T09:56:06 - [TEST_SUITE][FAILED] - Add CCTV Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Stadium Name' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[04-01-2024T09:56:06 - [TEST_SUITE][FAILED] - Add CCTV Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Add CCTV/Negative Test Case/PSSIAddCCTVDuplicateID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Stadium Name' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddCCTVDuplicateID.run(PSSIAddCCTVDuplicateID:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704336952204.run(TempTestSuite1704336952204.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Stadium Name' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

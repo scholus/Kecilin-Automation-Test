@@ -43,7 +43,14 @@
       <guid>66e50bec-e376-43b5-9e20-b573890e4cdf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Positive Test Case/PSSIEditCCTVValidDataOfflineWeb</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Positive Test Case/PSSIEditCCTVValidData</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9696d293-c4f5-40bd-98cf-28649ed34941</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVExceedMaxChar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

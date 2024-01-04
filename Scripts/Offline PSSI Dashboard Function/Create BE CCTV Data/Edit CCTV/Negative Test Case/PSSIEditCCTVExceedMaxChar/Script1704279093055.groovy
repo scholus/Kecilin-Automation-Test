@@ -29,7 +29,7 @@ WebUI.navigateToUrl(baseUrl+'/cctv/stadion', failureHandling)
 // id stadion masih di hard code, akan diganti ke http request kalau sudah ada API doc
 WebUI.navigateToUrl(baseUrl+'/cctv/detail/64fea065acbef66fd5476494', failureHandling)
 
-WebUI.navigateToUrl(baseUrl+'/cctv/detail/64fea065acbef66fd5476494/create', failureHandling)
+WebUI.navigateToUrl(baseUrl+'/cctv/detail/64fea065acbef66fd5476494/edit/6595371412ca78ff53354d60', failureHandling)
 
 WebUI.setText(findTestObject('Object Repository/Page Add new CCTV Offline Web/input_Name_name'), 
 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm', failureHandling)

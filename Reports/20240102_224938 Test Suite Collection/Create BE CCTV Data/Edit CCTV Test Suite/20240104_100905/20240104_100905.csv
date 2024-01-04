@@ -1,0 +1,89 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit CCTV Test Suite,Chrome 120.0.0.0,,,04-01-2024 10:09:17,04-01-2024 10:10:47,1m - 30.724s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVDuplicateID,Chrome 120.0.0.0,,,04-01-2024 10:09:17,04-01-2024 10:09:36,18.876s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,04-01-2024 10:09:18,04-01-2024 10:09:18,0.047s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,04-01-2024 10:09:18,04-01-2024 10:09:19,1.108s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:19,04-01-2024 10:09:31,12.158s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/edit/6593c45312ca78ff53352257"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:31,04-01-2024 10:09:33,1.559s,PASSED
+"clearText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""))",Chrome 120.0.0.0,,,04-01-2024 10:09:33,04-01-2024 10:09:33,0.536s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""), ""1002"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:33,04-01-2024 10:09:34,0.749s,PASSED
+"click(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""), failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:34,04-01-2024 10:09:35,0.820s,PASSED
+"isElementStadiumNameNotPresent = verifyTextNotPresent(""Stadium Name"", false)",Chrome 120.0.0.0,,,04-01-2024 10:09:35,04-01-2024 10:09:35,0.514s,PASSED
+"isElementErrorMessageIDPresent = verifyTextPresent(""The cctv id is exists"", false)",Chrome 120.0.0.0,,,04-01-2024 10:09:35,04-01-2024 10:09:36,0.344s,PASSED
+if (!(isElementStadiumNameNotPresent)),Chrome 120.0.0.0,,,04-01-2024 10:09:36,04-01-2024 10:09:36,0.023s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,04-01-2024 10:09:36,04-01-2024 10:09:36,0.288s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVInvalidData,Chrome 120.0.0.0,,,04-01-2024 10:09:36,04-01-2024 10:09:52,16.019s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,04-01-2024 10:09:36,04-01-2024 10:09:36,0.004s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,04-01-2024 10:09:36,04-01-2024 10:09:36,0.004s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData""), [:], failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:36,04-01-2024 10:09:42,5.639s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/stadion"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:42,04-01-2024 10:09:43,0.664s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:43,04-01-2024 10:09:44,0.885s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/edit/6593c45312ca78ff53352257"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:44,04-01-2024 10:09:44,0.367s,PASSED
+"clearText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_Name_name""))",Chrome 120.0.0.0,,,04-01-2024 10:09:44,04-01-2024 10:09:44,0.504s,PASSED
+"clearText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""))",Chrome 120.0.0.0,,,04-01-2024 10:09:44,04-01-2024 10:09:45,0.412s,PASSED
+"clearText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp""))",Chrome 120.0.0.0,,,04-01-2024 10:09:45,04-01-2024 10:09:45,0.409s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_Name_name""), ""a"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:45,04-01-2024 10:09:46,0.747s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""), ""-@$#"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:46,04-01-2024 10:09:47,0.736s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp""), ""a"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:47,04-01-2024 10:09:48,0.730s,PASSED
+scrollThenClickSave(),Chrome 120.0.0.0,,,04-01-2024 10:09:48,04-01-2024 10:09:48,0.003s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""), 1)",Chrome 120.0.0.0,,,04-01-2024 10:09:48,04-01-2024 10:09:48,0.399s,PASSED
+"click(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""))",Chrome 120.0.0.0,,,04-01-2024 10:09:48,04-01-2024 10:09:51,2.792s,PASSED
+errorMessageAppear = negativeTestPassedErrorMessageAppear,Chrome 120.0.0.0,,,04-01-2024 10:09:51,04-01-2024 10:09:51,0.002s,PASSED
+"verifyTextPresent(""Edit CCTV"", false)",Chrome 120.0.0.0,,,04-01-2024 10:09:51,04-01-2024 10:09:51,0.571s,PASSED
+"if (verifyTextPresent(cctvNameInvalid, false) && verifyTextPresent(dataInvalid, false) && verifyTextPresent(cctvRTSPInvalid, false))",Chrome 120.0.0.0,,,04-01-2024 10:09:51,04-01-2024 10:09:52,0.638s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVInvalidRTSPFormat,Chrome 120.0.0.0,,,04-01-2024 10:09:52,04-01-2024 10:10:08,15.656s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,04-01-2024 10:09:52,04-01-2024 10:09:52,0.006s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,04-01-2024 10:09:52,04-01-2024 10:09:52,0.004s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:09:52,04-01-2024 10:10:02,9.195s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/edit/6593c45312ca78ff53352257"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:02,04-01-2024 10:10:02,0.442s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_Name_name""), ""camera2"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:02,04-01-2024 10:10:03,0.870s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""), ""1050"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:03,04-01-2024 10:10:04,0.741s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp""), ""googeru"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:04,04-01-2024 10:10:04,0.759s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""), 1)",Chrome 120.0.0.0,,,04-01-2024 10:10:04,04-01-2024 10:10:05,0.362s,PASSED
+"click(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""))",Chrome 120.0.0.0,,,04-01-2024 10:10:05,04-01-2024 10:10:06,0.845s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Page_CCTV/CCTV Data Title""), 0, failureHandling))",Chrome 120.0.0.0,,,04-01-2024 10:10:06,04-01-2024 10:10:08,1.983s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVEmptyMandatoryField,Chrome 120.0.0.0,,,04-01-2024 10:10:08,04-01-2024 10:10:21,12.955s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,04-01-2024 10:10:08,04-01-2024 10:10:08,0.008s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,04-01-2024 10:10:08,04-01-2024 10:10:08,0.010s,PASSED
+errorMessageAppear = negativeTestPassedErrorMessageAppear,Chrome 120.0.0.0,,,04-01-2024 10:10:08,04-01-2024 10:10:08,0.018s,PASSED
+failedToEditCCTVWithEmptyMandatory = negativeTestPassedCannotSaveCCTVEmptyMandatory,Chrome 120.0.0.0,,,04-01-2024 10:10:08,04-01-2024 10:10:08,0.008s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:08,04-01-2024 10:10:16,7.497s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/edit/6593997212ca78ff53351df9"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:16,04-01-2024 10:10:17,1.601s,PASSED
+"clearText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_Name_name""))",Chrome 120.0.0.0,,,04-01-2024 10:10:17,04-01-2024 10:10:18,0.502s,PASSED
+"clearText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""))",Chrome 120.0.0.0,,,04-01-2024 10:10:18,04-01-2024 10:10:18,0.381s,PASSED
+"clearText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp""))",Chrome 120.0.0.0,,,04-01-2024 10:10:18,04-01-2024 10:10:19,0.377s,PASSED
+scrollThenClickSave(),Chrome 120.0.0.0,,,04-01-2024 10:10:19,04-01-2024 10:10:19,0.003s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""), 1)",Chrome 120.0.0.0,,,04-01-2024 10:10:19,04-01-2024 10:10:19,0.352s,PASSED
+"click(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""))",Chrome 120.0.0.0,,,04-01-2024 10:10:19,04-01-2024 10:10:19,0.550s,PASSED
+"verifyIDInvalidNotPresent = verifyTextNotPresent(dataInvalid, false)",Chrome 120.0.0.0,,,04-01-2024 10:10:19,04-01-2024 10:10:21,1.100s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Positive Test Case/PSSIEditCCTVValidData,Chrome 120.0.0.0,,,04-01-2024 10:10:21,04-01-2024 10:10:33,12.501s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,04-01-2024 10:10:21,04-01-2024 10:10:21,0.002s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,04-01-2024 10:10:21,04-01-2024 10:10:21,0.003s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:21,04-01-2024 10:10:28,7.243s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/edit/6593c45312ca78ff53352257"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:28,04-01-2024 10:10:29,0.460s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_Name_name""), ""camera1"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:29,04-01-2024 10:10:30,0.849s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""), ""1111"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:30,04-01-2024 10:10:30,0.734s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp""), ""https://google.com"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:30,04-01-2024 10:10:31,0.774s,PASSED
+"click(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""), failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:31,04-01-2024 10:10:32,0.827s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_CCTV/CCTV Data Title""), 0, failureHandling))",Chrome 120.0.0.0,,,04-01-2024 10:10:32,04-01-2024 10:10:33,0.839s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,04-01-2024 10:10:33,04-01-2024 10:10:33,0.384s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE CCTV Data/Edit CCTV/Negative Test Case/PSSIEditCCTVExceedMaxChar,Chrome 120.0.0.0,,,04-01-2024 10:10:33,04-01-2024 10:10:47,14.188s,FAILED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,04-01-2024 10:10:34,04-01-2024 10:10:34,0.002s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,04-01-2024 10:10:34,04-01-2024 10:10:34,0.005s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData""), [:], failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:34,04-01-2024 10:10:40,6.457s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/stadion"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:40,04-01-2024 10:10:41,0.585s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:41,04-01-2024 10:10:41,0.702s,PASSED
+"navigateToUrl(baseUrl + ""/cctv/detail/64fea065acbef66fd5476494/edit/6595371412ca78ff53354d60"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:41,04-01-2024 10:10:42,0.379s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_Name_name""), ""qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:42,04-01-2024 10:10:43,1.324s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_CCTV ID_cctv_id""), ""qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:43,04-01-2024 10:10:44,1.167s,PASSED
+"setText(findTestObject(""Object Repository/Page Add new CCTV Offline Web/input_RTSP_rtsp""), ""qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm"", failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:10:44,04-01-2024 10:10:45,1.191s,PASSED
+scrollThenClickSave(),Chrome 120.0.0.0,,,04-01-2024 10:10:45,04-01-2024 10:10:45,0.001s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""), 1)",Chrome 120.0.0.0,,,04-01-2024 10:10:45,04-01-2024 10:10:46,0.350s,PASSED
+"click(findTestObject(""Object Repository/Page Add new CCTV Offline Web/button_Save""))",Chrome 120.0.0.0,,,04-01-2024 10:10:46,04-01-2024 10:10:46,0.531s,PASSED
+"verifyTextPresent(""Add new CCTV"", false)",Chrome 120.0.0.0,,,04-01-2024 10:10:46,04-01-2024 10:10:47,1.007s,FAILED
