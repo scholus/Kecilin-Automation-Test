@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Check Camera Status Test Suite,Chrome 120.0.0.0,,,04-01-2024 10:54:49,04-01-2024 10:55:13,23.696s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Check Camera Status/Positive Test Case/PSSIOfflineCameraStatus,Chrome 120.0.0.0,,,04-01-2024 10:54:50,04-01-2024 10:55:13,22.847s,PASSED
+failureHandling = STOP_ON_FAILURE,Chrome 120.0.0.0,,,04-01-2024 10:54:52,04-01-2024 10:54:52,0.066s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,04-01-2024 10:54:52,04-01-2024 10:54:53,1.502s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE CCTV Data/View CCTV Table/PSSIViewCCTVData""), [:], failureHandling)",Chrome 120.0.0.0,,,04-01-2024 10:54:53,04-01-2024 10:55:11,18.004s,PASSED
+"verifyTextPresent(""Offline"", false)",Chrome 120.0.0.0,,,04-01-2024 10:55:11,04-01-2024 10:55:12,1.003s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,04-01-2024 10:55:12,04-01-2024 10:55:13,0.348s,PASSED

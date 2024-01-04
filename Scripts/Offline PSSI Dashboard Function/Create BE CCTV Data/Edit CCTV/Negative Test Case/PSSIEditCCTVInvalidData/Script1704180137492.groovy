@@ -21,7 +21,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 FailureHandling failureHandling = FailureHandling.STOP_ON_FAILURE
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url
-WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE CCTV Data/Sign In/PSSISignInValidData'), [:], failureHandling)
+WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Sign In/PSSISignInValidData'), [:], failureHandling)
 
 WebUI.navigateToUrl(baseUrl+'/cctv/stadion', failureHandling)
 

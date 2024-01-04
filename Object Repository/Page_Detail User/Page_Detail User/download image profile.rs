@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>download image profile</name>
+   <tag></tag>
+   <elementGuidId>c822e333-6447-439d-a4b1-60ada4309893</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='photoModal']/div/div/div/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;download photo&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>26c85d6a-d436-453f-b6d2-f2e3255e56f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/img/save-alt.svg</value>
+      <webElementGuid>965b8cb9-0e20-4670-913e-93901441bd02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>download photo</value>
+      <webElementGuid>8226b261-ef5c-46cb-9922-948c06205399</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;photoModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content position-relative&quot;]/div[@class=&quot;photo-action&quot;]/a[1]/img[1]</value>
+      <webElementGuid>85504a37-c338-427c-b3a1-d832281086da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='photoModal']/div/div/div/a/img</value>
+      <webElementGuid>3c3113b4-0f06-4248-984b-433fb7c32680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='download photo']</value>
+      <webElementGuid>f152b80b-076e-4ddd-92b6-339f8bbfb592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/a/img</value>
+      <webElementGuid>8e6ce005-8d6c-48ae-bc85-300a4a49ddd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/img/save-alt.svg' and @alt = 'download photo']</value>
+      <webElementGuid>fac42df4-803a-408a-9a61-ad80379a2808</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

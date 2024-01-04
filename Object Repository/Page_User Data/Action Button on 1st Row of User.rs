@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Action Button on 1st Row of User</name>
+   <tag></tag>
+   <elementGuidId>bafac571-821f-49d0-968c-905a2f57d4b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table_data']/tbody/tr/td[10]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-action.btn-action--detail</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>40761961-7e50-488f-91d0-1f17a417166b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/data_user/detail/656d3e7cef10216daef8f9f2</value>
+      <webElementGuid>78d42f65-606d-4445-832d-06e39d920211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-action btn-action--detail</value>
+      <webElementGuid>66ba6d9b-ea31-4991-8982-f465d2df024e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table_data&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[10]/a[@class=&quot;btn btn-action btn-action--detail&quot;]</value>
+      <webElementGuid>9b21f020-11f9-4525-831b-7c8fb4c75e08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table_data']/tbody/tr/td[10]/a</value>
+      <webElementGuid>6636c8ce-ac3e-4804-9cf6-c32324767ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/data_user/detail/656d3e7cef10216daef8f9f2')]</value>
+      <webElementGuid>10114efe-dfe0-4e74-bceb-bd37ccda332c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[10]/a</value>
+      <webElementGuid>b325de78-629c-4747-ba97-7ca0c3137e46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/data_user/detail/656d3e7cef10216daef8f9f2']</value>
+      <webElementGuid>f4e6b6dc-c027-4c4c-a96f-c6d4012a7a7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

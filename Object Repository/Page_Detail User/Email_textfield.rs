@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Email_textfield</name>
+   <tag></tag>
+   <elementGuidId>f7a9120d-07c0-42d6-94a8-b6251ba5fa08</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;g-sidenav-show  bg-gray-100&quot;]/main[@class=&quot;main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y&quot;]/div[@class=&quot;container-fluid py-4&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-md-8&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;w-100 position-relative&quot;]/input[@class=&quot;textfield&quot;][count(. | //input[@class = 'textfield' and @value = 'rosyidridho@kecilin.id']) = count(//input[@class = 'textfield' and @value = 'rosyidridho@kecilin.id'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='rosyidridho@kecilin.id']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-6 > div.mb-3 > div.w-100.position-relative > input.textfield</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>874829cf-1a69-440a-a7b4-e6fda901dc1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>textfield</value>
+      <webElementGuid>39573727-5ed5-4d38-8852-e74b650aa832</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>rosyidridho@kecilin.id</value>
+      <webElementGuid>10afd26f-2611-4ae6-88fa-118e0f237682</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;g-sidenav-show  bg-gray-100&quot;]/main[@class=&quot;main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y&quot;]/div[@class=&quot;container-fluid py-4&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-md-8&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;w-100 position-relative&quot;]/input[@class=&quot;textfield&quot;]</value>
+      <webElementGuid>1ee56a80-32a3-402d-b892-67f86f4e7f81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='rosyidridho@kecilin.id']</value>
+      <webElementGuid>76625018-5ab9-4c26-86a8-e47f914dd252</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/input</value>
+      <webElementGuid>3eef9d26-c235-4699-a6d1-5e1e4fa0fd98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
