@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Download User Data Detail Profile Image Test Suite,Chrome 120.0.0.0,,,05-01-2024 11:01:05,05-01-2024 11:01:32,27.129s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Download User Data Detail Profile Image/PSSIDownloadUserProfileImage,Chrome 120.0.0.0,,,05-01-2024 11:01:05,05-01-2024 11:01:32,26.853s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:01:06,05-01-2024 11:01:06,0.868s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:01:06,05-01-2024 11:01:14,7.775s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:01:14,05-01-2024 11:01:15,0.415s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 11:01:15,05-01-2024 11:01:15,0.702s,PASSED
+"click(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 11:01:15,05-01-2024 11:01:18,2.686s,PASSED
+"scrollToElement(findTestObject(""Page_Detail User/maximize image""), 1)",Chrome 120.0.0.0,,,05-01-2024 11:01:18,05-01-2024 11:01:21,2.699s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 11:01:21,05-01-2024 11:01:23,2.435s,PASSED
+"click(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 11:01:23,05-01-2024 11:01:26,2.418s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/Page_Detail User/download image profile""))",Chrome 120.0.0.0,,,05-01-2024 11:01:26,05-01-2024 11:01:26,0.728s,PASSED
+"click(findTestObject(""Page_Detail User/Page_Detail User/download image profile""))",Chrome 120.0.0.0,,,05-01-2024 11:01:26,05-01-2024 11:01:27,0.478s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Detail User/button_Print Data""), 0)",Chrome 120.0.0.0,,,05-01-2024 11:01:27,05-01-2024 11:01:30,2.957s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Detail User/Back Button""), 0)",Chrome 120.0.0.0,,,05-01-2024 11:01:30,05-01-2024 11:01:32,2.036s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 11:01:32,05-01-2024 11:01:32,0.278s,PASSED

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Close User Data Detail Profile Image Test Suite" time="28.903" tests="1" failures="0" errors="0">
+   <testsuite name="Close User Data Detail Profile Image Test Suite" tests="1" failures="0" errors="0" time="28.903" skipped="0" timestamp="05-01-2024T10:59:25" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE User Data/Close User Data Detail Profile Image Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\Close User Data Detail Profile Image Test Suite\\20240105_105701"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\Close User Data Detail Profile Image Test Suite\\20240105_105701\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="sessionId" value="8ab27b81ddaefce4f02caadfc6bf6da2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Close User Data Detail Profile Image/PSSICloseUserProfileImage" time="28.595" classname="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Close User Data Detail Profile Image/PSSICloseUserProfileImage" status="PASSED">
+         <system-out><![CDATA[05-01-2024T10:59:25 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Close User Data Detail Profile Image/PSSICloseUserProfileImage: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Close User Data Detail Profile Image/PSSICloseUserProfileImage
+
+05-01-2024T10:59:26 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T10:59:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T10:59:27 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+05-01-2024T10:59:27 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+05-01-2024T10:59:27 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T10:59:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-01-2024T10:59:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-01-2024T10:59:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-01-2024T10:59:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-01-2024T10:59:30 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T10:59:31 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T10:59:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-01-2024T10:59:31 - [MESSAGE][PASSED] - Current window maximized
+
+05-01-2024T10:59:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T10:59:32 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T10:59:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T10:59:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T10:59:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T10:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T10:59:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T10:59:34 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/data_user"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully
+
+05-01-2024T10:59:35 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully
+
+05-01-2024T10:59:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_User Data/Action Button on 1st Row of User")): Object 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clickable
+
+05-01-2024T10:59:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clickable
+
+05-01-2024T10:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_User Data/Action Button on 1st Row of User")): Object: 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clicked on
+
+05-01-2024T10:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clicked on
+
+05-01-2024T10:59:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Detail User/maximize image"), 1): Scroll to object 'Object Repository/Page_Detail User/maximize image' successfully
+
+05-01-2024T10:59:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y"]/div[@class="container-fluid py-4"]/div[@class="row d-flex justify-content-center"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="row"]/div[@class="col-12 col-md-4"]/div[1]/div[@class="photo-action"]/button[@class="d-flex justify-content-center align-items-center"]/img[1][count(. | //img[@src = '/assets/img/maximize.svg' and @alt = 'maximize']) = count(//img[@src = '/assets/img/maximize.svg' and @alt = 'maximize'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-01-2024T10:59:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Detail User/maximize image'. Try using Self-healing.
+
+05-01-2024T10:59:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Detail User/maximize image' was broken. Propose an alternative one: '//img[@alt='maximize']'.
+
+05-01-2024T10:59:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Detail User/maximize image' successfully
+
+05-01-2024T10:59:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Detail User/maximize image")): Object 'Object Repository/Page_Detail User/maximize image' is clickable
+
+05-01-2024T10:59:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y"]/div[@class="container-fluid py-4"]/div[@class="row d-flex justify-content-center"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="row"]/div[@class="col-12 col-md-4"]/div[1]/div[@class="photo-action"]/button[@class="d-flex justify-content-center align-items-center"]/img[1][count(. | //img[@src = '/assets/img/maximize.svg' and @alt = 'maximize']) = count(//img[@src = '/assets/img/maximize.svg' and @alt = 'maximize'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-01-2024T10:59:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Detail User/maximize image'. Try using Self-healing.
+
+05-01-2024T10:59:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Detail User/maximize image' was broken. Propose an alternative one: '//img[@alt='maximize']'.
+
+05-01-2024T10:59:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail User/maximize image' is clickable
+
+05-01-2024T10:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Detail User/maximize image")): Object: 'Object Repository/Page_Detail User/maximize image' is clicked on
+
+05-01-2024T10:59:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y"]/div[@class="container-fluid py-4"]/div[@class="row d-flex justify-content-center"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="row"]/div[@class="col-12 col-md-4"]/div[1]/div[@class="photo-action"]/button[@class="d-flex justify-content-center align-items-center"]/img[1][count(. | //img[@src = '/assets/img/maximize.svg' and @alt = 'maximize']) = count(//img[@src = '/assets/img/maximize.svg' and @alt = 'maximize'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-01-2024T10:59:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Detail User/maximize image'. Try using Self-healing.
+
+05-01-2024T10:59:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Detail User/maximize image' was broken. Propose an alternative one: '//img[@alt='maximize']'.
+
+05-01-2024T10:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Detail User/maximize image' is clicked on
+
+05-01-2024T10:59:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Detail User/close photo button")): Object 'Object Repository/Page_Detail User/close photo button' is clickable
+
+05-01-2024T10:59:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail User/close photo button' is clickable
+
+05-01-2024T10:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Detail User/close photo button")): Object: 'Object Repository/Page_Detail User/close photo button' is clicked on
+
+05-01-2024T10:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Detail User/close photo button' is clicked on
+
+05-01-2024T10:59:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Detail User/maximize image")): Object 'Object Repository/Page_Detail User/maximize image' is clickable
+
+05-01-2024T10:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail User/maximize image' is clickable
+
+05-01-2024T10:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Detail User/maximize image")): Object: 'Object Repository/Page_Detail User/maximize image' is clicked on
+
+05-01-2024T10:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Detail User/maximize image' is clicked on
+
+05-01-2024T10:59:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Detail User/button_Print Data")): Object 'Object Repository/Page_Detail User/button_Print Data' is visible
+
+05-01-2024T10:59:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y"]/div[@class="container-fluid py-4"]/div[@class="row d-flex justify-content-center"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="row"]/div[@class="col-12 col-md-8"]/button[@class="d-flex mt-3 ms-auto btn btn-primary btn-gradient align-items-center gap-1"][count(. | //button[@class = 'd-flex mt-3 ms-auto btn btn-primary btn-gradient align-items-center gap-1' and (text() = '
+                                    
+                                    Print Data
+                                ' or . = '
+                                    
+                                    Print Data
+                                ')]) = count(//button[@class = 'd-flex mt-3 ms-auto btn btn-primary btn-gradient align-items-center gap-1' and (text() = '
+                                    
+                                    Print Data
+                                ' or . = '
+                                    
+                                    Print Data
+                                ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-01-2024T10:59:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Detail User/button_Print Data'. Try using Self-healing.
+
+05-01-2024T10:59:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Detail User/button_Print Data' was broken. Propose an alternative one: '//div[2]/button'.
+
+05-01-2024T10:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail User/button_Print Data' is visible
+
+05-01-2024T10:59:53 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Page_Detail User/close photo button"), 100, 500): Object: 'Object Repository/Page_Detail User/close photo button' is clicked on using offset x=100 and y=500
+
+05-01-2024T10:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Detail User/close photo button' is clicked on using offset x=100 and y=500
+
+05-01-2024T10:59:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-01-2024T10:59:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-01-2024T10:59:25 - [TEST_SUITE][PASSED] - Close User Data Detail Profile Image Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Close User Data Detail Profile Image/PSSICloseUserProfileImage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

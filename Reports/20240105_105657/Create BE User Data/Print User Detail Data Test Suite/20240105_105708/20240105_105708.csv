@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Print User Detail Data Test Suite,Chrome 120.0.0.0,,,05-01-2024 11:01:56,05-01-2024 11:03:08,1m - 11.798s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Print User Detail Data/PSSIPrintUserDataDetail,Chrome 120.0.0.0,,,05-01-2024 11:02:53,05-01-2024 11:03:08,14.866s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:02:53,05-01-2024 11:02:53,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:02:53,05-01-2024 11:03:05,11.733s,PASSED
+"scrollToElement(findTestObject(""Page_Detail User/button_Print Data""), 1)",Chrome 120.0.0.0,,,05-01-2024 11:03:05,05-01-2024 11:03:05,0.383s,PASSED
+"verifyElementPresent(findTestObject(""Page_Detail User/button_Print Data""), 0)",Chrome 120.0.0.0,,,05-01-2024 11:03:05,05-01-2024 11:03:07,1.242s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/button_Print Data""))",Chrome 120.0.0.0,,,05-01-2024 11:03:07,05-01-2024 11:03:07,0.347s,PASSED
+"click(findTestObject(""Page_Detail User/button_Print Data""))",Chrome 120.0.0.0,,,05-01-2024 11:03:07,05-01-2024 11:03:07,0.382s,PASSED
+"verifyTextNotPresent(""Nama"", false)",Chrome 120.0.0.0,,,05-01-2024 11:03:07,05-01-2024 11:03:08,0.705s,FAILED

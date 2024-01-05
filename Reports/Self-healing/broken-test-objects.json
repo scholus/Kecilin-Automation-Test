@@ -26,6 +26,109 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Detail User/button_Print Data_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_User Data/Sort Name Ascending",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//table[@id\u003d\u0027table_data\u0027]/thead/tr/th[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_User Data/Sort Name Ascending_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Left Search Box",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//ul[@id\u003d\u0027select2-select_camera_first-results\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Left Search Box_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Right search field",
+      "brokenLocator": "id(\"select2-select_camera_secondary-results\")[count(. | //ul[@class \u003d \u0027select2-results__options\u0027 and @role \u003d \u0027listbox\u0027 and @id \u003d \u0027select2-select_camera_secondary-results\u0027 and @aria-expanded \u003d \u0027true\u0027 and @aria-hidden \u003d \u0027false\u0027 and (text() \u003d \u0027Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027 or . \u003d \u0027Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027)]) \u003d count(//ul[@class \u003d \u0027select2-results__options\u0027 and @role \u003d \u0027listbox\u0027 and @id \u003d \u0027select2-select_camera_secondary-results\u0027 and @aria-expanded \u003d \u0027true\u0027 and @aria-hidden \u003d \u0027false\u0027 and (text() \u003d \u0027Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027 or . \u003d \u0027Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//ul[@id\u003d\u0027select2-select_camera_secondary-results\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Right search field_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Right Loading CCTV stream",
+      "brokenLocator": "id(\"stream_secondary\")[count(. | //canvas[@id \u003d \u0027stream_secondary\u0027 and @width \u003d \u0027100%\u0027]) \u003d count(//canvas[@id \u003d \u0027stream_secondary\u0027 and @width \u003d \u0027100%\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//canvas[@id\u003d\u0027stream_secondary\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Right Loading CCTV stream_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Left Camera Playing",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//canvas[@id\u003d\u0027stream_first\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Left Camera Playing_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Bottom Search Box",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@type\u003d\u0027search\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Bottom Search Box_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Bottom search field",
+      "brokenLocator": "id(\"select2-select_camera_primary-results\")[count(. | //ul[@class \u003d \u0027select2-results__options\u0027 and @role \u003d \u0027listbox\u0027 and @id \u003d \u0027select2-select_camera_primary-results\u0027 and @aria-expanded \u003d \u0027true\u0027 and @aria-hidden \u003d \u0027false\u0027 and (text() \u003d \u0027Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027 or . \u003d \u0027Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027)]) \u003d count(//ul[@class \u003d \u0027select2-results__options\u0027 and @role \u003d \u0027listbox\u0027 and @id \u003d \u0027select2-select_camera_primary-results\u0027 and @aria-expanded \u003d \u0027true\u0027 and @aria-hidden \u003d \u0027false\u0027 and (text() \u003d \u0027Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027 or . \u003d \u0027Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//ul[@id\u003d\u0027select2-select_camera_primary-results\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Bottom search field_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Left Loading CCTV stream",
+      "brokenLocator": "id(\"stream_first\")[count(. | //canvas[@id \u003d \u0027stream_first\u0027 and @width \u003d \u0027100%\u0027]) \u003d count(//canvas[@id \u003d \u0027stream_first\u0027 and @width \u003d \u0027100%\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//canvas[@id\u003d\u0027stream_first\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Left Loading CCTV stream_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Left Camera Selection",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027select2-select_camera_first-container\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Left Camera Selection_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Right Camera Selection",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027select2-select_camera_secondary-container\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Right Camera Selection_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Bottom Camera Selection",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027select2-select_camera_primary-container\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Bottom Camera Selection_XPATH.png"
     }
   ]
 }

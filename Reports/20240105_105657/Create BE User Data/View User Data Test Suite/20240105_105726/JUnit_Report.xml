@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View User Data Test Suite" time="112.125" tests="3" failures="1" errors="0">
+   <testsuite name="View User Data Test Suite" tests="3" failures="1" errors="0" time="112.125" skipped="0" timestamp="05-01-2024T11:10:39" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE User Data/View User Data Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\View User Data Test Suite\\20240105_105726"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\View User Data Test Suite\\20240105_105726\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\View User Data Test Suite\\20240105_105726\\1704427885651.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\View User Data Test Suite\\20240105_105726\\1704427910539.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\View User Data Test Suite\\20240105_105726\\1704427929528.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\View User Data Test Suite\\20240105_105726\\1704427950805.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="sessionId" value="89232f46df573a864aeafaa4bab02a37"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserData" time="9.807" classname="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserData" status="PASSED">
+         <system-out><![CDATA[05-01-2024T11:10:39 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserData: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserData
+
+05-01-2024T11:10:39 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T11:10:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T11:10:41 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+05-01-2024T11:10:41 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+05-01-2024T11:10:41 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T11:10:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-01-2024T11:10:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-01-2024T11:10:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-01-2024T11:10:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-01-2024T11:10:43 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T11:10:44 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T11:10:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-01-2024T11:10:44 - [MESSAGE][PASSED] - Current window maximized
+
+05-01-2024T11:10:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T11:10:45 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T11:10:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T11:10:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T11:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T11:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T11:10:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T11:10:48 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/data_user"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully
+
+05-01-2024T11:10:49 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail" time="11.975" classname="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail" status="PASSED">
+         <system-out><![CDATA[05-01-2024T11:10:49 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail
+
+05-01-2024T11:10:49 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T11:10:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T11:10:49 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+05-01-2024T11:10:49 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+05-01-2024T11:10:49 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T11:10:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-01-2024T11:10:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-01-2024T11:10:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-01-2024T11:10:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-01-2024T11:10:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-01-2024T11:10:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T11:10:52 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T11:10:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-01-2024T11:10:52 - [MESSAGE][PASSED] - Current window maximized
+
+05-01-2024T11:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T11:10:53 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T11:10:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T11:10:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T11:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T11:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T11:10:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T11:10:56 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/data_user"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully
+
+05-01-2024T11:10:57 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully
+
+05-01-2024T11:10:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_User Data/Action Button on 1st Row of User")): Object 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clickable
+
+05-01-2024T11:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clickable
+
+05-01-2024T11:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_User Data/Action Button on 1st Row of User")): Object: 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clicked on
+
+05-01-2024T11:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clicked on
+
+05-01-2024T11:11:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_Detail User/Email_textfield"), "value", "rosyidridho@kecilin.id", 0): Object 'Object Repository/Page_Detail User/Email_textfield' has attribute 'value' with value 'rosyidridho@kecilin.id'
+
+05-01-2024T11:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+05-01-2024T11:11:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail User/Email_textfield' has attribute 'value' with value 'rosyidridho@kecilin.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail" time="21.251" classname="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)&#xa;	at PSSIZoomInAndOutImageUserDataDetail.run(PSSIZoomInAndOutImageUserDataDetail:41)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704427046120.run(TempTestSuite1704427046120.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[05-01-2024T11:12:10 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIZoomInAndOutImageUserDataDetail.run(PSSIZoomInAndOutImageUserDataDetail:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704427046120.run(TempTestSuite1704427046120.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+05-01-2024T11:12:10 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T11:12:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T11:12:10 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+05-01-2024T11:12:10 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+05-01-2024T11:12:10 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+05-01-2024T11:12:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-01-2024T11:12:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-01-2024T11:12:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-01-2024T11:12:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-01-2024T11:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-01-2024T11:12:11 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T11:12:13 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+05-01-2024T11:12:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-01-2024T11:12:13 - [MESSAGE][PASSED] - Current window maximized
+
+05-01-2024T11:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T11:12:14 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+05-01-2024T11:12:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T11:12:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+05-01-2024T11:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T11:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+05-01-2024T11:12:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+05-01-2024T11:12:17 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/data_user"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully
+
+05-01-2024T11:12:18 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/data_user' successfully
+
+05-01-2024T11:12:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_User Data/Action Button on 1st Row of User")): Object 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clickable
+
+05-01-2024T11:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clickable
+
+05-01-2024T11:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_User Data/Action Button on 1st Row of User")): Object: 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clicked on
+
+05-01-2024T11:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User Data/Action Button on 1st Row of User' is clicked on
+
+05-01-2024T11:12:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Detail User/maximize image"), 1): Scroll to object 'Object Repository/Page_Detail User/maximize image' successfully
+
+05-01-2024T11:12:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y"]/div[@class="container-fluid py-4"]/div[@class="row d-flex justify-content-center"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="row"]/div[@class="col-12 col-md-4"]/div[1]/div[@class="photo-action"]/button[@class="d-flex justify-content-center align-items-center"]/img[1][count(. | //img[@src = '/assets/img/maximize.svg' and @alt = 'maximize']) = count(//img[@src = '/assets/img/maximize.svg' and @alt = 'maximize'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-01-2024T11:12:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Detail User/maximize image'. Try using Self-healing.
+
+05-01-2024T11:12:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Detail User/maximize image' was broken. Propose an alternative one: '//img[@alt='maximize']'.
+
+05-01-2024T11:12:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Detail User/maximize image' successfully
+
+05-01-2024T11:12:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Detail User/maximize image")): Object 'Object Repository/Page_Detail User/maximize image' is clickable
+
+05-01-2024T11:12:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y"]/div[@class="container-fluid py-4"]/div[@class="row d-flex justify-content-center"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="row"]/div[@class="col-12 col-md-4"]/div[1]/div[@class="photo-action"]/button[@class="d-flex justify-content-center align-items-center"]/img[1][count(. | //img[@src = '/assets/img/maximize.svg' and @alt = 'maximize']) = count(//img[@src = '/assets/img/maximize.svg' and @alt = 'maximize'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-01-2024T11:12:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Detail User/maximize image'. Try using Self-healing.
+
+05-01-2024T11:12:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Detail User/maximize image' was broken. Propose an alternative one: '//img[@alt='maximize']'.
+
+05-01-2024T11:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail User/maximize image' is clickable
+
+05-01-2024T11:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Detail User/maximize image")): Object: 'Object Repository/Page_Detail User/maximize image' is clicked on
+
+05-01-2024T11:12:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y"]/div[@class="container-fluid py-4"]/div[@class="row d-flex justify-content-center"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="row"]/div[@class="col-12 col-md-4"]/div[1]/div[@class="photo-action"]/button[@class="d-flex justify-content-center align-items-center"]/img[1][count(. | //img[@src = '/assets/img/maximize.svg' and @alt = 'maximize']) = count(//img[@src = '/assets/img/maximize.svg' and @alt = 'maximize'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-01-2024T11:12:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Detail User/maximize image'. Try using Self-healing.
+
+05-01-2024T11:12:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Detail User/maximize image' was broken. Propose an alternative one: '//img[@alt='maximize']'.
+
+05-01-2024T11:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Detail User/maximize image' is clicked on
+
+05-01-2024T11:12:30 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("Page_Detail User/zoom in")): Unable to verify object to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIZoomInAndOutImageUserDataDetail.run(PSSIZoomInAndOutImageUserDataDetail:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704427046120.run(TempTestSuite1704427046120.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at Script1704365362219.run(Script1704365362219.groovy:41)
+	... 18 more
+)
+
+05-01-2024T11:12:30 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Detail User/zoom in' does not exist
+
+05-01-2024T11:12:30 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+05-01-2024T11:12:31 - [MESSAGE][FAILED] - Unable to verify object to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIZoomInAndOutImageUserDataDetail.run(PSSIZoomInAndOutImageUserDataDetail:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704427046120.run(TempTestSuite1704427046120.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at Script1704365362219.run(Script1704365362219.groovy:41)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240105_105657\\Create BE User Data\\View User Data Test Suite\\20240105_105726\\1704427950805.png]]]]></system-out>
+         <system-err><![CDATA[05-01-2024T11:12:10 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIZoomInAndOutImageUserDataDetail.run(PSSIZoomInAndOutImageUserDataDetail:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704427046120.run(TempTestSuite1704427046120.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-01-2024T11:10:39 - [TEST_SUITE][FAILED] - View User Data Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIZoomInAndOutImageUserDataDetail.run(PSSIZoomInAndOutImageUserDataDetail:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704427046120.run(TempTestSuite1704427046120.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[05-01-2024T11:10:39 - [TEST_SUITE][FAILED] - View User Data Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIZoomInAndOutImageUserDataDetail.run(PSSIZoomInAndOutImageUserDataDetail:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704427046120.run(TempTestSuite1704427046120.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

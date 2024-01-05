@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Close User Data Detail Profile Image Test Suite,Chrome 120.0.0.0,,,05-01-2024 10:59:25,05-01-2024 10:59:54,28.903s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Close User Data Detail Profile Image/PSSICloseUserProfileImage,Chrome 120.0.0.0,,,05-01-2024 10:59:25,05-01-2024 10:59:54,28.595s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 10:59:26,05-01-2024 10:59:27,0.752s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 10:59:27,05-01-2024 10:59:34,7.633s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 10:59:34,05-01-2024 10:59:35,0.439s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 10:59:35,05-01-2024 10:59:35,0.745s,PASSED
+"click(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 10:59:35,05-01-2024 10:59:40,5.135s,PASSED
+"scrollToElement(findTestObject(""Page_Detail User/maximize image""), 1)",Chrome 120.0.0.0,,,05-01-2024 10:59:40,05-01-2024 10:59:43,2.672s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 10:59:43,05-01-2024 10:59:46,2.440s,PASSED
+"click(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 10:59:46,05-01-2024 10:59:48,2.632s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/close photo button""))",Chrome 120.0.0.0,,,05-01-2024 10:59:48,05-01-2024 10:59:49,0.726s,PASSED
+"click(findTestObject(""Page_Detail User/close photo button""))",Chrome 120.0.0.0,,,05-01-2024 10:59:49,05-01-2024 10:59:49,0.372s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 10:59:49,05-01-2024 10:59:50,0.805s,PASSED
+"click(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 10:59:50,05-01-2024 10:59:51,0.415s,PASSED
+"verifyElementVisible(findTestObject(""Page_Detail User/button_Print Data""))",Chrome 120.0.0.0,,,05-01-2024 10:59:51,05-01-2024 10:59:53,2.619s,PASSED
+"clickOffset(findTestObject(""Page_Detail User/close photo button""), 100, 500)",Chrome 120.0.0.0,,,05-01-2024 10:59:53,05-01-2024 10:59:54,0.574s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 10:59:54,05-01-2024 10:59:54,0.274s,PASSED

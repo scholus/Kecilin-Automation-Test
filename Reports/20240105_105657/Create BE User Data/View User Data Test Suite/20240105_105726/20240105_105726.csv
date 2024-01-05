@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View User Data Test Suite,Chrome 120.0.0.0,,,05-01-2024 11:10:39,05-01-2024 11:12:31,1m - 52.125s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserData,Chrome 120.0.0.0,,,05-01-2024 11:10:39,05-01-2024 11:10:49,9.807s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:10:39,05-01-2024 11:10:40,0.859s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:10:40,05-01-2024 11:10:48,8.108s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:10:48,05-01-2024 11:10:49,0.451s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail,Chrome 120.0.0.0,,,05-01-2024 11:10:49,05-01-2024 11:11:01,11.975s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:10:49,05-01-2024 11:10:49,0.012s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:10:49,05-01-2024 11:10:56,7.053s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:10:56,05-01-2024 11:10:57,0.520s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 11:10:57,05-01-2024 11:10:58,0.812s,PASSED
+"click(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 11:10:58,05-01-2024 11:11:00,2.859s,PASSED
+"verifyElementAttributeValue(findTestObject(""Page_Detail User/Email_textfield""), ""value"", ""rosyidridho@kecilin.id"", 0)",Chrome 120.0.0.0,,,05-01-2024 11:11:00,05-01-2024 11:11:01,0.449s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIZoomInAndOutImageUserDataDetail,Chrome 120.0.0.0,,,05-01-2024 11:12:10,05-01-2024 11:12:31,21.251s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:12:10,05-01-2024 11:12:10,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:12:10,05-01-2024 11:12:17,7.057s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:12:17,05-01-2024 11:12:18,1.069s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 11:12:18,05-01-2024 11:12:19,0.751s,PASSED
+"click(findTestObject(""Page_User Data/Action Button on 1st Row of User""))",Chrome 120.0.0.0,,,05-01-2024 11:12:19,05-01-2024 11:12:23,4.047s,PASSED
+"scrollToElement(findTestObject(""Page_Detail User/maximize image""), 1)",Chrome 120.0.0.0,,,05-01-2024 11:12:23,05-01-2024 11:12:25,2.442s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 11:12:25,05-01-2024 11:12:28,2.620s,PASSED
+"click(findTestObject(""Page_Detail User/maximize image""))",Chrome 120.0.0.0,,,05-01-2024 11:12:28,05-01-2024 11:12:30,2.671s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/zoom in""))",Chrome 120.0.0.0,,,05-01-2024 11:12:30,05-01-2024 11:12:31,0.534s,FAILED

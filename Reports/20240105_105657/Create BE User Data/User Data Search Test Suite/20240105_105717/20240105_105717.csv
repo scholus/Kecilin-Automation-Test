@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Data Search Test Suite,Chrome 120.0.0.0,,,05-01-2024 11:07:10,05-01-2024 11:08:20,1m - 9.751s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/User Data Search/Negative Test Case/PSSISearchUserDataNoResult,Chrome 120.0.0.0,,,05-01-2024 11:07:37,05-01-2024 11:07:46,9.691s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:07:37,05-01-2024 11:07:37,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:07:37,05-01-2024 11:07:45,8.485s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:07:45,05-01-2024 11:07:46,0.671s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_User Data/Search Box""))",Chrome 120.0.0.0,,,05-01-2024 11:07:46,05-01-2024 11:07:46,0.501s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/User Data Search/Positive Test Case/PSSISearchUserData,Chrome 120.0.0.0,,,05-01-2024 11:08:12,05-01-2024 11:08:20,7.566s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:08:12,05-01-2024 11:08:12,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:08:12,05-01-2024 11:08:19,6.727s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:08:19,05-01-2024 11:08:19,0.497s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_User Data/Search Box""))",Chrome 120.0.0.0,,,05-01-2024 11:08:19,05-01-2024 11:08:20,0.316s,FAILED

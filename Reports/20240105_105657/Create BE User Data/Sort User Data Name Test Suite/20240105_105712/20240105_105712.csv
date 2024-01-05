@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sort User Data Name Test Suite,Chrome 120.0.0.0,,,05-01-2024 11:03:33,05-01-2024 11:06:44,3m - 10.632s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Sort User Data Name/PSSISortUserDataAscending,Chrome 120.0.0.0,,,05-01-2024 11:04:41,05-01-2024 11:05:03,21.453s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:04:41,05-01-2024 11:04:42,0.012s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:04:42,05-01-2024 11:04:51,9.119s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:04:51,05-01-2024 11:04:51,0.645s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 2""), 0)",Chrome 120.0.0.0,,,05-01-2024 11:04:51,05-01-2024 11:04:52,0.822s,PASSED
+"click(findTestObject(""Object Repository/Page_CCTV/page 2""))",Chrome 120.0.0.0,,,05-01-2024 11:04:52,05-01-2024 11:04:53,0.922s,PASSED
+"scrollToElement(findTestObject(""Page_User Data/Sort Name Unactive""), 0)",Chrome 120.0.0.0,,,05-01-2024 11:04:53,05-01-2024 11:04:57,3.809s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Sort Name Unactive""))",Chrome 120.0.0.0,,,05-01-2024 11:04:57,05-01-2024 11:04:57,0.400s,PASSED
+"click(findTestObject(""Page_User Data/Sort Name Unactive""))",Chrome 120.0.0.0,,,05-01-2024 11:04:57,05-01-2024 11:04:58,0.448s,PASSED
+"page1Object = findTestObject(""Object Repository/Page_CCTV/page 1"")",Chrome 120.0.0.0,,,05-01-2024 11:04:58,05-01-2024 11:04:58,0.045s,PASSED
+"page1Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,05-01-2024 11:04:58,05-01-2024 11:04:58,0.001s,PASSED
+"verifyElementPresent(page1Object, 3)",Chrome 120.0.0.0,,,05-01-2024 11:04:58,05-01-2024 11:05:02,3.868s,PASSED
+"verifyTextPresent(""aaaaaaaaaaaaaaaa"", false)",Chrome 120.0.0.0,,,05-01-2024 11:05:02,05-01-2024 11:05:03,1.049s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Sort User Data Name/PSSISortUserDataDescending,Chrome 120.0.0.0,,,05-01-2024 11:06:17,05-01-2024 11:06:44,26.464s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:06:17,05-01-2024 11:06:17,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:06:17,05-01-2024 11:06:24,6.341s,PASSED
+"navigateToUrl(baseUrl + ""/data_user"")",Chrome 120.0.0.0,,,05-01-2024 11:06:24,05-01-2024 11:06:27,3.183s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 2""), 1)",Chrome 120.0.0.0,,,05-01-2024 11:06:27,05-01-2024 11:06:27,0.630s,PASSED
+"click(findTestObject(""Object Repository/Page_CCTV/page 2""))",Chrome 120.0.0.0,,,05-01-2024 11:06:27,05-01-2024 11:06:28,0.387s,PASSED
+"scrollToElement(findTestObject(""Page_User Data/Sort Name Unactive""), 0)",Chrome 120.0.0.0,,,05-01-2024 11:06:28,05-01-2024 11:06:31,3.587s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Sort Name Unactive""))",Chrome 120.0.0.0,,,05-01-2024 11:06:31,05-01-2024 11:06:32,0.337s,PASSED
+"click(findTestObject(""Page_User Data/Sort Name Unactive""))",Chrome 120.0.0.0,,,05-01-2024 11:06:32,05-01-2024 11:06:32,0.429s,PASSED
+"page1Object = findTestObject(""Object Repository/Page_CCTV/page 1"")",Chrome 120.0.0.0,,,05-01-2024 11:06:32,05-01-2024 11:06:32,0.058s,PASSED
+"page1Object.addProperty(""css"", EQUALS, ""li.paginate_button.page-item.active > a.page-link"")",Chrome 120.0.0.0,,,05-01-2024 11:06:32,05-01-2024 11:06:32,0.000s,PASSED
+"verifyElementPresent(page1Object, 3)",Chrome 120.0.0.0,,,05-01-2024 11:06:32,05-01-2024 11:06:39,6.630s,PASSED
+"scrollToElement(findTestObject(""Page_CCTV/page 2""), 1)",Chrome 120.0.0.0,,,05-01-2024 11:06:39,05-01-2024 11:06:39,0.354s,PASSED
+"click(findTestObject(""Object Repository/Page_CCTV/page 2""))",Chrome 120.0.0.0,,,05-01-2024 11:06:39,05-01-2024 11:06:40,0.976s,PASSED
+"scrollToElement(findTestObject(""Page_User Data/Sort Name Ascending""), 0)",Chrome 120.0.0.0,,,05-01-2024 11:06:40,05-01-2024 11:06:41,0.928s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Sort Name Ascending""))",Chrome 120.0.0.0,,,05-01-2024 11:06:41,05-01-2024 11:06:41,0.353s,PASSED
+"click(findTestObject(""Page_User Data/Sort Name Ascending""))",Chrome 120.0.0.0,,,05-01-2024 11:06:41,05-01-2024 11:06:42,0.346s,PASSED
+"verifyElementPresent(page1Object, 3)",Chrome 120.0.0.0,,,05-01-2024 11:06:42,05-01-2024 11:06:42,0.583s,PASSED
+"verifyTextPresent(""zzzzzzzzzzzzzzzzz"", false)",Chrome 120.0.0.0,,,05-01-2024 11:06:42,05-01-2024 11:06:44,1.303s,FAILED

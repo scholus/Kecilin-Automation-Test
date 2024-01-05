@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Status Test Suite,Chrome 120.0.0.0,,,05-01-2024 11:08:48,05-01-2024 11:10:05,1m - 16.974s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/User Status/PSSIUserStatusNotVerified,Chrome 120.0.0.0,,,05-01-2024 11:09:17,05-01-2024 11:09:26,8.092s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:09:17,05-01-2024 11:09:17,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:09:17,05-01-2024 11:09:25,7.067s,PASSED
+"verifyTextPresent(""Not Verified"", false)",Chrome 120.0.0.0,,,05-01-2024 11:09:25,05-01-2024 11:09:26,0.990s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/User Status/PSSIUserStatusVerified,Chrome 120.0.0.0,,,05-01-2024 11:09:56,05-01-2024 11:10:05,8.325s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 11:09:57,05-01-2024 11:09:57,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserData""), [:])",Chrome 120.0.0.0,,,05-01-2024 11:09:57,05-01-2024 11:10:04,7.064s,PASSED
+"verifyTextPresent(""Verified"", false)",Chrome 120.0.0.0,,,05-01-2024 11:10:04,05-01-2024 11:10:05,1.213s,FAILED

@@ -1,0 +1,22 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Detail User/maximize image",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//img[@alt\u003d\u0027maximize\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240105_105657/Create BE User Data/Close User Data Detail Profile Image Test Suite/20240105_105701/Object Repository/Page_Detail User/maximize image_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Detail User/button_Print Data",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240105_105657/Create BE User Data/Close User Data Detail Profile Image Test Suite/20240105_105701/Object Repository/Page_Detail User/button_Print Data_XPATH.png"
+    }
+  ]
+}

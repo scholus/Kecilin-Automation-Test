@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Detail User/maximize image",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//img[@alt\u003d\u0027maximize\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240105_105657/Create BE User Data/Download User Data Detail Profile Image Test Suite/20240105_105705/Object Repository/Page_Detail User/maximize image_XPATH.png"
+    }
+  ]
+}

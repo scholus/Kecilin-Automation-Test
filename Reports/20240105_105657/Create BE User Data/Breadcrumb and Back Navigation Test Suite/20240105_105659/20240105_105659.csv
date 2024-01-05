@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Breadcrumb and Back Navigation Test Suite,Chrome 120.0.0.0,,,05-01-2024 10:57:38,05-01-2024 10:59:01,1m - 22.256s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Breadcrumb and Back Navigation/PSSIBackInUserDetailPage,Chrome 120.0.0.0,,,05-01-2024 10:57:39,05-01-2024 10:57:56,16.749s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 10:57:39,05-01-2024 10:57:40,0.958s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail""), [:])",Chrome 120.0.0.0,,,05-01-2024 10:57:40,05-01-2024 10:57:53,12.374s,PASSED
+"verifyElementClickable(findTestObject(""Page_Detail User/Back Button""))",Chrome 120.0.0.0,,,05-01-2024 10:57:53,05-01-2024 10:57:53,0.389s,PASSED
+"click(findTestObject(""Page_Detail User/Back Button""))",Chrome 120.0.0.0,,,05-01-2024 10:57:53,05-01-2024 10:57:54,0.724s,PASSED
+"verifyTextPresent(""#"", false)",Chrome 120.0.0.0,,,05-01-2024 10:57:54,05-01-2024 10:57:55,0.691s,PASSED
+"verifyTextPresent(""Profil Picture"", false)",Chrome 120.0.0.0,,,05-01-2024 10:57:55,05-01-2024 10:57:55,0.414s,PASSED
+"verifyTextPresent(""Name"", false)",Chrome 120.0.0.0,,,05-01-2024 10:57:55,05-01-2024 10:57:55,0.399s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 10:57:55,05-01-2024 10:57:56,0.244s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE User Data/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage,Chrome 120.0.0.0,,,05-01-2024 10:58:44,05-01-2024 10:59:01,16.453s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,05-01-2024 10:58:44,05-01-2024 10:58:44,0.003s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE User Data/View User Data/Positive Test Case/PSSIViewUserDataDetail""), [:])",Chrome 120.0.0.0,,,05-01-2024 10:58:44,05-01-2024 10:58:56,11.757s,PASSED
+"verifyElementPresent(findTestObject(""Page_User Data/Breadcrumb User Data""), 0)",Chrome 120.0.0.0,,,05-01-2024 10:58:56,05-01-2024 10:58:56,0.350s,PASSED
+"verifyElementClickable(findTestObject(""Page_User Data/Breadcrumb User Data""))",Chrome 120.0.0.0,,,05-01-2024 10:58:56,05-01-2024 10:58:57,0.335s,PASSED
+"click(findTestObject(""Page_User Data/Breadcrumb User Data""))",Chrome 120.0.0.0,,,05-01-2024 10:58:57,05-01-2024 10:59:01,3.955s,FAILED
