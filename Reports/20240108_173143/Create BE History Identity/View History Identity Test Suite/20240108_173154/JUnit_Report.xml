@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View History Identity Test Suite" time="9.83" tests="1" failures="0" errors="0">
+   <testsuite name="View History Identity Test Suite" tests="1" failures="0" errors="0" time="9.83" skipped="0" timestamp="08-01-2024T17:36:42" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE History Identity/View History Identity Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_173143\\Create BE History Identity\\View History Identity Test Suite\\20240108_173154"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_173143\\Create BE History Identity\\View History Identity Test Suite\\20240108_173154\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="2ccdcc2b25fbbc9789e7ac8dee160e56"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE History Identity/View History Identity/PSSIViewHistoryIdentityData" time="9.478" classname="Test Cases/Offline PSSI Dashboard Function/Create BE History Identity/View History Identity/PSSIViewHistoryIdentityData" status="PASSED">
+         <system-out><![CDATA[08-01-2024T17:36:42 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE History Identity/View History Identity/PSSIViewHistoryIdentityData: Test Cases/Offline PSSI Dashboard Function/Create BE History Identity/View History Identity/PSSIViewHistoryIdentityData
+
+08-01-2024T17:36:42 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T17:36:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T17:36:43 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+08-01-2024T17:36:44 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+08-01-2024T17:36:44 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T17:36:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T17:36:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T17:36:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T17:36:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T17:36:46 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T17:36:47 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T17:36:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2024T17:36:47 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2024T17:36:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T17:36:48 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T17:36:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T17:36:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T17:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T17:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T17:36:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T17:36:51 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/history_identity"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/history_identity' successfully
+
+08-01-2024T17:36:51 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/history_identity' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-01-2024T17:36:42 - [TEST_SUITE][PASSED] - View History Identity Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE History Identity/View History Identity/PSSIViewHistoryIdentityData]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
