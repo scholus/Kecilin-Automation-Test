@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PSSIMonitoringRemoveCCTVSelection</name>
+   <name>PSSICancelDeleteHistoryIdentity</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2ffa446d-5f4f-4f92-87d1-518ac95fa26f</testCaseGuid>
+   <testCaseGuid>8dec4466-155e-4757-b273-3455de2febed</testCaseGuid>
 </TestCaseEntity>

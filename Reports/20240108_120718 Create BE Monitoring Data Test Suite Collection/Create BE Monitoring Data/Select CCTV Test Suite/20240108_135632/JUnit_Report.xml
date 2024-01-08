@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Select CCTV Test Suite" time="617.584" tests="5" failures="1" errors="0">
+   <testsuite name="Select CCTV Test Suite" tests="5" failures="1" errors="0" time="617.584" skipped="0" timestamp="08-01-2024T13:56:53" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Monitoring Data/Select CCTV Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697045823.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697053395.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697061088.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697061583.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697085735.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697093022.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697099377.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697099983.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697121107.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697127327.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697134844.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697135259.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697159930.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697166480.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697172726.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697173473.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697297879.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697310324.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697328691.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697338061.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697406857.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697424078.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697487702.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697495389.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697537602.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697549776.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697609158.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697622951.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.183"/>
+         <property name="sessionId" value="5b6a015f305922d9a7fb3339edcf8bc1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection" time="38.432" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)&#xa;	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id(&quot;stream_first&quot;)[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 24 more&#xa;"/>
+         <system-out><![CDATA[08-01-2024T13:58:55 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 24 more
+
+
+08-01-2024T13:58:55 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T13:58:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T13:58:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData
+
+08-01-2024T13:58:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T13:58:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T13:58:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+08-01-2024T13:58:56 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+08-01-2024T13:58:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T13:58:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T13:58:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T13:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T13:59:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T13:59:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T13:59:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T13:59:05 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T13:59:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2024T13:59:06 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2024T13:59:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T13:59:07 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T13:59:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T13:59:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T13:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T13:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T13:59:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T13:59:10 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/monitoring"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T13:59:11 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T13:59:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T13:59:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T13:59:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T13:59:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T13:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T13:59:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left search field")): Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T13:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T13:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Left search field"), "CCTV"): Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T13:59:14 - [MESSAGE][PASSED] - Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T13:59:14 - [TEST_STEP][PASSED] - expectedPattern = ".*CCTV.*": null
+
+08-01-2024T13:59:14 - [TEST_STEP][PASSED] - elementText = getText(findTestObject("Page_Monitoring/Left Search Box")): Text of object 'Object Repository/Page_Monitoring/Left Search Box' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T13:59:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_first-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_first-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_first-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T13:59:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Search Box'. Try using Self-healing.
+
+08-01-2024T13:59:17 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Search Box' was broken. Propose an alternative one: '//ul[@id='select2-select_camera_first-results']'.
+
+08-01-2024T13:59:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Monitoring/Left Search Box' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T13:59:17 - [TEST_STEP][PASSED] - isTextMatched = Pattern.matches(expectedPattern, elementText): null
+
+08-01-2024T13:59:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Left search field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T13:59:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T13:59:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T13:59:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T13:59:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T13:59:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T13:59:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T13:59:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T13:59:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T13:59:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T13:59:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Camera Playing")): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T13:59:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T13:59:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T13:59:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T13:59:19 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T13:59:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T13:59:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697159930.png]]
+
+08-01-2024T13:59:21 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T13:59:26 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T13:59:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T13:59:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697166480.png]]
+
+08-01-2024T13:59:28 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@22cbbe87' and expected object '[B@46e32574' are not equal
+
+08-01-2024T13:59:28 - [MESSAGE][PASSED] - Actual object '[B@22cbbe87' and expected object '[B@46e32574' are not equal
+
+08-01-2024T13:59:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left remove selection bar")): Object 'Object Repository/Page_Monitoring/Left remove selection bar' is clickable
+
+08-01-2024T13:59:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left remove selection bar' is clickable
+
+08-01-2024T13:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left remove selection bar")): Object: 'Object Repository/Page_Monitoring/Left remove selection bar' is clicked on
+
+08-01-2024T13:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left remove selection bar' is clicked on
+
+08-01-2024T13:59:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Monitoring/Left Camera Selection"), "-- Search --"): Actual text and expected text of test object 'Object Repository/Page_Monitoring/Left Camera Selection' are matched.
+
+08-01-2024T13:59:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Monitoring/Left Camera Selection' are matched.
+
+08-01-2024T13:59:30 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Page_Monitoring/Left Loading CCTV stream"), 0): Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 24 more
+)
+
+08-01-2024T13:59:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+08-01-2024T13:59:33 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697172726.png]]
+
+08-01-2024T13:59:34 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 24 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697173473.png]]]]></system-out>
+         <system-err><![CDATA[08-01-2024T13:58:55 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 24 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringCloseCCTVSelection" time="66.563" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringCloseCCTVSelection" status="PASSED">
+         <system-out><![CDATA[08-01-2024T13:59:34 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringCloseCCTVSelection: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringCloseCCTVSelection
+
+08-01-2024T13:59:35 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T13:59:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T13:59:35 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData
+
+08-01-2024T13:59:35 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T13:59:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T13:59:35 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+08-01-2024T13:59:35 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+08-01-2024T13:59:35 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T13:59:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T13:59:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T13:59:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T13:59:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T13:59:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T13:59:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T13:59:45 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T13:59:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2024T13:59:46 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2024T13:59:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T13:59:47 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T13:59:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T13:59:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T13:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T13:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T13:59:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T13:59:53 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/monitoring"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T13:59:53 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T13:59:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T13:59:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T13:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T13:59:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T13:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T13:59:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T13:59:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T13:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T13:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T13:59:58 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Monitoring/Left search field"), 0): Web element with id: 'Object Repository/Page_Monitoring/Left search field' located by 'By.xpath: //*[@type = 'search']' is not present after '1' second(s)
+
+08-01-2024T13:59:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+08-01-2024T13:59:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Monitoring/Left search field' located by 'By.xpath: //*[@type = 'search']' is not present after '1' second(s)
+
+08-01-2024T13:59:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:00:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_first-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_first-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_first-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_first-container']'.
+
+08-01-2024T14:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:00:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_first-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_first-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_first-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_first-container']'.
+
+08-01-2024T14:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:00:05 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Page_Monitoring/Left Camera Selection"), 50, 100): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on using offset x=50 and y=100
+
+08-01-2024T14:00:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_first-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_first-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_first-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_first-container']'.
+
+08-01-2024T14:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on using offset x=50 and y=100
+
+08-01-2024T14:00:08 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Monitoring/Left search field"), 0): Web element with id: 'Object Repository/Page_Monitoring/Left search field' located by 'By.xpath: //*[@type = 'search']' is not present after '1' second(s)
+
+08-01-2024T14:00:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+08-01-2024T14:00:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Monitoring/Left search field' located by 'By.xpath: //*[@type = 'search']' is not present after '1' second(s)
+
+08-01-2024T14:00:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Right Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:00:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:00:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Camera Selection")): Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Right Camera Selection")): Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Camera Selection")): Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Right Camera Selection")): Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:14 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Monitoring/Right search field"), 0): Web element with id: 'Object Repository/Page_Monitoring/Right search field' located by 'By.xpath: id("select2-select_camera_secondary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+08-01-2024T14:00:14 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Monitoring/Right search field' located by 'By.xpath: id("select2-select_camera_secondary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Camera Selection")): Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_secondary-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_secondary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_secondary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Right Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Right Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_secondary-container']'.
+
+08-01-2024T14:00:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Right Camera Selection")): Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_secondary-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_secondary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_secondary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Right Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Right Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_secondary-container']'.
+
+08-01-2024T14:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:22 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Page_Monitoring/Right Camera Selection"), 50, 100): Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on using offset x=50 and y=100
+
+08-01-2024T14:00:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_secondary-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_secondary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_secondary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Right Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Right Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_secondary-container']'.
+
+08-01-2024T14:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on using offset x=50 and y=100
+
+08-01-2024T14:00:25 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Monitoring/Right search field"), 0): Web element with id: 'Object Repository/Page_Monitoring/Right search field' located by 'By.xpath: id("select2-select_camera_secondary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+08-01-2024T14:00:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Monitoring/Right search field' located by 'By.xpath: id("select2-select_camera_secondary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Bottom Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:00:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:00:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:00:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:00:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:00:29 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Monitoring/Bottom search field"), 0): Web element with id: 'Object Repository/Page_Monitoring/Bottom search field' located by 'By.xpath: id("select2-select_camera_primary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+08-01-2024T14:00:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Monitoring/Bottom search field' located by 'By.xpath: id("select2-select_camera_primary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:00:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_primary-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_primary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_primary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_primary-container']'.
+
+08-01-2024T14:00:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:00:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:00:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_primary-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_primary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_primary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_primary-container']'.
+
+08-01-2024T14:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:00:35 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Page_Monitoring/Bottom Camera Selection"), 50, 100): Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on using offset x=50 and y=100
+
+08-01-2024T14:00:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_primary-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_primary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-select_camera_primary-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search --' and (text() = '-- Search --' or . = '-- Search --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:00:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Camera Selection'. Try using Self-healing.
+
+08-01-2024T14:00:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Camera Selection' was broken. Propose an alternative one: '//span[@id='select2-select_camera_primary-container']'.
+
+08-01-2024T14:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on using offset x=50 and y=100
+
+08-01-2024T14:00:38 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Monitoring/Bottom search field"), 0): Web element with id: 'Object Repository/Page_Monitoring/Bottom search field' located by 'By.xpath: id("select2-select_camera_primary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+08-01-2024T14:00:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Monitoring/Bottom search field' located by 'By.xpath: id("select2-select_camera_primary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]' is not present after '1' second(s)
+
+08-01-2024T14:00:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-01-2024T14:00:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringSelectCCTVSearchNoResult" time="27.546" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringSelectCCTVSearchNoResult" status="PASSED">
+         <system-out><![CDATA[08-01-2024T14:00:40 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringSelectCCTVSearchNoResult: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringSelectCCTVSearchNoResult
+
+08-01-2024T14:00:41 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:00:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T14:00:41 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData
+
+08-01-2024T14:00:41 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:00:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T14:00:41 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+08-01-2024T14:00:41 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+08-01-2024T14:00:41 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:00:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T14:00:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T14:00:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T14:00:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T14:00:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T14:00:46 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T14:00:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2024T14:00:46 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2024T14:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T14:00:48 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T14:00:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T14:00:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T14:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T14:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T14:00:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T14:00:52 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/monitoring"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T14:00:53 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T14:00:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T14:00:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:00:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left search field")): Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T14:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T14:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Left search field"), "heheheh"): Text 'heheheh' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:00:56 - [MESSAGE][PASSED] - Text 'heheheh' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:00:56 - [TEST_STEP][PASSED] - verifyTextPresent("No results found", false): Text 'No results found' is present on page 
+
+08-01-2024T14:00:57 - [MESSAGE][PASSED] - Text 'No results found' is present on page 
+
+08-01-2024T14:00:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Right Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:00:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:00:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Camera Selection")): Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Right Camera Selection")): Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:00:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Search Box")): Object 'Object Repository/Page_Monitoring/Right Search Box' is clickable
+
+08-01-2024T14:01:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Search Box' is clickable
+
+08-01-2024T14:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Right Search Box"), "hehehhe"): Text 'hehehhe' is set on object 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:01:02 - [MESSAGE][PASSED] - Text 'hehehhe' is set on object 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:01:02 - [TEST_STEP][PASSED] - verifyTextPresent("No results found", false): Text 'No results found' is present on page 
+
+08-01-2024T14:01:03 - [MESSAGE][PASSED] - Text 'No results found' is present on page 
+
+08-01-2024T14:01:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Bottom Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:01:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:01:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:01:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:01:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Search Box")): Object 'Object Repository/Page_Monitoring/Bottom Search Box' is clickable
+
+08-01-2024T14:01:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Search Box' is clickable
+
+08-01-2024T14:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Bottom Search Box"), "ehehehhe"): Text 'ehehehhe' is set on object 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:01:06 - [MESSAGE][PASSED] - Text 'ehehehhe' is set on object 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:01:06 - [TEST_STEP][PASSED] - verifyTextPresent("No results found", false): Text 'No results found' is present on page 
+
+08-01-2024T14:01:08 - [MESSAGE][PASSED] - Text 'No results found' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVArrowKeys" time="167.957" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVArrowKeys" status="PASSED">
+         <system-out><![CDATA[08-01-2024T14:01:08 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVArrowKeys: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVArrowKeys
+
+08-01-2024T14:01:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:01:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T14:01:09 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData
+
+08-01-2024T14:01:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:01:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T14:01:09 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+08-01-2024T14:01:10 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+08-01-2024T14:01:10 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:01:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T14:01:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T14:01:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T14:01:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T14:01:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T14:01:18 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T14:01:20 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T14:01:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2024T14:01:20 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2024T14:01:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T14:01:21 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T14:01:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T14:01:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T14:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T14:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T14:01:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T14:01:25 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/monitoring"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T14:01:26 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T14:01:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T14:01:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:01:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Left search field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:01:28 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:01:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Left search field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:01:29 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:01:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Left search field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:01:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:01:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:01:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:01:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:01:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:01:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T14:01:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T14:01:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:01:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Camera Playing")): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:01:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T14:01:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T14:01:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:01:37 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:01:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:01:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697297879.png]]
+
+08-01-2024T14:01:45 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T14:01:50 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:01:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:01:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697310324.png]]
+
+08-01-2024T14:01:56 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@47b8f783' and expected object '[B@4918f4ad' are not equal
+
+08-01-2024T14:01:56 - [MESSAGE][PASSED] - Actual object '[B@47b8f783' and expected object '[B@4918f4ad' are not equal
+
+08-01-2024T14:01:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Right Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:01:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:01:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Camera Selection")): Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Right Camera Selection")): Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:02:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Right Search Box"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:02:02 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:02:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Right Search Box"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:02:03 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:02:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Right Search Box"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:02:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:02:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Right Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:02:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:02:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Right Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:02:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("stream_secondary")[count(. | //canvas[@id = 'stream_secondary' and @width = '100%']) = count(//canvas[@id = 'stream_secondary' and @width = '100%'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:02:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Right Loading CCTV stream'. Try using Self-healing.
+
+08-01-2024T14:02:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' was broken. Propose an alternative one: '//canvas[@id='stream_secondary']'.
+
+08-01-2024T14:02:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:02:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Right Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:02:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Right Camera Playing")): Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:02:08 - [TEST_STEP][PASSED] - screenshot3 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:02:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:02:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697328691.png]]
+
+08-01-2024T14:02:12 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T14:02:17 - [TEST_STEP][PASSED] - screenshot4 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:02:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:02:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697338061.png]]
+
+08-01-2024T14:02:26 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot3, screenshot4): Actual object '[B@22ce83d6' and expected object '[B@6e74628f' are not equal
+
+08-01-2024T14:02:26 - [MESSAGE][PASSED] - Actual object '[B@22ce83d6' and expected object '[B@6e74628f' are not equal
+
+08-01-2024T14:02:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Bottom Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:02:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:02:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:02:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:02:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Bottom Search Box"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:02:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:02:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Search Box'. Try using Self-healing.
+
+08-01-2024T14:02:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Search Box' was broken. Propose an alternative one: '//input[@type='search']'.
+
+08-01-2024T14:02:39 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:02:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Bottom Search Box"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:02:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:02:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Search Box'. Try using Self-healing.
+
+08-01-2024T14:02:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Search Box' was broken. Propose an alternative one: '//input[@type='search']'.
+
+08-01-2024T14:02:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:02:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Bottom Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:02:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:02:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Bottom Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:03:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:03:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Bottom Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:03:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:03:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Bottom Camera Playing")): Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:03:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:03:26 - [TEST_STEP][PASSED] - screenshot5 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:03:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:03:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697406857.png]]
+
+08-01-2024T14:03:39 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T14:03:44 - [TEST_STEP][PASSED] - screenshot6 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:03:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:03:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697424078.png]]
+
+08-01-2024T14:03:56 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot5, screenshot6): Actual object '[B@1f0b2ffb' and expected object '[B@29e3c7fe' are not equal
+
+08-01-2024T14:03:56 - [MESSAGE][PASSED] - Actual object '[B@1f0b2ffb' and expected object '[B@29e3c7fe' are not equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVSearch" time="194.63" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVSearch" status="PASSED">
+         <system-out><![CDATA[08-01-2024T14:03:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVSearch: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVSearch
+
+08-01-2024T14:03:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:03:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T14:03:58 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData
+
+08-01-2024T14:03:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:03:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T14:03:58 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+08-01-2024T14:03:58 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+08-01-2024T14:03:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T14:03:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T14:03:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T14:04:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T14:04:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T14:04:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T14:04:28 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T14:04:29 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T14:04:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2024T14:04:29 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2024T14:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T14:04:31 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T14:04:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T14:04:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T14:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T14:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T14:04:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T14:04:35 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/monitoring"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T14:04:36 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T14:04:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T14:04:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T14:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T14:04:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left search field")): Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T14:04:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T14:04:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Left search field"), "CCTV"): Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:04:40 - [MESSAGE][PASSED] - Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:04:40 - [TEST_STEP][PASSED] - expectedPattern = ".*CCTV.*": null
+
+08-01-2024T14:04:40 - [TEST_STEP][PASSED] - elementText = getText(findTestObject("Page_Monitoring/Left Search Box")): Text of object 'Object Repository/Page_Monitoring/Left Search Box' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T14:04:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_first-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_first-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_first-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:04:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Search Box'. Try using Self-healing.
+
+08-01-2024T14:04:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Search Box' was broken. Propose an alternative one: '//ul[@id='select2-select_camera_first-results']'.
+
+08-01-2024T14:04:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Monitoring/Left Search Box' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T14:04:43 - [TEST_STEP][PASSED] - isTextMatched = Pattern.matches(expectedPattern, elementText): null
+
+08-01-2024T14:04:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Left search field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:04:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T14:04:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:04:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:04:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:04:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T14:04:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:04:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T14:04:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T14:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:04:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Camera Playing")): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:04:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T14:04:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T14:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T14:04:47 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:04:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:04:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697487702.png]]
+
+08-01-2024T14:04:50 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T14:04:55 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:05:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:05:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697495389.png]]
+
+08-01-2024T14:05:07 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@45da0d4' and expected object '[B@3e5d28ee' are not equal
+
+08-01-2024T14:05:07 - [MESSAGE][PASSED] - Actual object '[B@45da0d4' and expected object '[B@3e5d28ee' are not equal
+
+08-01-2024T14:05:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Right Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:05:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Right Camera Selection' successfully
+
+08-01-2024T14:05:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Camera Selection")): Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Selection' is clickable
+
+08-01-2024T14:05:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Right Camera Selection")): Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Right Camera Selection' is clicked on
+
+08-01-2024T14:05:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Right Search Box")): Object 'Object Repository/Page_Monitoring/Right Search Box' is clickable
+
+08-01-2024T14:05:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Search Box' is clickable
+
+08-01-2024T14:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Right Search Box"), "CCTV"): Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:05:15 - [MESSAGE][PASSED] - Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:05:15 - [TEST_STEP][PASSED] - elementText2 = getText(findTestObject("Page_Monitoring/Right search field")): Text of object 'Object Repository/Page_Monitoring/Right search field' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T14:05:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_secondary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_secondary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:05:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Right search field'. Try using Self-healing.
+
+08-01-2024T14:05:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Right search field' was broken. Propose an alternative one: '//ul[@id='select2-select_camera_secondary-results']'.
+
+08-01-2024T14:05:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Monitoring/Right search field' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T14:05:18 - [TEST_STEP][PASSED] - isTextMatched2 = Pattern.matches(expectedPattern, elementText): null
+
+08-01-2024T14:05:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Right Search Box"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:05:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Right Search Box'
+
+08-01-2024T14:05:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Right Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:05:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Right Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:05:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("stream_secondary")[count(. | //canvas[@id = 'stream_secondary' and @width = '100%']) = count(//canvas[@id = 'stream_secondary' and @width = '100%'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:05:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Right Loading CCTV stream'. Try using Self-healing.
+
+08-01-2024T14:05:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' was broken. Propose an alternative one: '//canvas[@id='stream_secondary']'.
+
+08-01-2024T14:05:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Loading CCTV stream' is visible
+
+08-01-2024T14:05:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Right Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:05:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Right Camera Playing")): Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:05:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Right Camera Playing' is visible
+
+08-01-2024T14:05:37 - [TEST_STEP][PASSED] - screenshot3 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:05:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:05:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697537602.png]]
+
+08-01-2024T14:05:44 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T14:05:49 - [TEST_STEP][PASSED] - screenshot4 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:05:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:05:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697549776.png]]
+
+08-01-2024T14:05:59 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@45da0d4' and expected object '[B@3e5d28ee' are not equal
+
+08-01-2024T14:05:59 - [MESSAGE][PASSED] - Actual object '[B@45da0d4' and expected object '[B@3e5d28ee' are not equal
+
+08-01-2024T14:05:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Bottom Camera Selection"), 1): Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:06:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Bottom Camera Selection' successfully
+
+08-01-2024T14:06:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:06:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clickable
+
+08-01-2024T14:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Bottom Camera Selection")): Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Bottom Camera Selection' is clicked on
+
+08-01-2024T14:06:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Bottom Search Box")): Object 'Object Repository/Page_Monitoring/Bottom Search Box' is clickable
+
+08-01-2024T14:06:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:06:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Search Box'. Try using Self-healing.
+
+08-01-2024T14:06:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Search Box' was broken. Propose an alternative one: '//input[@type='search']'.
+
+08-01-2024T14:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Search Box' is clickable
+
+08-01-2024T14:06:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Bottom Search Box"), "CCTV"): Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:06:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:06:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Search Box'. Try using Self-healing.
+
+08-01-2024T14:06:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Search Box' was broken. Propose an alternative one: '//input[@type='search']'.
+
+08-01-2024T14:06:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:06:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Search Box'. Try using Self-healing.
+
+08-01-2024T14:06:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Search Box' was broken. Propose an alternative one: '//input[@type='search']'.
+
+08-01-2024T14:06:24 - [MESSAGE][PASSED] - Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:06:24 - [TEST_STEP][PASSED] - elementText3 = getText(findTestObject("Page_Monitoring/Bottom search field")): Text of object 'Object Repository/Page_Monitoring/Bottom search field' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T14:06:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_primary-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_primary-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:06:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom search field'. Try using Self-healing.
+
+08-01-2024T14:06:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom search field' was broken. Propose an alternative one: '//ul[@id='select2-select_camera_primary-results']'.
+
+08-01-2024T14:06:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Monitoring/Bottom search field' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T14:06:30 - [TEST_STEP][PASSED] - isTextMatched3 = Pattern.matches(expectedPattern, elementText): null
+
+08-01-2024T14:06:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Bottom Search Box"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:06:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-select_camera_primary-results'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T14:06:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Bottom Search Box'. Try using Self-healing.
+
+08-01-2024T14:06:36 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Bottom Search Box' was broken. Propose an alternative one: '//input[@type='search']'.
+
+08-01-2024T14:06:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Bottom Search Box'
+
+08-01-2024T14:06:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Bottom Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:06:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Bottom Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:06:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Loading CCTV stream' is visible
+
+08-01-2024T14:06:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Bottom Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:06:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Bottom Camera Playing")): Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:06:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Bottom Camera Playing' is visible
+
+08-01-2024T14:06:49 - [TEST_STEP][PASSED] - screenshot5 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:06:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:06:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697609158.png]]
+
+08-01-2024T14:06:57 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T14:07:02 - [TEST_STEP][PASSED] - screenshot6 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T14:07:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T14:07:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_135632\\Create BE Monitoring Data\\Select CCTV Test Suite\\20240108_135632\\1704697622951.png]]
+
+08-01-2024T14:07:10 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@45da0d4' and expected object '[B@3e5d28ee' are not equal
+
+08-01-2024T14:07:10 - [MESSAGE][PASSED] - Actual object '[B@45da0d4' and expected object '[B@3e5d28ee' are not equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-01-2024T13:56:53 - [TEST_SUITE][FAILED] - Select CCTV Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-out>
+      <system-err><![CDATA[08-01-2024T13:56:53 - [TEST_SUITE][FAILED] - Select CCTV Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIMonitoringClearCCTVSelection.run(PSSIMonitoringClearCCTVSelection:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704696992975.run(TempTestSuite1704696992975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Monitoring/Left Loading CCTV stream' located by 'By.xpath: id("stream_first")[count(. | //canvas[@id = 'stream_first' and @width = '100%']) = count(//canvas[@id = 'stream_first' and @width = '100%'])]' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+   </testsuite>
+</testsuites>

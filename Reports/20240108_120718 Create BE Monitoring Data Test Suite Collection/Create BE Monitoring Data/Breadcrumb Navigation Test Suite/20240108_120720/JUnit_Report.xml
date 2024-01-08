@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Breadcrumb Navigation Test Suite" time="150.833" tests="1" failures="1" errors="0">
+   <testsuite name="Breadcrumb Navigation Test Suite" tests="1" failures="1" errors="0" time="150.833" skipped="0" timestamp="08-01-2024T12:07:43" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Monitoring Data/Breadcrumb Navigation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690486156.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690493529.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690499160.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690514124.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690520346.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690525689.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690540808.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690546719.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690586419.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690602776.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690608939.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690613959.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.183"/>
+         <property name="sessionId" value="6a50f9ef8d7e9bd73a8f8c4e6f9ee20f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult" time="27.503" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)&#xa;	at PSSIBreadcrumbInMonitoringResult.run(PSSIBreadcrumbInMonitoringResult:79)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704690440418.run(TempTestSuite1704690440418.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[08-01-2024T12:09:46 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIBreadcrumbInMonitoringResult.run(PSSIBreadcrumbInMonitoringResult:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704690440418.run(TempTestSuite1704690440418.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-01-2024T12:09:46 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T12:09:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T12:09:46 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData
+
+08-01-2024T12:09:46 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T12:09:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T12:09:46 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+08-01-2024T12:09:46 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+08-01-2024T12:09:46 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+08-01-2024T12:09:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T12:09:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T12:09:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T12:09:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T12:09:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T12:09:49 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T12:09:50 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+08-01-2024T12:09:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2024T12:09:51 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2024T12:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T12:09:51 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+08-01-2024T12:09:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T12:09:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+08-01-2024T12:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T12:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+08-01-2024T12:09:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+08-01-2024T12:09:54 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/monitoring"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T12:09:55 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/monitoring' successfully
+
+08-01-2024T12:09:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData' successfully
+
+08-01-2024T12:09:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Camera Selection")): Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T12:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Selection' is clickable
+
+08-01-2024T12:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Camera Selection")): Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T12:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Camera Selection' is clicked on
+
+08-01-2024T12:09:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left search field")): Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T12:09:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left search field' is clickable
+
+08-01-2024T12:09:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Monitoring/Left search field"), "CCTV"): Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T12:09:57 - [MESSAGE][PASSED] - Text 'CCTV' is set on object 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T12:09:57 - [TEST_STEP][PASSED] - expectedPattern = ".*CCTV.*": null
+
+08-01-2024T12:09:57 - [TEST_STEP][PASSED] - elementText = getText(findTestObject("Page_Monitoring/Left Search Box")): Text of object 'Object Repository/Page_Monitoring/Left Search Box' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T12:10:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-select_camera_first-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_first-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-select_camera_first-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a' or . = 'Searching…Stadion Utama Gelora Bung Karno - Testing 1Stadion Utama Gelora Bung Karno - CCTV 1Stadion Gelora Bandung Lautan Api - Stadion GBLAStadion Gelora Bandung Lautan Api - Stadion GBLA - KompresiStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - aStadion Gelora Bangkalan - a')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-01-2024T12:10:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Search Box'. Try using Self-healing.
+
+08-01-2024T12:10:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Search Box' was broken. Propose an alternative one: '//ul[@id='select2-select_camera_first-results']'.
+
+08-01-2024T12:10:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Monitoring/Left Search Box' is: 'Stadion Utama Gelora Bung Karno - CCTV 1'
+
+08-01-2024T12:10:00 - [TEST_STEP][PASSED] - isTextMatched = Pattern.matches(expectedPattern, elementText): null
+
+08-01-2024T12:10:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Monitoring/Left search field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T12:10:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Monitoring/Left search field'
+
+08-01-2024T12:10:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream"), 5): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T12:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T12:10:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Loading CCTV stream")): Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T12:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Loading CCTV stream' is visible
+
+08-01-2024T12:10:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Monitoring/Left Camera Playing"), 5): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T12:10:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T12:10:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T12:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T12:10:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Monitoring/Left Camera Playing")): Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T12:10:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Monitoring/Left Camera Playing'. Try using Self-healing.
+
+08-01-2024T12:10:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Monitoring/Left Camera Playing' was broken. Propose an alternative one: '//canvas[@id='stream_first']'.
+
+08-01-2024T12:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Camera Playing' is visible
+
+08-01-2024T12:10:02 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T12:10:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T12:10:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690602776.png]]
+
+08-01-2024T12:10:03 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+08-01-2024T12:10:08 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+08-01-2024T12:10:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-01-2024T12:10:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690608939.png]]
+
+08-01-2024T12:10:09 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@23938caa' and expected object '[B@643bef2a' are not equal
+
+08-01-2024T12:10:09 - [MESSAGE][PASSED] - Actual object '[B@23938caa' and expected object '[B@643bef2a' are not equal
+
+08-01-2024T12:10:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/Left Search Identity"), 1): Scroll to object 'Object Repository/Page_Monitoring/Left Search Identity' successfully
+
+08-01-2024T12:10:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/Left Search Identity' successfully
+
+08-01-2024T12:10:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/Left Search Identity")): Object 'Object Repository/Page_Monitoring/Left Search Identity' is clickable
+
+08-01-2024T12:10:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/Left Search Identity' is clickable
+
+08-01-2024T12:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/Left Search Identity")): Object: 'Object Repository/Page_Monitoring/Left Search Identity' is clicked on
+
+08-01-2024T12:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/Left Search Identity' is clicked on
+
+08-01-2024T12:10:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Monitoring/button_Identify Now Pop Up"), 1): Scroll to object 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' successfully
+
+08-01-2024T12:10:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' successfully
+
+08-01-2024T12:10:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Monitoring/button_Identify Now Pop Up"), 5): Object 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' is present
+
+08-01-2024T12:10:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' is present
+
+08-01-2024T12:10:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Monitoring/button_Identify Now Pop Up")): Object 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' is clickable
+
+08-01-2024T12:10:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' is clickable
+
+08-01-2024T12:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Monitoring/button_Identify Now Pop Up")): Object: 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' is clicked on
+
+08-01-2024T12:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monitoring/button_Identify Now Pop Up' is clicked on
+
+08-01-2024T12:10:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Result Monitoring/Result Monitoring Title"), 15): Object 'Object Repository/Page_Result Monitoring/Result Monitoring Title' is present
+
+08-01-2024T12:10:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Result Monitoring/Result Monitoring Title' is present
+
+08-01-2024T12:10:13 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("Page_Result Monitoring/Monitoring Breadcrumb")): Unable to verify object to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIBreadcrumbInMonitoringResult.run(PSSIBreadcrumbInMonitoringResult:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704690440418.run(TempTestSuite1704690440418.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at Script1704686495624.run(Script1704686495624.groovy:79)
+	... 18 more
+)
+
+08-01-2024T12:10:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Result Monitoring/Monitoring Breadcrumb' does not exist
+
+08-01-2024T12:10:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+08-01-2024T12:10:14 - [MESSAGE][FAILED] - Unable to verify object to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIBreadcrumbInMonitoringResult.run(PSSIBreadcrumbInMonitoringResult:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704690440418.run(TempTestSuite1704690440418.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at Script1704686495624.run(Script1704686495624.groovy:79)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240108_120718\\Create BE Monitoring Data\\Breadcrumb Navigation Test Suite\\20240108_120720\\1704690613959.png]]]]></system-out>
+         <system-err><![CDATA[08-01-2024T12:09:46 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIBreadcrumbInMonitoringResult.run(PSSIBreadcrumbInMonitoringResult:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704690440418.run(TempTestSuite1704690440418.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-01-2024T12:07:43 - [TEST_SUITE][FAILED] - Breadcrumb Navigation Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIBreadcrumbInMonitoringResult.run(PSSIBreadcrumbInMonitoringResult:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704690440418.run(TempTestSuite1704690440418.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[08-01-2024T12:07:43 - [TEST_SUITE][FAILED] - Breadcrumb Navigation Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Breadcrumb Navigation/PSSIBreadcrumbInMonitoringResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at PSSIBreadcrumbInMonitoringResult.run(PSSIBreadcrumbInMonitoringResult:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704690440418.run(TempTestSuite1704690440418.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

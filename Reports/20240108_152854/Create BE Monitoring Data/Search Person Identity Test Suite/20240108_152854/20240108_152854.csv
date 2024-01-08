@@ -1,0 +1,153 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search Person Identity Test Suite,Chrome 120.0.0.0,,,08-01-2024 15:29:27,08-01-2024 15:37:04,7m - 37.128s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Search Person Identity/Negative Test Case/PSSISearchPersonIdentityInvalidCancel,Chrome 120.0.0.0,,,08-01-2024 15:29:27,08-01-2024 15:30:00,32.959s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 15:29:28,08-01-2024 15:29:29,1.098s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 15:29:29,08-01-2024 15:29:40,10.386s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:29:40,08-01-2024 15:29:40,0.522s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:29:40,08-01-2024 15:29:41,0.414s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 15:29:41,08-01-2024 15:29:41,0.609s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 15:29:41,08-01-2024 15:29:42,0.688s,PASSED
+"expectedPattern = "".*CCTV.*""",Chrome 120.0.0.0,,,08-01-2024 15:29:42,08-01-2024 15:29:42,0.002s,PASSED
+"elementText = getText(findTestObject(""Page_Monitoring/Left Search Box""))",Chrome 120.0.0.0,,,08-01-2024 15:29:42,08-01-2024 15:29:44,2.489s,PASSED
+"isTextMatched = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 15:29:44,08-01-2024 15:29:44,0.017s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 15:29:44,08-01-2024 15:29:45,0.494s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:29:45,08-01-2024 15:29:46,0.695s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 15:29:46,08-01-2024 15:29:46,0.386s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:29:46,08-01-2024 15:29:46,0.395s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 15:29:46,08-01-2024 15:29:47,0.388s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:29:47,08-01-2024 15:29:48,1.439s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 15:29:48,08-01-2024 15:29:53,5.088s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:29:53,08-01-2024 15:29:55,1.420s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 15:29:55,08-01-2024 15:29:55,0.093s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Left Search Identity""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:29:55,08-01-2024 15:29:55,0.450s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:29:55,08-01-2024 15:29:56,0.698s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:29:56,08-01-2024 15:29:57,1.060s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/button_Cancel Pop Up""), Keys.chord(ESCAPE))",Chrome 120.0.0.0,,,08-01-2024 15:29:57,08-01-2024 15:29:58,0.919s,PASSED
+"verifyTextPresent(""Identify Now"", false)",Chrome 120.0.0.0,,,08-01-2024 15:29:58,08-01-2024 15:29:59,0.642s,PASSED
+"clickOffset(findTestObject(""Page_Monitoring/button_Cancel Pop Up""), 50, 0)",Chrome 120.0.0.0,,,08-01-2024 15:29:59,08-01-2024 15:29:59,0.705s,PASSED
+"verifyTextPresent(""Identify Now"", false)",Chrome 120.0.0.0,,,08-01-2024 15:29:59,08-01-2024 15:30:00,0.397s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,08-01-2024 15:30:00,08-01-2024 15:30:00,0.550s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Search Person Identity/Negative Test Case/PSSISearchPersonIdentityNoResult,Chrome 120.0.0.0,,,08-01-2024 15:30:23,08-01-2024 15:30:52,29.132s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 15:30:23,08-01-2024 15:30:23,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 15:30:23,08-01-2024 15:30:30,7.207s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:30:30,08-01-2024 15:30:31,0.460s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:30:31,08-01-2024 15:30:31,0.429s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 15:30:31,08-01-2024 15:30:32,0.597s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 15:30:32,08-01-2024 15:30:32,0.706s,PASSED
+"expectedPattern = "".*CCTV.*""",Chrome 120.0.0.0,,,08-01-2024 15:30:32,08-01-2024 15:30:32,0.000s,PASSED
+"elementText = getText(findTestObject(""Page_Monitoring/Left Search Box""))",Chrome 120.0.0.0,,,08-01-2024 15:30:32,08-01-2024 15:30:35,2.422s,PASSED
+"isTextMatched = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 15:30:35,08-01-2024 15:30:35,0.000s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 15:30:35,08-01-2024 15:30:35,0.444s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:30:35,08-01-2024 15:30:36,0.476s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 15:30:36,08-01-2024 15:30:36,0.356s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:30:36,08-01-2024 15:30:36,0.359s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 15:30:36,08-01-2024 15:30:37,0.361s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:30:37,08-01-2024 15:30:38,0.798s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 15:30:38,08-01-2024 15:30:43,5.016s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:30:43,08-01-2024 15:30:44,1.794s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 15:30:44,08-01-2024 15:30:44,0.004s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Left Search Identity""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:30:44,08-01-2024 15:30:45,0.406s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:30:45,08-01-2024 15:30:45,0.369s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:30:45,08-01-2024 15:30:46,0.776s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:30:46,08-01-2024 15:30:47,0.639s,PASSED
+"waitForElementPresent(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:30:47,08-01-2024 15:30:47,0.488s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:30:47,08-01-2024 15:30:48,0.387s,PASSED
+"click(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:30:48,08-01-2024 15:30:48,0.528s,PASSED
+"waitForElementPresent(findTestObject(""Page_Result Monitoring/Result Monitoring Title""), 15)",Chrome 120.0.0.0,,,08-01-2024 15:30:48,08-01-2024 15:30:51,3.206s,PASSED
+"verifyTextNotPresent(""Name"", false)",Chrome 120.0.0.0,,,08-01-2024 15:30:51,08-01-2024 15:30:52,0.381s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,08-01-2024 15:30:52,08-01-2024 15:30:52,0.356s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Search Person Identity/Positive Test Case/PSSISaveSearchedPersonIdentity,Chrome 120.0.0.0,,,08-01-2024 15:32:19,08-01-2024 15:32:49,30.456s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 15:32:19,08-01-2024 15:32:19,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/Search Person Identity/Positive Test Case/PSSISearchPersonIdentityValidData""), [:])",Chrome 120.0.0.0,,,08-01-2024 15:32:19,08-01-2024 15:32:49,30.420s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Search Person Identity/Positive Test Case/PSSISearchPersonIdentityCancel,Chrome 120.0.0.0,,,08-01-2024 15:32:49,08-01-2024 15:33:17,28.086s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 15:32:50,08-01-2024 15:32:50,0.002s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 15:32:50,08-01-2024 15:32:57,7.647s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:32:57,08-01-2024 15:32:58,0.463s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:32:58,08-01-2024 15:32:58,0.470s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 15:32:58,08-01-2024 15:32:59,0.611s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 15:32:59,08-01-2024 15:32:59,0.675s,PASSED
+"expectedPattern = "".*CCTV.*""",Chrome 120.0.0.0,,,08-01-2024 15:32:59,08-01-2024 15:32:59,0.001s,PASSED
+"elementText = getText(findTestObject(""Page_Monitoring/Left Search Box""))",Chrome 120.0.0.0,,,08-01-2024 15:32:59,08-01-2024 15:33:02,2.496s,PASSED
+"isTextMatched = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 15:33:02,08-01-2024 15:33:02,0.002s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 15:33:02,08-01-2024 15:33:02,0.453s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:33:02,08-01-2024 15:33:03,0.477s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 15:33:03,08-01-2024 15:33:03,0.356s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:33:03,08-01-2024 15:33:04,0.373s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 15:33:04,08-01-2024 15:33:04,0.347s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:33:04,08-01-2024 15:33:05,0.809s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 15:33:05,08-01-2024 15:33:10,5.022s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:33:10,08-01-2024 15:33:12,1.986s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 15:33:12,08-01-2024 15:33:12,0.003s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Left Search Identity""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:33:12,08-01-2024 15:33:12,0.497s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:33:12,08-01-2024 15:33:13,0.383s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:33:13,08-01-2024 15:33:13,0.787s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/button_Cancel Pop Up""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:33:13,08-01-2024 15:33:14,0.695s,PASSED
+"waitForElementPresent(findTestObject(""Page_Monitoring/button_Cancel Pop Up""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:33:14,08-01-2024 15:33:15,0.454s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/button_Cancel Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:33:15,08-01-2024 15:33:15,0.387s,PASSED
+"click(findTestObject(""Page_Monitoring/button_Cancel Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:33:15,08-01-2024 15:33:15,0.435s,PASSED
+"verifyTextNotPresent(""Identify Now"", false)",Chrome 120.0.0.0,,,08-01-2024 15:33:15,08-01-2024 15:33:16,0.905s,PASSED
+"verifyTextPresent(""Select Camera"", false)",Chrome 120.0.0.0,,,08-01-2024 15:33:16,08-01-2024 15:33:17,0.456s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,08-01-2024 15:33:17,08-01-2024 15:33:17,0.543s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Search Person Identity/Positive Test Case/PSSISearchPersonIdentityValidData,Chrome 120.0.0.0,,,08-01-2024 15:34:43,08-01-2024 15:35:09,25.684s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 15:34:43,08-01-2024 15:34:43,0.000s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 15:34:43,08-01-2024 15:34:50,6.901s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:34:50,08-01-2024 15:34:51,0.464s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:34:51,08-01-2024 15:34:51,0.411s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 15:34:51,08-01-2024 15:34:52,0.577s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 15:34:52,08-01-2024 15:34:52,0.691s,PASSED
+"expectedPattern = "".*CCTV.*""",Chrome 120.0.0.0,,,08-01-2024 15:34:52,08-01-2024 15:34:52,0.000s,PASSED
+"elementText = getText(findTestObject(""Page_Monitoring/Left Search Box""))",Chrome 120.0.0.0,,,08-01-2024 15:34:52,08-01-2024 15:34:55,2.405s,PASSED
+"isTextMatched = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 15:34:55,08-01-2024 15:34:55,0.001s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 15:34:55,08-01-2024 15:34:55,0.436s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:34:55,08-01-2024 15:34:56,0.482s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 15:34:56,08-01-2024 15:34:56,0.343s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:34:56,08-01-2024 15:34:56,0.352s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 15:34:56,08-01-2024 15:34:57,0.346s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:34:57,08-01-2024 15:34:58,0.835s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 15:34:58,08-01-2024 15:35:03,5.001s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:35:03,08-01-2024 15:35:04,1.153s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 15:35:04,08-01-2024 15:35:04,0.002s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Left Search Identity""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:35:04,08-01-2024 15:35:04,0.377s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:35:04,08-01-2024 15:35:05,0.526s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:35:05,08-01-2024 15:35:05,0.445s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:35:05,08-01-2024 15:35:06,0.784s,PASSED
+"waitForElementPresent(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:35:06,08-01-2024 15:35:06,0.440s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:35:06,08-01-2024 15:35:07,0.465s,PASSED
+"click(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:35:07,08-01-2024 15:35:07,0.435s,PASSED
+"waitForElementPresent(findTestObject(""Page_Result Monitoring/Result Monitoring Title""), 15)",Chrome 120.0.0.0,,,08-01-2024 15:35:07,08-01-2024 15:35:08,1.222s,PASSED
+"verifyTextPresent(""Name"", false)",Chrome 120.0.0.0,,,08-01-2024 15:35:08,08-01-2024 15:35:09,0.557s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Search Person Identity/Negative Test Case/PSSISearchPersonIdentityUnrecognized,Chrome 120.0.0.0,,,08-01-2024 15:36:28,08-01-2024 15:37:04,35.731s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 15:36:28,08-01-2024 15:36:28,0.007s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 15:36:28,08-01-2024 15:36:37,8.489s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:36:37,08-01-2024 15:36:37,0.439s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 15:36:37,08-01-2024 15:36:38,0.708s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 15:36:38,08-01-2024 15:36:38,0.500s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 15:36:38,08-01-2024 15:36:39,0.817s,PASSED
+"expectedPattern = "".*CCTV.*""",Chrome 120.0.0.0,,,08-01-2024 15:36:39,08-01-2024 15:36:39,0.001s,PASSED
+"elementText = getText(findTestObject(""Page_Monitoring/Left Search Box""))",Chrome 120.0.0.0,,,08-01-2024 15:36:39,08-01-2024 15:36:42,2.477s,PASSED
+"isTextMatched = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 15:36:42,08-01-2024 15:36:42,0.001s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 15:36:42,08-01-2024 15:36:42,0.486s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:36:42,08-01-2024 15:36:43,0.533s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 15:36:43,08-01-2024 15:36:43,0.357s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:36:43,08-01-2024 15:36:43,0.373s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 15:36:43,08-01-2024 15:36:44,0.369s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:36:44,08-01-2024 15:36:45,0.946s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 15:36:45,08-01-2024 15:36:50,5.020s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 15:36:50,08-01-2024 15:36:53,2.888s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 15:36:53,08-01-2024 15:36:53,0.007s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Left Search Identity""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:36:53,08-01-2024 15:36:53,0.496s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:36:53,08-01-2024 15:36:54,0.651s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Search Identity""))",Chrome 120.0.0.0,,,08-01-2024 15:36:54,08-01-2024 15:36:55,0.878s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""), 1)",Chrome 120.0.0.0,,,08-01-2024 15:36:55,08-01-2024 15:36:55,0.623s,PASSED
+"waitForElementPresent(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""), 5)",Chrome 120.0.0.0,,,08-01-2024 15:36:55,08-01-2024 15:36:56,0.620s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:36:56,08-01-2024 15:36:56,0.429s,PASSED
+"click(findTestObject(""Page_Monitoring/button_Identify Now Pop Up""))",Chrome 120.0.0.0,,,08-01-2024 15:36:56,08-01-2024 15:36:57,0.663s,PASSED
+"waitForElementPresent(findTestObject(""Page_Result Monitoring/Result Monitoring Title""), 15)",Chrome 120.0.0.0,,,08-01-2024 15:36:57,08-01-2024 15:37:03,5.997s,PASSED
+"verifyTextPresent(""Unrecognized"", false)",Chrome 120.0.0.0,,,08-01-2024 15:37:03,08-01-2024 15:37:03,0.338s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,08-01-2024 15:37:03,08-01-2024 15:37:04,0.513s,PASSED

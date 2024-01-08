@@ -25,7 +25,7 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData'), 
     [:])
 
-// buka left camera selection
+//// buka left camera selection
 WebUI.verifyElementClickable(findTestObject('Page_Monitoring/Left Camera Selection'))
 
 WebUI.click(findTestObject('Page_Monitoring/Left Camera Selection'))
@@ -59,9 +59,9 @@ WebUI.verifyElementClickable(findTestObject('Page_Monitoring/Right Camera Select
 WebUI.click(findTestObject('Page_Monitoring/Right Camera Selection'))
 
 // jalanin arrow keys 2x kebawah
-WebUI.sendKeys(findTestObject('Page_Monitoring/Right search field'), Keys.chord(Keys.ARROW_DOWN))
-WebUI.sendKeys(findTestObject('Page_Monitoring/Right search field'), Keys.chord(Keys.ARROW_DOWN))
-WebUI.sendKeys(findTestObject('Page_Monitoring/Right search field'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_Monitoring/Right Search Box'), Keys.chord(Keys.ARROW_DOWN))
+WebUI.sendKeys(findTestObject('Page_Monitoring/Right Search Box'), Keys.chord(Keys.ARROW_DOWN))
+WebUI.sendKeys(findTestObject('Page_Monitoring/Right Search Box'), Keys.chord(Keys.ENTER))
 
 // verify videonya bisa tampil
 WebUI.waitForElementVisible(findTestObject('Page_Monitoring/Right Loading CCTV stream'), 5)
@@ -77,7 +77,7 @@ byte[] screenshot3 = WebUI.takeFullPageScreenshot()
 Thread.sleep(5000)
 byte[] screenshot4 = WebUI.takeFullPageScreenshot()
 
-WebUI.verifyNotEqual(screenshot1, screenshot2)
+WebUI.verifyNotEqual(screenshot3, screenshot4)
 
 // buka bottom camera selection dan search cctv
 WebUI.scrollToElement(findTestObject('Page_Monitoring/Bottom Camera Selection'), 1)
@@ -87,8 +87,8 @@ WebUI.verifyElementClickable(findTestObject('Page_Monitoring/Bottom Camera Selec
 WebUI.click(findTestObject('Page_Monitoring/Bottom Camera Selection'))
 
 // jalanin arrow keys 2x kebawah
-WebUI.sendKeys(findTestObject('Page_Monitoring/Bottom search field'), Keys.chord(Keys.ARROW_DOWN))
-WebUI.sendKeys(findTestObject('Page_Monitoring/Bottom search field'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_Monitoring/Bottom Search Box'), Keys.chord(Keys.ARROW_DOWN))
+WebUI.sendKeys(findTestObject('Page_Monitoring/Bottom Search Box'), Keys.chord(Keys.ENTER))
 
 // verify videonya bisa tampil
 WebUI.waitForElementVisible(findTestObject('Page_Monitoring/Bottom Loading CCTV stream'), 5)
@@ -104,4 +104,4 @@ byte[] screenshot5 = WebUI.takeFullPageScreenshot()
 Thread.sleep(5000)
 byte[] screenshot6 = WebUI.takeFullPageScreenshot()
 
-WebUI.verifyNotEqual(screenshot1, screenshot2)
+WebUI.verifyNotEqual(screenshot5, screenshot6)

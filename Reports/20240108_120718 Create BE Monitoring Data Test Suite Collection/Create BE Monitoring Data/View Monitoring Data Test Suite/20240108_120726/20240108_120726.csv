@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Monitoring Data Test Suite,Chrome 120.0.0.0,,,08-01-2024 12:22:57,08-01-2024 12:23:10,13.224s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData,Chrome 120.0.0.0,,,08-01-2024 12:22:57,08-01-2024 12:23:10,12.648s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 12:22:58,08-01-2024 12:22:59,1.390s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Sign In/PSSISignInValidData""), [:])",Chrome 120.0.0.0,,,08-01-2024 12:22:59,08-01-2024 12:23:09,9.897s,PASSED
+"navigateToUrl(baseUrl + ""/monitoring"")",Chrome 120.0.0.0,,,08-01-2024 12:23:09,08-01-2024 12:23:10,0.609s,PASSED

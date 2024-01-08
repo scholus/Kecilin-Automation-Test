@@ -1,0 +1,177 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Select CCTV Test Suite,Chrome 120.0.0.0,,,08-01-2024 13:56:53,08-01-2024 14:07:10,10m - 17.584s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection,Chrome 120.0.0.0,,,08-01-2024 13:58:55,08-01-2024 13:59:34,38.432s,FAILED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 13:58:55,08-01-2024 13:58:55,0.001s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 13:58:55,08-01-2024 13:59:11,15.744s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 13:59:11,08-01-2024 13:59:12,0.559s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 13:59:12,08-01-2024 13:59:12,0.641s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 13:59:12,08-01-2024 13:59:13,0.674s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 13:59:13,08-01-2024 13:59:14,0.982s,PASSED
+"expectedPattern = "".*CCTV.*""",Chrome 120.0.0.0,,,08-01-2024 13:59:14,08-01-2024 13:59:14,0.001s,PASSED
+"elementText = getText(findTestObject(""Page_Monitoring/Left Search Box""))",Chrome 120.0.0.0,,,08-01-2024 13:59:14,08-01-2024 13:59:17,2.509s,PASSED
+"isTextMatched = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 13:59:17,08-01-2024 13:59:17,0.001s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 13:59:17,08-01-2024 13:59:17,0.620s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 13:59:17,08-01-2024 13:59:18,0.503s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 13:59:18,08-01-2024 13:59:18,0.538s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 13:59:18,08-01-2024 13:59:19,0.551s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 13:59:19,08-01-2024 13:59:19,0.634s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 13:59:19,08-01-2024 13:59:21,1.537s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 13:59:21,08-01-2024 13:59:26,5.011s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 13:59:26,08-01-2024 13:59:28,1.858s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 13:59:28,08-01-2024 13:59:28,0.014s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left remove selection bar""))",Chrome 120.0.0.0,,,08-01-2024 13:59:28,08-01-2024 13:59:29,0.987s,PASSED
+"click(findTestObject(""Page_Monitoring/Left remove selection bar""))",Chrome 120.0.0.0,,,08-01-2024 13:59:29,08-01-2024 13:59:30,0.814s,PASSED
+"verifyElementText(findTestObject(""Page_Monitoring/Left Camera Selection""), ""-- Search --"")",Chrome 120.0.0.0,,,08-01-2024 13:59:30,08-01-2024 13:59:30,0.776s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 0)",Chrome 120.0.0.0,,,08-01-2024 13:59:30,08-01-2024 13:59:34,3.201s,FAILED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringCloseCCTVSelection,Chrome 120.0.0.0,,,08-01-2024 13:59:34,08-01-2024 14:00:40,1m - 6.563s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 13:59:35,08-01-2024 13:59:35,0.007s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 13:59:35,08-01-2024 13:59:53,18.629s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 13:59:53,08-01-2024 13:59:55,1.280s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 13:59:55,08-01-2024 13:59:56,1.406s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 13:59:56,08-01-2024 13:59:57,0.767s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 13:59:57,08-01-2024 13:59:58,0.861s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Monitoring/Left search field""), 0)",Chrome 120.0.0.0,,,08-01-2024 13:59:58,08-01-2024 13:59:58,0.436s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 13:59:58,08-01-2024 14:00:01,3.244s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:01,08-01-2024 14:00:05,3.624s,PASSED
+"clickOffset(findTestObject(""Page_Monitoring/Left Camera Selection""), 50, 100)",Chrome 120.0.0.0,,,08-01-2024 14:00:05,08-01-2024 14:00:08,3.146s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Monitoring/Left search field""), 0)",Chrome 120.0.0.0,,,08-01-2024 14:00:08,08-01-2024 14:00:08,0.456s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Right Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:00:08,08-01-2024 14:00:09,0.477s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:09,08-01-2024 14:00:10,0.648s,PASSED
+"click(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:10,08-01-2024 14:00:11,1.751s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:11,08-01-2024 14:00:13,1.200s,PASSED
+"click(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:13,08-01-2024 14:00:14,1.002s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Monitoring/Right search field""), 0)",Chrome 120.0.0.0,,,08-01-2024 14:00:14,08-01-2024 14:00:14,0.629s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:14,08-01-2024 14:00:18,3.944s,PASSED
+"click(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:18,08-01-2024 14:00:22,3.412s,PASSED
+"clickOffset(findTestObject(""Page_Monitoring/Right Camera Selection""), 50, 100)",Chrome 120.0.0.0,,,08-01-2024 14:00:22,08-01-2024 14:00:25,3.330s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Monitoring/Right search field""), 0)",Chrome 120.0.0.0,,,08-01-2024 14:00:25,08-01-2024 14:00:26,0.915s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Bottom Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:00:26,08-01-2024 14:00:26,0.563s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:26,08-01-2024 14:00:27,0.611s,PASSED
+"click(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:27,08-01-2024 14:00:27,0.423s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:27,08-01-2024 14:00:28,0.662s,PASSED
+"click(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:28,08-01-2024 14:00:29,0.499s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Monitoring/Bottom search field""), 0)",Chrome 120.0.0.0,,,08-01-2024 14:00:29,08-01-2024 14:00:29,0.488s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:29,08-01-2024 14:00:32,2.819s,PASSED
+"click(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:32,08-01-2024 14:00:35,3.067s,PASSED
+"clickOffset(findTestObject(""Page_Monitoring/Bottom Camera Selection""), 50, 100)",Chrome 120.0.0.0,,,08-01-2024 14:00:35,08-01-2024 14:00:38,2.911s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Monitoring/Bottom search field""), 0)",Chrome 120.0.0.0,,,08-01-2024 14:00:38,08-01-2024 14:00:38,0.598s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,08-01-2024 14:00:38,08-01-2024 14:00:40,1.770s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Negative Test Case/PSSIMonitoringSelectCCTVSearchNoResult,Chrome 120.0.0.0,,,08-01-2024 14:00:40,08-01-2024 14:01:08,27.546s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 14:00:41,08-01-2024 14:00:41,0.007s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 14:00:41,08-01-2024 14:00:53,11.912s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:53,08-01-2024 14:00:53,0.495s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:53,08-01-2024 14:00:54,0.532s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 14:00:54,08-01-2024 14:00:55,0.622s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""heheheh"")",Chrome 120.0.0.0,,,08-01-2024 14:00:55,08-01-2024 14:00:56,1.107s,PASSED
+"verifyTextPresent(""No results found"", false)",Chrome 120.0.0.0,,,08-01-2024 14:00:56,08-01-2024 14:00:57,1.204s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Right Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:00:57,08-01-2024 14:00:58,1.052s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:58,08-01-2024 14:00:58,0.473s,PASSED
+"click(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:00:58,08-01-2024 14:00:59,0.714s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Search Box""))",Chrome 120.0.0.0,,,08-01-2024 14:00:59,08-01-2024 14:01:01,1.824s,PASSED
+"setText(findTestObject(""Page_Monitoring/Right Search Box""), ""hehehhe"")",Chrome 120.0.0.0,,,08-01-2024 14:01:01,08-01-2024 14:01:02,1.123s,PASSED
+"verifyTextPresent(""No results found"", false)",Chrome 120.0.0.0,,,08-01-2024 14:01:02,08-01-2024 14:01:03,0.811s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Bottom Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:01:03,08-01-2024 14:01:03,0.356s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:01:03,08-01-2024 14:01:04,0.333s,PASSED
+"click(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:01:04,08-01-2024 14:01:04,0.439s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Search Box""))",Chrome 120.0.0.0,,,08-01-2024 14:01:04,08-01-2024 14:01:04,0.515s,PASSED
+"setText(findTestObject(""Page_Monitoring/Bottom Search Box""), ""ehehehhe"")",Chrome 120.0.0.0,,,08-01-2024 14:01:04,08-01-2024 14:01:06,1.260s,PASSED
+"verifyTextPresent(""No results found"", false)",Chrome 120.0.0.0,,,08-01-2024 14:01:06,08-01-2024 14:01:08,2.056s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVArrowKeys,Chrome 120.0.0.0,,,08-01-2024 14:01:08,08-01-2024 14:03:56,2m - 47.957s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 14:01:09,08-01-2024 14:01:09,0.002s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 14:01:09,08-01-2024 14:01:26,17.155s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:01:26,08-01-2024 14:01:27,0.549s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:01:27,08-01-2024 14:01:28,0.748s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ARROW_DOWN))",Chrome 120.0.0.0,,,08-01-2024 14:01:28,08-01-2024 14:01:28,0.855s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ARROW_DOWN))",Chrome 120.0.0.0,,,08-01-2024 14:01:28,08-01-2024 14:01:29,0.625s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 14:01:29,08-01-2024 14:01:30,0.687s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:01:30,08-01-2024 14:01:30,0.620s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 14:01:30,08-01-2024 14:01:31,0.547s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:01:31,08-01-2024 14:01:34,2.914s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 14:01:34,08-01-2024 14:01:37,3.504s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:01:37,08-01-2024 14:01:45,7.414s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 14:01:45,08-01-2024 14:01:50,5.028s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:01:50,08-01-2024 14:01:56,6.268s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 14:01:56,08-01-2024 14:01:56,0.007s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Right Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:01:56,08-01-2024 14:01:58,1.525s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:01:58,08-01-2024 14:01:59,1.526s,PASSED
+"click(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:01:59,08-01-2024 14:02:01,1.362s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Right Search Box""), Keys.chord(ARROW_DOWN))",Chrome 120.0.0.0,,,08-01-2024 14:02:01,08-01-2024 14:02:02,1.866s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Right Search Box""), Keys.chord(ARROW_DOWN))",Chrome 120.0.0.0,,,08-01-2024 14:02:02,08-01-2024 14:02:03,0.515s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Right Search Box""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 14:02:03,08-01-2024 14:02:04,0.705s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Right Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:02:04,08-01-2024 14:02:04,0.699s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Right Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 14:02:04,08-01-2024 14:02:07,2.577s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Right Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:02:07,08-01-2024 14:02:08,0.779s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Right Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 14:02:08,08-01-2024 14:02:08,0.535s,PASSED
+screenshot3 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:02:08,08-01-2024 14:02:12,4.182s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 14:02:12,08-01-2024 14:02:17,5.011s,PASSED
+screenshot4 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:02:17,08-01-2024 14:02:26,8.980s,PASSED
+"verifyNotEqual(screenshot3, screenshot4)",Chrome 120.0.0.0,,,08-01-2024 14:02:26,08-01-2024 14:02:26,0.004s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Bottom Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:02:26,08-01-2024 14:02:27,0.867s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:02:27,08-01-2024 14:02:28,0.565s,PASSED
+"click(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:02:28,08-01-2024 14:02:29,1.378s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Bottom Search Box""), Keys.chord(ARROW_DOWN))",Chrome 120.0.0.0,,,08-01-2024 14:02:29,08-01-2024 14:02:39,9.691s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Bottom Search Box""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 14:02:39,08-01-2024 14:02:51,12.108s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Bottom Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:02:51,08-01-2024 14:02:57,5.961s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Bottom Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 14:02:57,08-01-2024 14:03:14,16.718s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Bottom Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:03:14,08-01-2024 14:03:19,5.600s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Bottom Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 14:03:19,08-01-2024 14:03:26,7.098s,PASSED
+screenshot5 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:03:26,08-01-2024 14:03:39,12.161s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 14:03:39,08-01-2024 14:03:44,5.052s,PASSED
+screenshot6 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:03:44,08-01-2024 14:03:56,12.177s,PASSED
+"verifyNotEqual(screenshot5, screenshot6)",Chrome 120.0.0.0,,,08-01-2024 14:03:56,08-01-2024 14:03:56,0.016s,PASSED
+,,,,,,,
+Test Cases/Offline PSSI Dashboard Function/Create BE Monitoring Data/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVSearch,Chrome 120.0.0.0,,,08-01-2024 14:03:56,08-01-2024 14:07:10,3m - 14.630s,PASSED
+baseUrl = offline_pssi_dashboard_url,Chrome 120.0.0.0,,,08-01-2024 14:03:58,08-01-2024 14:03:58,0.002s,PASSED
+"callTestCase(findTestCase(""Offline PSSI Dashboard Function/Create BE Monitoring Data/View Monitoring Data/PSSIViewMonitoringData""), [:])",Chrome 120.0.0.0,,,08-01-2024 14:03:58,08-01-2024 14:04:36,37.989s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:04:36,08-01-2024 14:04:37,1.422s,PASSED
+"click(findTestObject(""Page_Monitoring/Left Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:04:37,08-01-2024 14:04:38,1.052s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Left search field""))",Chrome 120.0.0.0,,,08-01-2024 14:04:38,08-01-2024 14:04:39,0.610s,PASSED
+"setText(findTestObject(""Page_Monitoring/Left search field""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 14:04:39,08-01-2024 14:04:40,0.985s,PASSED
+"expectedPattern = "".*CCTV.*""",Chrome 120.0.0.0,,,08-01-2024 14:04:40,08-01-2024 14:04:40,0.001s,PASSED
+"elementText = getText(findTestObject(""Page_Monitoring/Left Search Box""))",Chrome 120.0.0.0,,,08-01-2024 14:04:40,08-01-2024 14:04:43,3.056s,PASSED
+"isTextMatched = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 14:04:43,08-01-2024 14:04:43,0.004s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Left search field""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 14:04:43,08-01-2024 14:04:44,1.382s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:04:44,08-01-2024 14:04:45,0.772s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 14:04:45,08-01-2024 14:04:45,0.525s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:04:45,08-01-2024 14:04:47,1.179s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Left Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 14:04:47,08-01-2024 14:04:47,0.651s,PASSED
+screenshot1 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:04:47,08-01-2024 14:04:50,2.640s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 14:04:50,08-01-2024 14:04:55,5.036s,PASSED
+screenshot2 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:04:55,08-01-2024 14:05:07,12.278s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 14:05:07,08-01-2024 14:05:07,0.032s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Right Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:05:07,08-01-2024 14:05:08,0.914s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:05:08,08-01-2024 14:05:11,2.787s,PASSED
+"click(findTestObject(""Page_Monitoring/Right Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:05:11,08-01-2024 14:05:12,1.277s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Right Search Box""))",Chrome 120.0.0.0,,,08-01-2024 14:05:12,08-01-2024 14:05:13,0.990s,PASSED
+"setText(findTestObject(""Page_Monitoring/Right Search Box""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 14:05:13,08-01-2024 14:05:15,1.430s,PASSED
+"elementText2 = getText(findTestObject(""Page_Monitoring/Right search field""))",Chrome 120.0.0.0,,,08-01-2024 14:05:15,08-01-2024 14:05:18,3.304s,PASSED
+"isTextMatched2 = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 14:05:18,08-01-2024 14:05:18,0.001s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Right Search Box""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 14:05:18,08-01-2024 14:05:19,1.169s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Right Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:05:19,08-01-2024 14:05:20,0.579s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Right Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 14:05:20,08-01-2024 14:05:28,8.105s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Right Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:05:28,08-01-2024 14:05:31,2.969s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Right Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 14:05:31,08-01-2024 14:05:37,6.381s,PASSED
+screenshot3 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:05:37,08-01-2024 14:05:44,7.126s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 14:05:44,08-01-2024 14:05:49,5.046s,PASSED
+screenshot4 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:05:49,08-01-2024 14:05:59,9.804s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 14:05:59,08-01-2024 14:05:59,0.011s,PASSED
+"scrollToElement(findTestObject(""Page_Monitoring/Bottom Camera Selection""), 1)",Chrome 120.0.0.0,,,08-01-2024 14:05:59,08-01-2024 14:06:02,2.919s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:06:02,08-01-2024 14:06:06,4.128s,PASSED
+"click(findTestObject(""Page_Monitoring/Bottom Camera Selection""))",Chrome 120.0.0.0,,,08-01-2024 14:06:06,08-01-2024 14:06:10,3.717s,PASSED
+"verifyElementClickable(findTestObject(""Page_Monitoring/Bottom Search Box""))",Chrome 120.0.0.0,,,08-01-2024 14:06:10,08-01-2024 14:06:15,5.546s,PASSED
+"setText(findTestObject(""Page_Monitoring/Bottom Search Box""), ""CCTV"")",Chrome 120.0.0.0,,,08-01-2024 14:06:15,08-01-2024 14:06:24,8.831s,PASSED
+"elementText3 = getText(findTestObject(""Page_Monitoring/Bottom search field""))",Chrome 120.0.0.0,,,08-01-2024 14:06:24,08-01-2024 14:06:30,5.544s,PASSED
+"isTextMatched3 = Pattern.matches(expectedPattern, elementText)",Chrome 120.0.0.0,,,08-01-2024 14:06:30,08-01-2024 14:06:30,0.004s,PASSED
+"sendKeys(findTestObject(""Page_Monitoring/Bottom Search Box""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,08-01-2024 14:06:30,08-01-2024 14:06:38,8.451s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Bottom Loading CCTV stream""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:06:38,08-01-2024 14:06:41,3.152s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Bottom Loading CCTV stream""))",Chrome 120.0.0.0,,,08-01-2024 14:06:41,08-01-2024 14:06:44,2.739s,PASSED
+"waitForElementVisible(findTestObject(""Page_Monitoring/Bottom Camera Playing""), 5)",Chrome 120.0.0.0,,,08-01-2024 14:06:44,08-01-2024 14:06:47,2.400s,PASSED
+"verifyElementVisible(findTestObject(""Page_Monitoring/Bottom Camera Playing""))",Chrome 120.0.0.0,,,08-01-2024 14:06:47,08-01-2024 14:06:49,2.131s,PASSED
+screenshot5 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:06:49,08-01-2024 14:06:57,8.774s,PASSED
+Thread.sleep(5000),Chrome 120.0.0.0,,,08-01-2024 14:06:57,08-01-2024 14:07:02,5.005s,PASSED
+screenshot6 = takeFullPageScreenshot(),Chrome 120.0.0.0,,,08-01-2024 14:07:02,08-01-2024 14:07:10,7.824s,PASSED
+"verifyNotEqual(screenshot1, screenshot2)",Chrome 120.0.0.0,,,08-01-2024 14:07:10,08-01-2024 14:07:10,0.048s,PASSED

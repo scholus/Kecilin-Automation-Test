@@ -129,6 +129,24 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Bottom Camera Selection_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Result Monitoring/Result Monitoring Title",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//nav[@id\u003d\u0027navbarBlur\u0027]/div/nav/h6",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Result Monitoring/Result Monitoring Title_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monitoring/Right Camera Playing",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//canvas[@id\u003d\u0027stream_secondary\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Right Camera Playing_XPATH.png"
     }
   ]
 }

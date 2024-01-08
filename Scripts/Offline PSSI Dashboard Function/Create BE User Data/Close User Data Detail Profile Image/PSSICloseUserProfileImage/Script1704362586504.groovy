@@ -48,4 +48,3 @@ WebUI.verifyElementVisible(findTestObject('Page_Detail User/button_Print Data'))
 WebUI.clickOffset(findTestObject('Page_Detail User/close photo button'), 100, 500)
 
 WebUI.closeBrowser()
-

@@ -47,4 +47,3 @@ WebUI.verifyElementNotPresent(findTestObject('Page_Detail User/button_Print Data
 WebUI.verifyElementNotPresent(findTestObject('Page_Detail User/Back Button'), 0)
 
 WebUI.closeBrowser()
-
