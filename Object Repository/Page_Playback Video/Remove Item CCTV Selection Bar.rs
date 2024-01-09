@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Remove Item CCTV Selection Bar</name>
+   <tag></tag>
+   <elementGuidId>83ded2d8-6126-4b06-acaa-6a0a052f61e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='show_search_cctv']/span/span/span/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#show_search_cctv > span.select2.select2-container.select2-container--default.select2-container--below > span.selection > span.select2-selection.select2-selection--single.select2-selection--clearable > button.select2-selection__clear > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7857fcbb-1e87-486c-bf2b-744d3fdde5a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>71c338c3-cbaf-44c9-85ad-b83aa1d43e39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×</value>
+      <webElementGuid>23555308-665c-4d91-996a-c1091d1c0c33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;show_search_cctv&quot;)/span[@class=&quot;select2 select2-container select2-container--default select2-container--below&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single select2-selection--clearable&quot;]/button[@class=&quot;select2-selection__clear&quot;]/span[1]</value>
+      <webElementGuid>3e933d75-1ec9-4f3c-a070-96f4a8c04068</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='show_search_cctv']/span/span/span/button/span</value>
+      <webElementGuid>fe66cc07-d681-45c7-937c-e1c27e41cbf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/span/span/button/span</value>
+      <webElementGuid>8a731f0f-7b2f-4249-912c-8150ff054043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '×' or . = '×')]</value>
+      <webElementGuid>a3693075-9959-445d-8037-652b1ffcfa9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

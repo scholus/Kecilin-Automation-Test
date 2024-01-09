@@ -28,6 +28,7 @@ WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE Monit
 
 // click save
 WebUI.verifyElementClickable(findTestObject('Page_Monitoring/Save Monitoring Result')) //skr test obj nya blm ada krn buttonya blm ada
+WebUI.click(findTestObject('Page_Monitoring/Save Monitoring Result')) //skr test obj nya blm ada krn buttonya blm ada
 
 // verifikasi download window kebuka
 WebUI.verifyElementNotVisible(findTestObject('Page_Result Monitoring/Result Monitoring Title'), 0) //verify dengan cara ngecek apakah title result monitoring nya ga keliatan

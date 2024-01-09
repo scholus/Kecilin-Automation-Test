@@ -24,3 +24,9 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Sign In/PSSISignInValidData'), [:])
 
 WebUI.navigateToUrl(baseUrl + '/data_user')
+WebUI.verifyTextPresent('Profil Picture', false)
+WebUI.verifyTextPresent('Name', false)
+WebUI.verifyTextPresent('Gender', false)
+WebUI.verifyTextPresent('Date of Birth', false)
+WebUI.verifyTextPresent('Phone Number', false)
+WebUI.verifyTextPresent('Address', false)

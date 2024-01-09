@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Playback 1st Row</name>
+   <tag></tag>
+   <elementGuidId>0b8f72ea-abb0-4684-9a7e-ffcfb35b0bb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table_data']/tbody/tr/td[5]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>397f7b63-8154-4a46-987e-b986d8b387ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/playback_video/show/65273c11a21542f9826f23a6/2024-01-08T12-26-38.mp4</value>
+      <webElementGuid>ad48bf5b-4856-4958-b38f-19a9bc1cc97b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-success</value>
+      <webElementGuid>7a94a6cd-1104-4215-a14f-843475bf8072</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>ad1e6774-1238-4dc4-bd9e-58ca91994562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Playback</value>
+      <webElementGuid>24a4ba8e-c261-4851-8b42-3ea6190522bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table_data&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
+      <webElementGuid>5b6b6431-61f6-4655-871f-4b12ead44eeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table_data']/tbody/tr/td[5]/a</value>
+      <webElementGuid>615ce9ff-ce08-4e15-b33d-bb4864cacf88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Playback')]</value>
+      <webElementGuid>b492b6c5-a86f-41f6-a1d2-f83c2b27fce8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/playback_video/show/65273c11a21542f9826f23a6/2024-01-08T12-26-38.mp4')]</value>
+      <webElementGuid>13033395-bca3-4a0c-873c-75cd4c2e6f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/a</value>
+      <webElementGuid>1c7852c3-512e-41ee-b345-50e331948f1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/playback_video/show/65273c11a21542f9826f23a6/2024-01-08T12-26-38.mp4' and (text() = ' Playback' or . = ' Playback')]</value>
+      <webElementGuid>676e3b32-4bbc-4761-8bf6-6d49e01fd1c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

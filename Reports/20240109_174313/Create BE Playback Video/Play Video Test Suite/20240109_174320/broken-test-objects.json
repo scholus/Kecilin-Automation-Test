@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Video",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//video[@id\u003d\u0027videoPlayback_html5_api\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240109_174313/Create BE Playback Video/Play Video Test Suite/20240109_174320/Object Repository/Page_Playback Video/Video_XPATH.png"
+    }
+  ]
+}

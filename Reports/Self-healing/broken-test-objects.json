@@ -147,6 +147,78 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Monitoring/Right Camera Playing_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Result Table",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//table[@id\u003d\u0027table_data\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/Result Table_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Video",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//video[@id\u003d\u0027videoPlayback_html5_api\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/Video_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Stadium Search Box",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//ul[@id\u003d\u0027select2-stadion-results\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/Stadium Search Box_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Stadium Selection Bar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/Stadium Selection Bar_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Remove Item Stadium Selection Bar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/Remove Item Stadium Selection Bar_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/CCTV Search Box",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//body/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/CCTV Search Box_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Remove Item CCTV Selection Bar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027show_search_cctv\u0027]/span/span/span/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/Remove Item CCTV Selection Bar_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/CCTV Selection Bar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027select2-cctv-container\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/CCTV Selection Bar_XPATH.png"
     }
   ]
 }
