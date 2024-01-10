@@ -15,14 +15,14 @@
       <guid>9a4eeef7-6eab-40dc-be02-6d56b142bba5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select CCTV/Negative Test Case/PSSIMonitoringClearCCTVSelection</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select CCTV/Negative Test Case/PSSIVPlaybackVideoClearCCTVSelection</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c3dfc9c5-a8e5-4e25-b7d4-46ed65586ca7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select CCTV/Negative Test Case/PSSIMonitoringCloseCCTVSelection</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select CCTV/Negative Test Case/PSSIVPlaybackVideoCloseCCTVSelection</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -36,7 +36,7 @@
       <guid>7451e3bf-754c-4e3f-bf88-b760c8586a06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select CCTV/Positive Test Case/PSSIMonitoringSelectCCTVArrowKeys</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select CCTV/Positive Test Case/PSSIVPlaybackVideoSelectCCTVArrowKeys</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

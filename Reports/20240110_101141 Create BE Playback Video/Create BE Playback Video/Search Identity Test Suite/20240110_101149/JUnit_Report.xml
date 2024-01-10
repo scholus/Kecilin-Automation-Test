@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search Identity Test Suite" time="750.381" tests="6" failures="4" errors="0">
+   <testsuite name="Search Identity Test Suite" tests="6" failures="4" errors="0" time="750.381" skipped="0" timestamp="10-01-2024T10:20:23" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Playback Video/Search Identity Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856873376.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856877915.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856883445.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856917231.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856921197.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856929454.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856967715.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856971638.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704856977312.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857010155.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857014440.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857020547.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857052582.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857056040.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857062036.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857097818.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857102296.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857109027.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857140507.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857143952.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857148760.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857174890.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857178294.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857182633.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857212112.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857215551.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857251996.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857255445.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857259767.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857288123.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857291959.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857296978.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857325363.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857328825.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857334198.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857360713.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857364554.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857369347.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857401189.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857404836.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857410812.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857442472.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857446451.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857450593.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857479299.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857482658.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857483800.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857508198.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857511537.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857512618.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857537218.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857540546.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857541586.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857566204.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857569559.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="64e3526d593db4d456dcb2ece11b23a7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult" time="43.206" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[10-01-2024T10:22:57 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+10-01-2024T10:22:57 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:22:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:22:57 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:22:58 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:22:58 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:22:58 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:22:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:22:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:23:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:23:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:23:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:23:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:23:04 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:23:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:23:05 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:23:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:23:06 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:23:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:23:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:23:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:23:09 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:23:09 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:23:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:23:09 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:23:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:23:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:23:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:23:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:23:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:23:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:23:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:23:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:23:14 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:23:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:23:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:23:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:23:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:23:15 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+10-01-2024T10:23:22 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+10-01-2024T10:23:22 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+10-01-2024T10:23:22 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+10-01-2024T10:23:22 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+10-01-2024T10:23:23 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+10-01-2024T10:23:23 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+10-01-2024T10:23:24 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+10-01-2024T10:23:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:23:24 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:23:28 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:23:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Playback Video/button_Search Identify"), 0): Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:23:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:23:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:23:30 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:23:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:23:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857010155.png]]
+
+10-01-2024T10:23:31 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+10-01-2024T10:23:34 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:23:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:23:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857014440.png]]
+
+10-01-2024T10:23:35 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@6ed2aa8a' and expected object '[B@53ec379a' are not equal
+
+10-01-2024T10:23:35 - [MESSAGE][PASSED] - Actual object '[B@6ed2aa8a' and expected object '[B@53ec379a' are not equal
+
+10-01-2024T10:23:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search Identify")): Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:23:36 - [TEST_STEP][PASSED] - verifyTextPresent("CANCEL", false): Text 'CANCEL' is present on page 
+
+10-01-2024T10:23:37 - [MESSAGE][PASSED] - Text 'CANCEL' is present on page 
+
+10-01-2024T10:23:37 - [TEST_STEP][PASSED] - verifyTextPresent("Identity Now", false): Text 'Identity Now' is present on page 
+
+10-01-2024T10:23:37 - [MESSAGE][PASSED] - Text 'Identity Now' is present on page 
+
+10-01-2024T10:23:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Identity Now Pop Up")): Object 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clickable
+
+10-01-2024T10:23:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clickable
+
+10-01-2024T10:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Identity Now Pop Up")): Object: 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clicked on
+
+10-01-2024T10:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clicked on
+
+10-01-2024T10:23:39 - [TEST_STEP][PASSED] - verifyTextNotPresent("Name", false): Text 'Name' is not present on page
+
+10-01-2024T10:23:40 - [MESSAGE][PASSED] - Text 'Name' is not present on page
+
+10-01-2024T10:23:40 - [TEST_STEP][FAILED] - verifyTextPresent("Result", false): Unable to verify text 'Result' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+10-01-2024T10:23:40 - [MESSAGE][FAILED] - Text 'Result' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+10-01-2024T10:23:40 - [MESSAGE][FAILED] - Unable to verify text 'Result' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857020547.png]]]]></system-out>
+         <system-err><![CDATA[10-01-2024T10:22:57 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityUnrecognized" time="33.822" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityUnrecognized" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityUnrecognized FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at PSSIPlaybackVideoSearchIdentityUnrecognized.run(PSSIPlaybackVideoSearchIdentityUnrecognized:39)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[10-01-2024T10:25:49 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityUnrecognized: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityUnrecognized FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityUnrecognized.run(PSSIPlaybackVideoSearchIdentityUnrecognized:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:25:49 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:25:49 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:25:49 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:25:49 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:25:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:25:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:25:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:25:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:25:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:25:51 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:25:52 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:25:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:25:53 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:25:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:25:54 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:25:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:25:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:25:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:25:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:25:56 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:25:57 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:25:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:25:57 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:25:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:25:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:25:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:25:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:25:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:25:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:25:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:25:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:26:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:00 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:26:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:26:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:26:02 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+10-01-2024T10:26:08 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+10-01-2024T10:26:08 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+10-01-2024T10:26:09 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+10-01-2024T10:26:09 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+10-01-2024T10:26:09 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+10-01-2024T10:26:09 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+10-01-2024T10:26:10 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+10-01-2024T10:26:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:26:10 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:26:14 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:26:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Playback Video/button_Search Identify"), 0): Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:26:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:26:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:26:14 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:26:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:26:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857174890.png]]
+
+10-01-2024T10:26:15 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+10-01-2024T10:26:18 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:26:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:26:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857178294.png]]
+
+10-01-2024T10:26:19 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@1e0ccdd6' and expected object '[B@5f849a79' are not equal
+
+10-01-2024T10:26:19 - [MESSAGE][PASSED] - Actual object '[B@1e0ccdd6' and expected object '[B@5f849a79' are not equal
+
+10-01-2024T10:26:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search Identify")): Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:26:19 - [TEST_STEP][PASSED] - verifyTextPresent("CANCEL", false): Text 'CANCEL' is present on page 
+
+10-01-2024T10:26:20 - [MESSAGE][PASSED] - Text 'CANCEL' is present on page 
+
+10-01-2024T10:26:20 - [TEST_STEP][PASSED] - verifyTextPresent("Identity Now", false): Text 'Identity Now' is present on page 
+
+10-01-2024T10:26:20 - [MESSAGE][PASSED] - Text 'Identity Now' is present on page 
+
+10-01-2024T10:26:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Identity Now Pop Up")): Object 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clickable
+
+10-01-2024T10:26:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clickable
+
+10-01-2024T10:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Identity Now Pop Up")): Object: 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clicked on
+
+10-01-2024T10:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clicked on
+
+10-01-2024T10:26:21 - [TEST_STEP][PASSED] - verifyTextNotPresent("Name", false): Text 'Name' is not present on page
+
+10-01-2024T10:26:22 - [MESSAGE][PASSED] - Text 'Name' is not present on page
+
+10-01-2024T10:26:22 - [TEST_STEP][FAILED] - verifyTextPresent("Result", false): Unable to verify text 'Result' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityUnrecognized.run(PSSIPlaybackVideoSearchIdentityUnrecognized:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+10-01-2024T10:26:22 - [MESSAGE][FAILED] - Text 'Result' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityUnrecognized.run(PSSIPlaybackVideoSearchIdentityUnrecognized:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+10-01-2024T10:26:22 - [MESSAGE][FAILED] - Unable to verify text 'Result' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityUnrecognized.run(PSSIPlaybackVideoSearchIdentityUnrecognized:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857182633.png]]]]></system-out>
+         <system-err><![CDATA[10-01-2024T10:25:49 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityUnrecognized: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityUnrecognized FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityUnrecognized.run(PSSIPlaybackVideoSearchIdentityUnrecognized:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSISearchPersonIdentityInvalidCancel" time="38.389" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSISearchPersonIdentityInvalidCancel" status="PASSED">
+         <system-out><![CDATA[10-01-2024T10:26:22 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSISearchPersonIdentityInvalidCancel: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSISearchPersonIdentityInvalidCancel
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:26:23 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:26:23 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:26:23 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:26:23 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:26:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:26:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:26:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:26:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:26:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:26:25 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:26:26 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:26:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:26:26 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:26:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:26:27 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:26:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:26:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:26:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:26:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:26:30 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:26:30 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:26:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:26:30 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:26:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:26:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:26:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:26:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:26:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:26:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:26:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:26:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:26:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:34 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:26:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:26:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:26:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:26:35 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+10-01-2024T10:26:42 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+10-01-2024T10:26:42 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+10-01-2024T10:26:43 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+10-01-2024T10:26:43 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+10-01-2024T10:26:44 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+10-01-2024T10:26:44 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+10-01-2024T10:26:44 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+10-01-2024T10:26:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:26:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:26:45 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:26:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Playback Video/button_Search Identify"), 0): Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:26:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:26:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:26:52 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:26:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:26:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857212112.png]]
+
+10-01-2024T10:26:53 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+10-01-2024T10:26:55 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:26:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:26:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857215551.png]]
+
+10-01-2024T10:26:56 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@7c9a5397' and expected object '[B@198fb504' are not equal
+
+10-01-2024T10:26:56 - [MESSAGE][PASSED] - Actual object '[B@7c9a5397' and expected object '[B@198fb504' are not equal
+
+10-01-2024T10:26:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search Identify")): Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:26:57 - [TEST_STEP][PASSED] - verifyTextPresent("CANCEL", false): Text 'CANCEL' is present on page 
+
+10-01-2024T10:26:58 - [MESSAGE][PASSED] - Text 'CANCEL' is present on page 
+
+10-01-2024T10:26:58 - [TEST_STEP][PASSED] - verifyTextPresent("Identity Now", false): Text 'Identity Now' is present on page 
+
+10-01-2024T10:26:58 - [MESSAGE][PASSED] - Text 'Identity Now' is present on page 
+
+10-01-2024T10:26:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/button_Cancel Pop Up"), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Page_Playback Video/button_Cancel Pop Up'
+
+10-01-2024T10:26:58 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Page_Playback Video/button_Cancel Pop Up'
+
+10-01-2024T10:26:58 - [TEST_STEP][PASSED] - verifyTextPresent("Identity Now", false): Text 'Identity Now' is present on page 
+
+10-01-2024T10:26:59 - [MESSAGE][PASSED] - Text 'Identity Now' is present on page 
+
+10-01-2024T10:26:59 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Page_Playback Video/button_Cancel Pop Up"), 50, 0): Object: 'Object Repository/Page_Playback Video/button_Cancel Pop Up' is clicked on using offset x=50 and y=0
+
+10-01-2024T10:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Cancel Pop Up' is clicked on using offset x=50 and y=0
+
+10-01-2024T10:27:00 - [TEST_STEP][PASSED] - verifyTextPresent("Identity Now", false): Text 'Identity Now' is present on page 
+
+10-01-2024T10:27:00 - [MESSAGE][PASSED] - Text 'Identity Now' is present on page 
+
+10-01-2024T10:27:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T10:27:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSaveSearchedPersonIdentity" time="35.131" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSaveSearchedPersonIdentity" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSaveSearchedPersonIdentity FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Name' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at PSSIPlaybackVideoSaveSearchedPersonIdentity.run(PSSIPlaybackVideoSaveSearchedPersonIdentity:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Name' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[10-01-2024T10:28:54 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSaveSearchedPersonIdentity: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSaveSearchedPersonIdentity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSaveSearchedPersonIdentity.run(PSSIPlaybackVideoSaveSearchedPersonIdentity:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:28:54 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:28:54 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:28:54 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:28:54 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:28:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:28:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:28:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:28:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:28:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:28:56 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:28:57 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:28:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:28:58 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:28:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:28:59 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:28:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:28:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:29:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:29:01 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:29:02 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:29:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:29:02 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:29:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:29:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:29:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:29:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:29:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:29:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:29:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:29:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:29:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:29:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:29:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:29:05 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:29:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:29:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:29:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:29:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:29:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:29:07 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+10-01-2024T10:29:14 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+10-01-2024T10:29:14 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+10-01-2024T10:29:14 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+10-01-2024T10:29:14 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+10-01-2024T10:29:15 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+10-01-2024T10:29:15 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+10-01-2024T10:29:15 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+10-01-2024T10:29:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:29:15 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:29:20 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:29:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Playback Video/button_Search Identify"), 0): Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:29:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:29:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:29:20 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:29:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:29:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857360713.png]]
+
+10-01-2024T10:29:22 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+10-01-2024T10:29:24 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:29:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:29:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857364554.png]]
+
+10-01-2024T10:29:25 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@6e958f2c' and expected object '[B@237c65fc' are not equal
+
+10-01-2024T10:29:25 - [MESSAGE][PASSED] - Actual object '[B@6e958f2c' and expected object '[B@237c65fc' are not equal
+
+10-01-2024T10:29:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search Identify")): Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:29:26 - [TEST_STEP][PASSED] - verifyTextPresent("CANCEL", false): Text 'CANCEL' is present on page 
+
+10-01-2024T10:29:27 - [MESSAGE][PASSED] - Text 'CANCEL' is present on page 
+
+10-01-2024T10:29:27 - [TEST_STEP][PASSED] - verifyTextPresent("Identity Now", false): Text 'Identity Now' is present on page 
+
+10-01-2024T10:29:27 - [MESSAGE][PASSED] - Text 'Identity Now' is present on page 
+
+10-01-2024T10:29:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Identity Now Pop Up")): Object 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clickable
+
+10-01-2024T10:29:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clickable
+
+10-01-2024T10:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Identity Now Pop Up")): Object: 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clicked on
+
+10-01-2024T10:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Identity Now Pop Up' is clicked on
+
+10-01-2024T10:29:28 - [TEST_STEP][FAILED] - verifyTextPresent("Name", false): Unable to verify text 'Name' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSaveSearchedPersonIdentity.run(PSSIPlaybackVideoSaveSearchedPersonIdentity:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+10-01-2024T10:29:29 - [MESSAGE][FAILED] - Text 'Name' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSaveSearchedPersonIdentity.run(PSSIPlaybackVideoSaveSearchedPersonIdentity:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+10-01-2024T10:29:29 - [MESSAGE][FAILED] - Unable to verify text 'Name' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSaveSearchedPersonIdentity.run(PSSIPlaybackVideoSaveSearchedPersonIdentity:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857369347.png]]]]></system-out>
+         <system-err><![CDATA[10-01-2024T10:28:54 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSaveSearchedPersonIdentity: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSaveSearchedPersonIdentity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Name' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSaveSearchedPersonIdentity.run(PSSIPlaybackVideoSaveSearchedPersonIdentity:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Name' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSearchIdentity" time="28.819" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSearchIdentity" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSearchIdentity FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Playback Video/button_Search Identify'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at PSSIPlaybackVideoSearchIdentity.run(PSSIPlaybackVideoSearchIdentity:27)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=120.0.6099.200)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-HLRVE9S', ip: '192.168.100.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 8048450d339749398eb2c0cd8dc93e75&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[10-01-2024T10:31:24 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSearchIdentity: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSearchIdentity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Playback Video/button_Search Identify'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at PSSIPlaybackVideoSearchIdentity.run(PSSIPlaybackVideoSearchIdentity:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HLRVE9S', ip: '192.168.100.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8048450d339749398eb2c0cd8dc93e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:31:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:31:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:31:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:31:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:31:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:31:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:31:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:31:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:31:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:31:25 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:31:26 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:31:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:31:26 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:31:27 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:31:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:31:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:31:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:31:30 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:31:30 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:31:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:31:30 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:31:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:31:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:31:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:31:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:31:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:31:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:31:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:31:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:31:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:31:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:31:34 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:31:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:31:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:31:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:31:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:31:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:31:35 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+10-01-2024T10:31:42 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+10-01-2024T10:31:42 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+10-01-2024T10:31:42 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+10-01-2024T10:31:42 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+10-01-2024T10:31:43 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+10-01-2024T10:31:43 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+10-01-2024T10:31:43 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+10-01-2024T10:31:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:31:43 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:31:47 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:31:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Playback Video/button_Search Identify"), 0): Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:31:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:31:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:31:48 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:31:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:31:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857508198.png]]
+
+10-01-2024T10:31:49 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+10-01-2024T10:31:51 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:31:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:31:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857511537.png]]
+
+10-01-2024T10:31:52 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@4b186d43' and expected object '[B@6a2b5981' are not equal
+
+10-01-2024T10:31:52 - [MESSAGE][PASSED] - Actual object '[B@4b186d43' and expected object '[B@6a2b5981' are not equal
+
+10-01-2024T10:31:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:31:52 - [TEST_STEP][FAILED] - click(findTestObject("Page_Playback Video/button_Search Identify")): Unable to click on object 'Object Repository/Page_Playback Video/button_Search Identify' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Playback Video/button_Search Identify'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at PSSIPlaybackVideoSearchIdentity.run(PSSIPlaybackVideoSearchIdentity:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HLRVE9S', ip: '192.168.100.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8048450d339749398eb2c0cd8dc93e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1704785853585.run(Script1704785853585.groovy:27)
+	... 18 more
+)
+
+10-01-2024T10:31:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Playback Video/button_Search Identify' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Playback Video/button_Search Identify'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at PSSIPlaybackVideoSearchIdentity.run(PSSIPlaybackVideoSearchIdentity:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HLRVE9S', ip: '192.168.100.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8048450d339749398eb2c0cd8dc93e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1704785853585.run(Script1704785853585.groovy:27)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857512618.png]]]]></system-out>
+         <system-err><![CDATA[10-01-2024T10:31:24 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSearchIdentity: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSIPlaybackVideoSearchIdentity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Playback Video/button_Search Identify'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at PSSIPlaybackVideoSearchIdentity.run(PSSIPlaybackVideoSearchIdentity:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HLRVE9S', ip: '192.168.100.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8048450d339749398eb2c0cd8dc93e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSISearchPersonIdentityCancel" time="32.527" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSISearchPersonIdentityCancel" status="PASSED">
+         <system-out><![CDATA[10-01-2024T10:32:21 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSISearchPersonIdentityCancel: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Positive Test Case/PSSISearchPersonIdentityCancel
+
+10-01-2024T10:32:21 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:32:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:32:21 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo
+
+10-01-2024T10:32:21 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:32:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:32:22 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam
+
+10-01-2024T10:32:22 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:32:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:32:22 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:32:22 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:32:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:32:22 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:32:22 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:32:22 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:32:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:32:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:32:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:32:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:32:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:32:23 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:32:24 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:32:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:32:24 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:32:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:32:25 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:32:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:32:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:32:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:32:28 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:32:28 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:32:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:32:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:32:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:32:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+10-01-2024T10:32:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:32:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:32:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:32:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:32:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+10-01-2024T10:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+10-01-2024T10:32:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:32:31 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:32:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:32:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+10-01-2024T10:32:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+10-01-2024T10:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+10-01-2024T10:32:33 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+10-01-2024T10:32:40 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+10-01-2024T10:32:40 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+10-01-2024T10:32:40 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+10-01-2024T10:32:40 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+10-01-2024T10:32:40 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+10-01-2024T10:32:40 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+10-01-2024T10:32:41 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+10-01-2024T10:32:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIFilterStadiumAndCam' successfully
+
+10-01-2024T10:32:41 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:32:41 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video/show/65273c11a21542f9826f23a6/2023-12-31T17-00-43.mp4' successfully
+
+10-01-2024T10:32:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Playback Video/button_Search Identify"), 0): Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:32:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:32:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Playback Video/button_Search Identify' successfully
+
+10-01-2024T10:32:46 - [TEST_STEP][PASSED] - screenshot1 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:32:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:32:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857566204.png]]
+
+10-01-2024T10:32:47 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+10-01-2024T10:32:49 - [TEST_STEP][PASSED] - screenshot2 = takeFullPageScreenshot(): Taking screenshot successfully
+
+10-01-2024T10:32:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-01-2024T10:32:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Search Identity Test Suite\\20240110_101149\\1704857569559.png]]
+
+10-01-2024T10:32:50 - [TEST_STEP][PASSED] - verifyNotEqual(screenshot1, screenshot2): Actual object '[B@4c0c2808' and expected object '[B@48b6b6b8' are not equal
+
+10-01-2024T10:32:50 - [MESSAGE][PASSED] - Actual object '[B@4c0c2808' and expected object '[B@48b6b6b8' are not equal
+
+10-01-2024T10:32:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlayVideo' successfully
+
+10-01-2024T10:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search Identify")): Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search Identify' is clicked on
+
+10-01-2024T10:32:50 - [TEST_STEP][PASSED] - verifyTextPresent("CANCEL", false): Text 'CANCEL' is present on page 
+
+10-01-2024T10:32:51 - [MESSAGE][PASSED] - Text 'CANCEL' is present on page 
+
+10-01-2024T10:32:51 - [TEST_STEP][PASSED] - verifyTextPresent("Identity Now", false): Text 'Identity Now' is present on page 
+
+10-01-2024T10:32:51 - [MESSAGE][PASSED] - Text 'Identity Now' is present on page 
+
+10-01-2024T10:32:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Cancel Pop Up")): Object 'Object Repository/Page_Playback Video/button_Cancel Pop Up' is clickable
+
+10-01-2024T10:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Cancel Pop Up' is clickable
+
+10-01-2024T10:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Cancel Pop Up")): Object: 'Object Repository/Page_Playback Video/button_Cancel Pop Up' is clicked on
+
+10-01-2024T10:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Cancel Pop Up' is clicked on
+
+10-01-2024T10:32:52 - [TEST_STEP][PASSED] - verifyTextNotPresent("CANCEL", false): Text 'CANCEL' is not present on page
+
+10-01-2024T10:32:53 - [MESSAGE][PASSED] - Text 'CANCEL' is not present on page
+
+10-01-2024T10:32:53 - [TEST_STEP][PASSED] - verifyTextNotPresent("Identity Now", false): Text 'Identity Now' is not present on page
+
+10-01-2024T10:32:54 - [MESSAGE][PASSED] - Text 'Identity Now' is not present on page
+
+10-01-2024T10:32:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T10:32:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-01-2024T10:20:23 - [TEST_SUITE][FAILED] - Search Identity Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[10-01-2024T10:20:23 - [TEST_SUITE][FAILED] - Search Identity Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Search Identity/Negative Test Case/PSSIPlaybackVideoSearchIdentityNoFaceResult FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Result' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIPlaybackVideoSearchIdentityNoFaceResult.run(PSSIPlaybackVideoSearchIdentityNoFaceResult:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856309767.run(TempTestSuite1704856309767.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Result' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

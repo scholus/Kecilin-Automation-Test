@@ -21,7 +21,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 
-WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE Playback Video/Filter Playback Video/Positive Test Case/PSSIStadiumAndCam'), [:])
+WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo'), [:])
 
 //pastiin dulu selection bar cctv ga ada
 WebUI.verifyElementNotPresent(findTestObject('Page_Playback Video/CCTV Selection Bar'),0)

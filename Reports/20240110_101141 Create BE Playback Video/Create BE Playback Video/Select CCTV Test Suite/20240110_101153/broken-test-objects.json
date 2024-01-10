@@ -1,0 +1,31 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/CCTV Search Box",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//body/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_101141/Create BE Playback Video/Select CCTV Test Suite/20240110_101153/Object Repository/Page_Playback Video/CCTV Search Box_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/Remove Item CCTV Selection Bar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027show_search_cctv\u0027]/span/span/span/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_101141/Create BE Playback Video/Select CCTV Test Suite/20240110_101153/Object Repository/Page_Playback Video/Remove Item CCTV Selection Bar_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Playback Video/CCTV Selection Bar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027select2-cctv-container\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_101141/Create BE Playback Video/Select CCTV Test Suite/20240110_101153/Object Repository/Page_Playback Video/CCTV Selection Bar_XPATH.png"
+    }
+  ]
+}

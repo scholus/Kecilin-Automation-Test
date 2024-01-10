@@ -15,14 +15,14 @@
       <guid>fbaf0408-305d-46a1-bbac-441774a0c4f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIVPlaybackVideoClearStadiumSelection</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>97d0c263-5983-4dcd-aabe-1f8c2b222af0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringCloseStadiumSelection</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIVPlaybackVideoCloseStadiumSelection</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -36,7 +36,7 @@
       <guid>e26c89ed-8d17-4d6f-ae4f-d8fc4e0ef9ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIMonitoringSelectStadiumArrowKeys</testCaseId>
+      <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIVPlaybackVideoSelectStadiumArrowKeys</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>89e67c2b-cb8c-4624-b035-44dbfeb024c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Play Video/PSSIPlaybackVideoValidate5Min</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

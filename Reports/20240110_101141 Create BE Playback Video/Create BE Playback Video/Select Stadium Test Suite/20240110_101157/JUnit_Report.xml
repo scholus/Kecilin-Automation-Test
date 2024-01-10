@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Select Stadium Test Suite" time="174.008" tests="5" failures="1" errors="0">
+   <testsuite name="Select Stadium Test Suite" tests="5" failures="1" errors="0" time="174.008" skipped="0" timestamp="10-01-2024T10:37:27" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Playback Video/Select Stadium Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857878629.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857879059.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857903820.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857904221.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857930244.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857930599.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857954534.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857954973.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="bc8402352a2a313f07aeeb5166057900"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection" time="24.424" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[10-01-2024T10:38:50 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+10-01-2024T10:38:50 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:38:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:38:51 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:38:51 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:38:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:38:51 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:38:51 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:38:51 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:38:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:38:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:38:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:38:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:38:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:38:54 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:38:55 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:38:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:38:55 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:38:56 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:38:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:38:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:38:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:38:59 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:39:00 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:39:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:39:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Search Field")): Object 'Object Repository/Page_Playback Video/Stadium Search Field' is clickable
+
+10-01-2024T10:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Search Field' is clickable
+
+10-01-2024T10:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Playback Video/Stadium Search Field"), "Bung"): Text 'Bung' is set on object 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:02 - [MESSAGE][PASSED] - Text 'Bung' is set on object 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:02 - [TEST_STEP][PASSED] - expectedPattern = ".Bung.": null
+
+10-01-2024T10:39:02 - [TEST_STEP][PASSED] - elementText = getText(findTestObject("Page_Playback Video/Stadium Search Box")): Text of object 'Object Repository/Page_Playback Video/Stadium Search Box' is: 'Stadion Utama Gelora Bung Karno
+Stadion Madya Gelora Bung Karno
+Stadion Gelora Bung Tomo'
+
+10-01-2024T10:39:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-stadion-results")[count(. | //ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-stadion-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung KarnoStadion Madya Gelora Bung KarnoIndomilk Arena StadiumStadion PatriotStadion Si Jalak HarupatStadion Gelora Bandung Lautan ApiStadion ManahanStadion Maguwoharjo SlemanStadion Gelora Bung TomoStadion Gelora Bangkalan' or . = 'Stadion Utama Gelora Bung KarnoStadion Madya Gelora Bung KarnoIndomilk Arena StadiumStadion PatriotStadion Si Jalak HarupatStadion Gelora Bandung Lautan ApiStadion ManahanStadion Maguwoharjo SlemanStadion Gelora Bung TomoStadion Gelora Bangkalan')]) = count(//ul[@class = 'select2-results__options' and @role = 'listbox' and @id = 'select2-stadion-results' and @aria-expanded = 'true' and @aria-hidden = 'false' and (text() = 'Stadion Utama Gelora Bung KarnoStadion Madya Gelora Bung KarnoIndomilk Arena StadiumStadion PatriotStadion Si Jalak HarupatStadion Gelora Bandung Lautan ApiStadion ManahanStadion Maguwoharjo SlemanStadion Gelora Bung TomoStadion Gelora Bangkalan' or . = 'Stadion Utama Gelora Bung KarnoStadion Madya Gelora Bung KarnoIndomilk Arena StadiumStadion PatriotStadion Si Jalak HarupatStadion Gelora Bandung Lautan ApiStadion ManahanStadion Maguwoharjo SlemanStadion Gelora Bung TomoStadion Gelora Bangkalan')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-01-2024T10:39:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/Stadium Search Box'. Try using Self-healing.
+
+10-01-2024T10:39:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Playback Video/Stadium Search Box' was broken. Propose an alternative one: '//ul[@id='select2-stadion-results']'.
+
+10-01-2024T10:39:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Playback Video/Stadium Search Box' is: 'Stadion Utama Gelora Bung Karno
+Stadion Madya Gelora Bung Karno
+Stadion Gelora Bung Tomo'
+
+10-01-2024T10:39:05 - [TEST_STEP][PASSED] - isTextMatched = Pattern.matches(expectedPattern, elementText): null
+
+10-01-2024T10:39:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Remove Item Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Remove Item Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/main[@class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps"]/div[@class="container-fluid py-4"]/div[@class="row"]/div[@class="col-12"]/div[@class="card"]/div[@class="card-body"]/div[@class="form-group"]/span[@class="select2 select2-container select2-container--default select2-container--below"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single select2-selection--clearable"]/button[@class="select2-selection__clear"]/span[1][count(. | //span[@aria-hidden = 'true' and (text() = '×' or . = '×')]) = count(//span[@aria-hidden = 'true' and (text() = '×' or . = '×')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-01-2024T10:39:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/Remove Item Stadium Selection Bar'. Try using Self-healing.
+
+10-01-2024T10:39:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Playback Video/Remove Item Stadium Selection Bar' was broken. Propose an alternative one: '//button/span'.
+
+10-01-2024T10:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Remove Item Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:08 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Page_Playback Video/Stadium Selection Bar"), 50, 50): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on using offset x=50 and y=50
+
+10-01-2024T10:39:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-stadion-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-01-2024T10:39:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/Stadium Selection Bar'. Try using Self-healing.
+
+10-01-2024T10:39:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' was broken. Propose an alternative one: '//span/span/span/span'.
+
+10-01-2024T10:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on using offset x=50 and y=50
+
+10-01-2024T10:39:11 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Page_Playback Video/Stadium Selection Bar"), "-- Search Stadium --"): Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+10-01-2024T10:39:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-stadion-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-01-2024T10:39:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/Stadium Selection Bar'. Try using Self-healing.
+
+10-01-2024T10:39:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' was broken. Propose an alternative one: '//span/span/span/span'.
+
+10-01-2024T10:39:14 - [MESSAGE][FAILED] - Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857954534.png]]
+
+10-01-2024T10:39:15 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240110_101141\\Create BE Playback Video\\Select Stadium Test Suite\\20240110_101157\\1704857954973.png]]]]></system-out>
+         <system-err><![CDATA[10-01-2024T10:38:50 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringCloseStadiumSelection" time="29.291" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringCloseStadiumSelection" status="PASSED">
+         <system-out><![CDATA[10-01-2024T10:39:15 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringCloseStadiumSelection: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringCloseStadiumSelection
+
+10-01-2024T10:39:16 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:39:16 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:39:16 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:39:16 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:39:16 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:39:16 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:39:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-01-2024T10:39:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:39:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:39:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:39:22 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:39:24 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:39:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:39:24 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:39:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:39:26 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:39:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:39:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:39:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:39:29 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:39:31 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:39:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:39:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:34 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/Stadium Search Field"), 0): Web element with id: 'Object Repository/Page_Playback Video/Stadium Search Field' located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results'])]' is not present after '1' second(s)
+
+10-01-2024T10:39:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:39:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/Stadium Search Field' located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results'])]' is not present after '1' second(s)
+
+10-01-2024T10:39:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-stadion-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-01-2024T10:39:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/Stadium Selection Bar'. Try using Self-healing.
+
+10-01-2024T10:39:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' was broken. Propose an alternative one: '//span/span/span/span'.
+
+10-01-2024T10:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-stadion-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-01-2024T10:39:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/Stadium Selection Bar'. Try using Self-healing.
+
+10-01-2024T10:39:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' was broken. Propose an alternative one: '//span/span/span/span'.
+
+10-01-2024T10:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:41 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Page_Playback Video/Stadium Selection Bar"), 50, 100): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on using offset x=50 and y=100
+
+10-01-2024T10:39:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("select2-stadion-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-stadion-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search Stadium --' and (text() = '-- Search Stadium --' or . = '-- Search Stadium --')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-01-2024T10:39:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/Stadium Selection Bar'. Try using Self-healing.
+
+10-01-2024T10:39:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' was broken. Propose an alternative one: '//span/span/span/span'.
+
+10-01-2024T10:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on using offset x=50 and y=100
+
+10-01-2024T10:39:43 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/Stadium Search Field"), 0): Web element with id: 'Object Repository/Page_Playback Video/Stadium Search Field' located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results'])]' is not present after '1' second(s)
+
+10-01-2024T10:39:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+10-01-2024T10:39:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/Stadium Search Field' located by 'By.xpath: /html[@class="fontawesome-i2svg-active fontawesome-i2svg-complete"]/body[@class="g-sidenav-show  bg-gray-100"]/span[@class="select2-container select2-container--default select2-container--open"]/span[@class="select2-dropdown select2-dropdown--below"]/span[@class="select2-search select2-search--dropdown"]/input[@class="select2-search__field"][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '0' and @autocorrect = 'off' and @autocapitalize = 'none' and @spellcheck = 'false' and @role = 'searchbox' and @aria-autocomplete = 'list' and @autocomplete = 'off' and @aria-label = 'Search' and @aria-controls = 'select2-stadion-results'])]' is not present after '1' second(s)
+
+10-01-2024T10:39:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T10:39:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIPlaybackVideoStadiumSearchNoResult" time="11.776" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIPlaybackVideoStadiumSearchNoResult" status="PASSED">
+         <system-out><![CDATA[10-01-2024T10:39:44 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIPlaybackVideoStadiumSearchNoResult: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIPlaybackVideoStadiumSearchNoResult
+
+10-01-2024T10:39:44 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:39:45 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:39:45 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:39:45 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:39:45 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:39:45 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:39:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:39:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:39:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:39:46 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:39:47 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:39:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:39:48 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:39:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:39:49 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:39:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:39:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:39:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:39:51 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:39:52 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:39:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:39:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:39:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Search Field")): Object 'Object Repository/Page_Playback Video/Stadium Search Field' is clickable
+
+10-01-2024T10:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Search Field' is clickable
+
+10-01-2024T10:39:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Playback Video/Stadium Search Field"), "Basasasasung"): Text 'Basasasasung' is set on object 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:54 - [MESSAGE][PASSED] - Text 'Basasasasung' is set on object 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:39:55 - [TEST_STEP][PASSED] - verifyTextPresent("No results found", true): Text 'No results found' is present on page  using regular expression
+
+10-01-2024T10:39:56 - [MESSAGE][PASSED] - Text 'No results found' is present on page  using regular expression
+
+10-01-2024T10:39:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T10:39:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIMonitoringSelectStadiumArrowKeys" time="11.528" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIMonitoringSelectStadiumArrowKeys" status="PASSED">
+         <system-out><![CDATA[10-01-2024T10:39:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIMonitoringSelectStadiumArrowKeys: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIMonitoringSelectStadiumArrowKeys
+
+10-01-2024T10:39:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:39:57 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:39:57 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:39:57 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:39:57 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:39:57 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:39:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:39:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:39:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:39:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:39:58 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:39:59 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:39:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:40:00 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:40:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:40:01 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:40:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:40:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:40:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:40:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:40:04 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:40:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:40:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:40:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:40:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:06 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ARROW_UP)): Keys 'UP + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:06 - [MESSAGE][PASSED] - Keys 'UP + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:07 - [TEST_STEP][PASSED] - verifyTextNotPresent("-- Search Stadium --", false): Text '-- Search Stadium --' is not present on page
+
+10-01-2024T10:40:07 - [MESSAGE][PASSED] - Text '-- Search Stadium --' is not present on page
+
+10-01-2024T10:40:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T10:40:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIPlaybackVideoStadiumSearch" time="13.415" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIPlaybackVideoStadiumSearch" status="PASSED">
+         <system-out><![CDATA[10-01-2024T10:40:08 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIPlaybackVideoStadiumSearch: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Positive Test Case/PSSIPlaybackVideoStadiumSearch
+
+10-01-2024T10:40:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:40:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:40:09 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo
+
+10-01-2024T10:40:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:40:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:40:09 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+10-01-2024T10:40:09 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+10-01-2024T10:40:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+10-01-2024T10:40:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T10:40:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T10:40:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T10:40:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T10:40:11 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:40:12 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+10-01-2024T10:40:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-01-2024T10:40:12 - [MESSAGE][PASSED] - Current window maximized
+
+10-01-2024T10:40:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:40:13 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+10-01-2024T10:40:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:40:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+10-01-2024T10:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+10-01-2024T10:40:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+10-01-2024T10:40:16 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/playback_video"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:40:17 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/playback_video' successfully
+
+10-01-2024T10:40:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/View Playback Video Data/PSSIViewPlaybackVideo' successfully
+
+10-01-2024T10:40:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+10-01-2024T10:40:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+10-01-2024T10:40:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Search Field")): Object 'Object Repository/Page_Playback Video/Stadium Search Field' is clickable
+
+10-01-2024T10:40:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Search Field' is clickable
+
+10-01-2024T10:40:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Playback Video/Stadium Search Field"), "Bung"): Text 'Bung' is set on object 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:19 - [MESSAGE][PASSED] - Text 'Bung' is set on object 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:19 - [TEST_STEP][PASSED] - expectedPattern = ".Bung.": null
+
+10-01-2024T10:40:19 - [TEST_STEP][PASSED] - verifyTextPresent(expectedPattern, true): Text '.Bung.' is present on page  using regular expression
+
+10-01-2024T10:40:20 - [MESSAGE][PASSED] - Text '.Bung.' is present on page  using regular expression
+
+10-01-2024T10:40:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+10-01-2024T10:40:20 - [TEST_STEP][PASSED] - verifyTextPresent(expectedPattern, true): Text '.Bung.' is present on page  using regular expression
+
+10-01-2024T10:40:21 - [MESSAGE][PASSED] - Text '.Bung.' is present on page  using regular expression
+
+10-01-2024T10:40:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T10:40:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-01-2024T10:37:27 - [TEST_SUITE][FAILED] - Select Stadium Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[10-01-2024T10:37:27 - [TEST_SUITE][FAILED] - Select Stadium Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Playback Video/Select Stadium/Negative Test Case/PSSIMonitoringClearStadiumSelection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at PSSIMonitoringClearStadiumSelection.run(PSSIMonitoringClearStadiumSelection:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704856317534.run(TempTestSuite1704856317534.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Stadion Utama Gelora Bung Karno' and expected text '-- Search Stadium --' of test object 'Object Repository/Page_Playback Video/Stadium Selection Bar' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
