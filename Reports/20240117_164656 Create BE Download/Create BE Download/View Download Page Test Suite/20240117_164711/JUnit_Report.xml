@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View Download Page Test Suite" time="16.225" tests="1" failures="0" errors="0">
+   <testsuite name="View Download Page Test Suite" tests="1" failures="0" errors="0" time="16.225" skipped="0" timestamp="17-01-2024T17:00:58" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Download/View Download Page Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\View Download Page Test Suite\\20240117_164711"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\View Download Page Test Suite\\20240117_164711\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="355f33889adbe67ca6fca9d06cbeeee0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage" time="15.175" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage" status="PASSED">
+         <system-out><![CDATA[17-01-2024T17:01:00 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage: Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage
+
+17-01-2024T17:01:01 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:01:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T17:01:03 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T17:01:03 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T17:01:03 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:01:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T17:01:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T17:01:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T17:01:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T17:01:07 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:01:09 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:01:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T17:01:09 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T17:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:01:11 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:01:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:01:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:01:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T17:01:14 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/downloads"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T17:01:15 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T17:00:58 - [TEST_SUITE][PASSED] - View Download Page Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

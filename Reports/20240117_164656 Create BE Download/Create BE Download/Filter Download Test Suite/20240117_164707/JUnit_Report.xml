@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Filter Download Test Suite" time="252.908" tests="5" failures="3" errors="0">
+   <testsuite name="Filter Download Test Suite" tests="5" failures="3" errors="0" time="252.908" skipped="0" timestamp="17-01-2024T16:56:08" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Download/Filter Download Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485388644.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485404201.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485418707.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485433375.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485453118.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485471431.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485491030.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485507469.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485546611.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485562940.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485579523.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485595847.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="e2be5d481ab4e1acec097de976964317"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam" time="14.655" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at PSSIFilterEmptyStadiumAndCam.run(PSSIFilterEmptyStadiumAndCam:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id(&quot;date&quot;)[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[17-01-2024T16:56:58 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterEmptyStadiumAndCam.run(PSSIFilterEmptyStadiumAndCam:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+17-01-2024T16:56:58 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:56:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:56:59 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage: Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage
+
+17-01-2024T16:56:59 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:56:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:56:59 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T16:56:59 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T16:56:59 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:56:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T16:56:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+17-01-2024T16:56:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T16:56:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T16:57:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T16:57:01 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:57:02 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:57:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T16:57:02 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T16:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:57:03 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:57:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:57:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:57:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:57:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/downloads"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:57:06 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:57:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:57:06 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:57:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+17-01-2024T16:57:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:57:07 - [TEST_STEP][FAILED] - setText(findTestObject("Page_Playback Video/input_Date_field"), "11112023"): Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterEmptyStadiumAndCam.run(PSSIFilterEmptyStadiumAndCam:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704867278448.run(Script1704867278448.groovy:30)
+	... 18 more
+)
+
+17-01-2024T16:57:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:57:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/input_Date_field'. Try using Self-healing.
+
+17-01-2024T16:57:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='date']'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:57:10 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='date']'.
+
+17-01-2024T16:57:10 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input'.
+
+17-01-2024T16:57:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'date' and @id = 'date' and @name = 'date']'.
+
+17-01-2024T16:57:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='date']'.
+
+17-01-2024T16:57:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input'.
+
+17-01-2024T16:57:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'date' and @id = 'date' and @name = 'date']'.
+
+17-01-2024T16:57:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #date'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:57:13 - [MESSAGE][FAILED] - Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterEmptyStadiumAndCam.run(PSSIFilterEmptyStadiumAndCam:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704867278448.run(Script1704867278448.groovy:30)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485433375.png]]]]></system-out>
+         <system-err><![CDATA[17-01-2024T16:56:58 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterEmptyStadiumAndCam.run(PSSIFilterEmptyStadiumAndCam:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterInvalidDate" time="16.434" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterInvalidDate" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterInvalidDate FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '20012024' of object 'Object Repository/Page_Playback Video/input_Date_field'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at PSSIFilterInvalidDate.run(PSSIFilterInvalidDate:44)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id(&quot;date&quot;)[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[17-01-2024T16:58:11 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterInvalidDate: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterInvalidDate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '20012024' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterInvalidDate.run(PSSIFilterInvalidDate:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+17-01-2024T16:58:11 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:58:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:58:11 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage: Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage
+
+17-01-2024T16:58:11 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:58:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:58:11 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T16:58:11 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T16:58:11 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:58:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T16:58:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+17-01-2024T16:58:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T16:58:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T16:58:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T16:58:12 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:58:13 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:58:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T16:58:14 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T16:58:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:58:14 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:58:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:58:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:58:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:58:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:58:17 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/downloads"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:58:17 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:58:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:58:17 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:58:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+17-01-2024T16:58:18 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:58:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T16:58:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T16:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T16:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T16:58:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T16:58:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T16:58:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T16:58:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T16:58:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T16:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T16:58:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:58:21 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:58:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:58:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:58:21 - [TEST_STEP][FAILED] - setText(findTestObject("Page_Playback Video/input_Date_field"), "20012024"): Unable to set text '20012024' of object 'Object Repository/Page_Playback Video/input_Date_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '20012024' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterInvalidDate.run(PSSIFilterInvalidDate:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704867282533.run(Script1704867282533.groovy:44)
+	... 18 more
+)
+
+17-01-2024T16:58:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:58:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/input_Date_field'. Try using Self-healing.
+
+17-01-2024T16:58:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='date']'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:58:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='date']'.
+
+17-01-2024T16:58:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input'.
+
+17-01-2024T16:58:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'date' and @id = 'date' and @name = 'date']'.
+
+17-01-2024T16:58:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='date']'.
+
+17-01-2024T16:58:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input'.
+
+17-01-2024T16:58:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'date' and @id = 'date' and @name = 'date']'.
+
+17-01-2024T16:58:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #date'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:58:27 - [MESSAGE][FAILED] - Unable to set text '20012024' of object 'Object Repository/Page_Playback Video/input_Date_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '20012024' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterInvalidDate.run(PSSIFilterInvalidDate:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704867282533.run(Script1704867282533.groovy:44)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485507469.png]]]]></system-out>
+         <system-err><![CDATA[17-01-2024T16:58:11 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterInvalidDate: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterInvalidDate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '20012024' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterInvalidDate.run(PSSIFilterInvalidDate:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterNoResult" time="21.745" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterNoResult" status="PASSED">
+         <system-out><![CDATA[17-01-2024T16:58:27 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterNoResult: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterNoResult
+
+17-01-2024T16:58:28 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:58:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:58:28 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage: Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage
+
+17-01-2024T16:58:28 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:58:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:58:28 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T16:58:28 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T16:58:28 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:58:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T16:58:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+17-01-2024T16:58:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T16:58:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T16:58:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T16:58:30 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:58:31 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:58:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T16:58:31 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T16:58:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:58:32 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:58:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:58:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:58:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:58:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:58:34 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/downloads"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:58:34 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:58:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:58:34 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:58:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+17-01-2024T16:58:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:58:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T16:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T16:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T16:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T16:58:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T16:58:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T16:58:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T16:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T16:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T16:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T16:58:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:58:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:58:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+17-01-2024T16:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+17-01-2024T16:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+17-01-2024T16:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+17-01-2024T16:58:39 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+17-01-2024T16:58:48 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+17-01-2024T16:58:48 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+17-01-2024T16:58:48 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+17-01-2024T16:58:48 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+17-01-2024T16:58:48 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+17-01-2024T16:58:48 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+17-01-2024T16:58:49 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+17-01-2024T16:58:49 - [TEST_STEP][PASSED] - verifyTextPresent("No data available in table", false): Text 'No data available in table' is present on page 
+
+17-01-2024T16:58:49 - [MESSAGE][PASSED] - Text 'No data available in table' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterDate" time="16.357" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterDate" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterDate FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at PSSIFilterDate.run(PSSIFilterDate:42)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id(&quot;date&quot;)[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[17-01-2024T16:59:39 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterDate: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterDate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterDate.run(PSSIFilterDate:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+17-01-2024T16:59:39 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:59:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:59:39 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage: Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage
+
+17-01-2024T16:59:39 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:59:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:59:39 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T16:59:39 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T16:59:39 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:59:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T16:59:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+17-01-2024T16:59:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T16:59:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T16:59:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T16:59:41 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:59:42 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T16:59:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T16:59:42 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T16:59:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:59:43 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T16:59:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:59:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T16:59:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T16:59:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:59:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/downloads"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:59:45 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T16:59:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:59:45 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+17-01-2024T16:59:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T16:59:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T16:59:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T16:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T16:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T16:59:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T16:59:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T16:59:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T16:59:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T16:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T16:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T16:59:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:59:49 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:59:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:59:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T16:59:49 - [TEST_STEP][FAILED] - setText(findTestObject("Page_Playback Video/input_Date_field"), "11112023"): Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterDate.run(PSSIFilterDate:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704867251408.run(Script1704867251408.groovy:42)
+	... 18 more
+)
+
+17-01-2024T16:59:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:59:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Playback Video/input_Date_field'. Try using Self-healing.
+
+17-01-2024T16:59:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='date']'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:59:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='date']'.
+
+17-01-2024T16:59:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input'.
+
+17-01-2024T16:59:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'date' and @id = 'date' and @name = 'date']'.
+
+17-01-2024T16:59:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='date']'.
+
+17-01-2024T16:59:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input'.
+
+17-01-2024T16:59:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'date' and @id = 'date' and @name = 'date']'.
+
+17-01-2024T16:59:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #date'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T16:59:56 - [MESSAGE][FAILED] - Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterDate.run(PSSIFilterDate:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704867251408.run(Script1704867251408.groovy:42)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_164656\\Create BE Download\\Filter Download Test Suite\\20240117_164707\\1705485595847.png]]]]></system-out>
+         <system-err><![CDATA[17-01-2024T16:59:39 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterDate: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterDate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterDate.run(PSSIFilterDate:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterStadiumAndCam" time="25.081" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterStadiumAndCam" status="PASSED">
+         <system-out><![CDATA[17-01-2024T16:59:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterStadiumAndCam: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Positive Test Case/PSSIFilterStadiumAndCam
+
+17-01-2024T16:59:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:59:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T16:59:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage: Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage
+
+17-01-2024T16:59:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:59:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T16:59:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T16:59:56 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T16:59:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T16:59:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T16:59:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+17-01-2024T16:59:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T16:59:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T17:00:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T17:00:00 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:00:01 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:00:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T17:00:01 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T17:00:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:00:02 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:00:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:00:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:00:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T17:00:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/downloads"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T17:00:06 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/downloads' successfully
+
+17-01-2024T17:00:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Download/View Download Page/PSSIViewDownloadPage' successfully
+
+17-01-2024T17:00:06 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Playback Video/CCTV Selection Bar"), 0): Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T17:00:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+17-01-2024T17:00:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Playback Video/CCTV Selection Bar' located by 'By.xpath: id("select2-cctv-container")[count(. | //span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')]) = count(//span[@class = 'select2-selection__rendered' and @id = 'select2-cctv-container' and @role = 'textbox' and @aria-readonly = 'true' and @title = '-- Search CCTV --' and (text() = '-- Search CCTV --' or . = '-- Search CCTV --')])]' is not present after '1' second(s)
+
+17-01-2024T17:00:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T17:00:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clickable
+
+17-01-2024T17:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/Stadium Selection Bar")): Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/Stadium Selection Bar' is clicked on
+
+17-01-2024T17:00:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/Stadium Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T17:00:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/Stadium Search Field'
+
+17-01-2024T17:00:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T17:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clickable
+
+17-01-2024T17:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/CCTV Selection Bar")): Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/CCTV Selection Bar' is clicked on
+
+17-01-2024T17:00:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T17:00:09 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T17:00:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Playback Video/CCTV Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T17:00:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Playback Video/CCTV Search Field'
+
+17-01-2024T17:00:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Playback Video/button_Search")): Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+17-01-2024T17:00:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Playback Video/button_Search' is clickable
+
+17-01-2024T17:00:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Playback Video/button_Search")): Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+17-01-2024T17:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Playback Video/button_Search' is clicked on
+
+17-01-2024T17:00:11 - [TEST_STEP][PASSED] - verifyTextPresent("Size", false): Text 'Size' is present on page 
+
+17-01-2024T17:00:19 - [MESSAGE][PASSED] - Text 'Size' is present on page 
+
+17-01-2024T17:00:19 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+17-01-2024T17:00:20 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+17-01-2024T17:00:20 - [TEST_STEP][PASSED] - verifyTextPresent("Date Time", false): Text 'Date Time' is present on page 
+
+17-01-2024T17:00:20 - [MESSAGE][PASSED] - Text 'Date Time' is present on page 
+
+17-01-2024T17:00:20 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+17-01-2024T17:00:21 - [MESSAGE][PASSED] - Text 'Action' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T16:56:08 - [TEST_SUITE][FAILED] - Filter Download Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterEmptyStadiumAndCam.run(PSSIFilterEmptyStadiumAndCam:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[17-01-2024T16:56:08 - [TEST_SUITE][FAILED] - Filter Download Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Download/Filter Download/Negative Test Case/PSSIFilterEmptyStadiumAndCam FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11112023' of object 'Object Repository/Page_Playback Video/input_Date_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at PSSIFilterEmptyStadiumAndCam.run(PSSIFilterEmptyStadiumAndCam:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705484827482.run(TempTestSuite1705484827482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Playback Video/input_Date_field' located by 'id("date")[count(. | //input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date']) = count(//input[@type = 'date' and @class = 'form-control' and @id = 'date' and @name = 'date'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
