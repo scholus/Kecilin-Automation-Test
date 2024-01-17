@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Breadcrumb and Back Navigation Test Suite" time="68.966" tests="2" failures="1" errors="0">
+   <testsuite name="Breadcrumb and Back Navigation Test Suite" tests="2" failures="1" errors="0" time="68.966" skipped="0" timestamp="17-01-2024T17:10:44" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_171017\\Integration Feature People Counting to Dashboard Monitoring\\Breadcrumb and Back Navigation Test Suite\\20240117_171018"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_171017\\Integration Feature People Counting to Dashboard Monitoring\\Breadcrumb and Back Navigation Test Suite\\20240117_171018\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_171017\\Integration Feature People Counting to Dashboard Monitoring\\Breadcrumb and Back Navigation Test Suite\\20240117_171018\\1705486284471.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_171017\\Integration Feature People Counting to Dashboard Monitoring\\Breadcrumb and Back Navigation Test Suite\\20240117_171018\\1705486294217.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_171017\\Integration Feature People Counting to Dashboard Monitoring\\Breadcrumb and Back Navigation Test Suite\\20240117_171018\\1705486303168.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_171017\\Integration Feature People Counting to Dashboard Monitoring\\Breadcrumb and Back Navigation Test Suite\\20240117_171018\\1705486313045.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="edc29f9432c2722c22bf170404477e56"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBackButtonDetailPeopleCounting" time="30.176" classname="Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBackButtonDetailPeopleCounting" status="PASSED">
+         <system-out><![CDATA[17-01-2024T17:10:44 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBackButtonDetailPeopleCounting: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBackButtonDetailPeopleCounting
+
+17-01-2024T17:10:45 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:10:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting' successfully
+
+17-01-2024T17:10:46 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting
+
+17-01-2024T17:10:46 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:10:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting' successfully
+
+17-01-2024T17:10:46 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting
+
+17-01-2024T17:10:46 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:10:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T17:10:46 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T17:10:47 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T17:10:47 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:10:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T17:10:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T17:10:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T17:10:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T17:10:55 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:10:57 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:10:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T17:10:58 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T17:10:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:11:01 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:11:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:11:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:11:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T17:11:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/people_counting"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting' successfully
+
+17-01-2024T17:11:07 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting' successfully
+
+17-01-2024T17:11:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting' successfully
+
+17-01-2024T17:11:07 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/people_counting/detail/6564714d12ca78ff5334aaa0"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting/detail/6564714d12ca78ff5334aaa0' successfully
+
+17-01-2024T17:11:10 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting/detail/6564714d12ca78ff5334aaa0' successfully
+
+17-01-2024T17:11:10 - [TEST_STEP][PASSED] - verifyTextPresent("Detail People Counting", false): Text 'Detail People Counting' is present on page 
+
+17-01-2024T17:11:10 - [MESSAGE][PASSED] - Text 'Detail People Counting' is present on page 
+
+17-01-2024T17:11:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting' successfully
+
+17-01-2024T17:11:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Detail People Counting/Back Button"), 1): Object 'Object Repository/Page_Detail People Counting/Back Button' is present
+
+17-01-2024T17:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail People Counting/Back Button' is present
+
+17-01-2024T17:11:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Detail People Counting/Back Button")): Object 'Object Repository/Page_Detail People Counting/Back Button' is clickable
+
+17-01-2024T17:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Detail People Counting/Back Button' is clickable
+
+17-01-2024T17:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Detail People Counting/Back Button")): Object: 'Object Repository/Page_Detail People Counting/Back Button' is clicked on
+
+17-01-2024T17:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Detail People Counting/Back Button' is clicked on
+
+17-01-2024T17:11:12 - [TEST_STEP][PASSED] - verifyTextPresent("Capture", false): Text 'Capture' is present on page 
+
+17-01-2024T17:11:13 - [MESSAGE][PASSED] - Text 'Capture' is present on page 
+
+17-01-2024T17:11:13 - [TEST_STEP][PASSED] - verifyTextPresent("Count", false): Text 'Count' is present on page 
+
+17-01-2024T17:11:14 - [MESSAGE][PASSED] - Text 'Count' is present on page 
+
+17-01-2024T17:11:14 - [TEST_STEP][PASSED] - verifyTextPresent("Datetime", false): Text 'Datetime' is present on page 
+
+17-01-2024T17:11:14 - [MESSAGE][PASSED] - Text 'Datetime' is present on page 
+
+17-01-2024T17:11:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-01-2024T17:11:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage" time="9.886" classname="Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at PSSIBreadcrumbInUserDetailPage.run(PSSIBreadcrumbInUserDetailPage:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705486218975.run(TempTestSuite1705486218975.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[17-01-2024T17:11:43 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIBreadcrumbInUserDetailPage.run(PSSIBreadcrumbInUserDetailPage:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705486218975.run(TempTestSuite1705486218975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting' successfully
+
+17-01-2024T17:11:43 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting' successfully
+
+17-01-2024T17:11:43 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T17:11:43 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+17-01-2024T17:11:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T17:11:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+17-01-2024T17:11:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T17:11:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T17:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T17:11:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:11:46 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+17-01-2024T17:11:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T17:11:46 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T17:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:11:47 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+17-01-2024T17:11:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:11:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+17-01-2024T17:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+17-01-2024T17:11:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+17-01-2024T17:11:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/people_counting"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting' successfully
+
+17-01-2024T17:11:50 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting' successfully
+
+17-01-2024T17:11:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting' successfully
+
+17-01-2024T17:11:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/people_counting/detail/6564714d12ca78ff5334aaa0"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting/detail/6564714d12ca78ff5334aaa0' successfully
+
+17-01-2024T17:11:52 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/people_counting/detail/6564714d12ca78ff5334aaa0' successfully
+
+17-01-2024T17:11:52 - [TEST_STEP][PASSED] - verifyTextPresent("Detail People Counting", false): Text 'Detail People Counting' is present on page 
+
+17-01-2024T17:11:53 - [MESSAGE][PASSED] - Text 'Detail People Counting' is present on page 
+
+17-01-2024T17:11:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View Detail People Counting/PSSIViewDetailPeopleCounting' successfully
+
+17-01-2024T17:11:53 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Page_User Data/Breadcrumb People Counting"), 0): Unable to verify object is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIBreadcrumbInUserDetailPage.run(PSSIBreadcrumbInUserDetailPage:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705486218975.run(TempTestSuite1705486218975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Script1705483888171.run(Script1705483888171.groovy:28)
+	... 18 more
+)
+
+17-01-2024T17:11:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_User Data/Breadcrumb People Counting' does not exist
+
+17-01-2024T17:11:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+17-01-2024T17:11:53 - [MESSAGE][FAILED] - Unable to verify object is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIBreadcrumbInUserDetailPage.run(PSSIBreadcrumbInUserDetailPage:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705486218975.run(TempTestSuite1705486218975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Script1705483888171.run(Script1705483888171.groovy:28)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240117_171017\\Integration Feature People Counting to Dashboard Monitoring\\Breadcrumb and Back Navigation Test Suite\\20240117_171018\\1705486313045.png]]]]></system-out>
+         <system-err><![CDATA[17-01-2024T17:11:43 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIBreadcrumbInUserDetailPage.run(PSSIBreadcrumbInUserDetailPage:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705486218975.run(TempTestSuite1705486218975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T17:10:44 - [TEST_SUITE][FAILED] - Breadcrumb and Back Navigation Test Suite: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIBreadcrumbInUserDetailPage.run(PSSIBreadcrumbInUserDetailPage:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705486218975.run(TempTestSuite1705486218975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[17-01-2024T17:10:44 - [TEST_SUITE][FAILED] - Breadcrumb and Back Navigation Test Suite: Test Cases/Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/Breadcrumb and Back Navigation/PSSIBreadcrumbInUserDetailPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at PSSIBreadcrumbInUserDetailPage.run(PSSIBreadcrumbInUserDetailPage:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705486218975.run(TempTestSuite1705486218975.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
