@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PSSIAddAccountExceedMaxChar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a114fc84-d946-4266-8228-8e1007cfa307</testCaseGuid>
+</TestCaseEntity>

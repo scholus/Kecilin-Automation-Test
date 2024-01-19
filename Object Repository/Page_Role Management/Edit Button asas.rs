@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Edit Button asas</name>
+   <tag></tag>
+   <elementGuidId>a7f14a52-92b7-4460-b050-94dd912b7fc3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table_data']/tbody/tr/td[4]/div/a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-action.btn-action--edit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>eb2b923a-1ef3-4e28-a0b3-38bb9028ef6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/roles/edit/65aa32f712ca78ff5335bf4c</value>
+      <webElementGuid>3ab3b4be-b8c7-4e50-aa9c-6fd33f5d8821</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-action btn-action--edit</value>
+      <webElementGuid>6b034331-838b-44a4-b9a8-56d0975b8d55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table_data&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]/div[@class=&quot;d-flex gap-2&quot;]/a[@class=&quot;btn btn-action btn-action--edit&quot;]</value>
+      <webElementGuid>33a9de0c-f02e-4ed3-88a8-fc0baf9e97e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table_data']/tbody/tr/td[4]/div/a[2]</value>
+      <webElementGuid>29c81c9e-72d2-4bb7-9fad-09465c6ec16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/roles/edit/65aa32f712ca78ff5335bf4c')]</value>
+      <webElementGuid>5c0ba27b-49d5-4e64-9eeb-c4f490512f31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>5e45434b-243f-4c00-a017-262a2692b06f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/roles/edit/65aa32f712ca78ff5335bf4c']</value>
+      <webElementGuid>cc0fdda4-c5e2-44ad-a68e-d0fc31eafbf9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

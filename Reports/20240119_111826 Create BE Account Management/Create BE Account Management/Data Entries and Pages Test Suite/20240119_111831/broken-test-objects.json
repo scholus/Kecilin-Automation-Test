@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/Account Management Sidebar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027sidenav-collapse-main\u0027]/ul/li[12]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_111826/Create BE Account Management/Data Entries and Pages Test Suite/20240119_111831/Object Repository/Page_Dashboard/Account Management Sidebar_XPATH.png"
+    }
+  ]
+}

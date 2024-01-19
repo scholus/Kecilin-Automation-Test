@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Save Button</name>
+   <tag></tag>
+   <elementGuidId>8f67fbbb-fad2-47ec-9ec2-21aceaa56c67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f78e05d7-d68d-433e-a705-d2d869976ca7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>dcfdf6e2-c9e6-4173-9ca7-222241562aab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-primary</value>
+      <webElementGuid>84e9524f-a203-4a0e-b0b8-6fc8b186627b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>a62c8a29-5e97-401d-9ff6-6af19c9870fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;g-sidenav-show  bg-gray-100&quot;]/main[@class=&quot;main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y&quot;]/div[@class=&quot;container-fluid py-4&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;form-group mt-3 d-flex justify-content-end&quot;]/button[@class=&quot;btn btn-sm btn-primary&quot;]</value>
+      <webElementGuid>5c87d813-1885-429a-a98e-734aa99f8a8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>8df868e2-99f3-4942-b9a4-7c07adbd382d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>e86d2ee1-d6d4-4b98-9295-d02aedd38e33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>e1f31887-ca2e-46b3-aed6-038085ba52fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

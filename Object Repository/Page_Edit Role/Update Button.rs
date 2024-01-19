@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Update Button</name>
+   <tag></tag>
+   <elementGuidId>4f45bcff-3607-4516-84f4-4cdefe993dd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2091245b-e7ef-4196-b3f3-cc9153a4f27f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>bd63cfac-f29b-464b-9e9d-ad070bb2a137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-primary</value>
+      <webElementGuid>f96da610-3e50-4870-8f09-62abea9cd0ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Update</value>
+      <webElementGuid>35ba427c-8f9b-411a-bb55-c0921a412481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;g-sidenav-show  bg-gray-100&quot;]/main[@class=&quot;main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y&quot;]/div[@class=&quot;container-fluid py-4&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;form-group mt-3 d-flex justify-content-end&quot;]/button[@class=&quot;btn btn-sm btn-primary&quot;]</value>
+      <webElementGuid>f96b8239-3ab8-4ccb-879a-48e1e6cad79e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>9c7b7706-fb2a-4b5c-ba83-20ec42febbff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>ee8e1611-7965-429b-a712-108ee373cb65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Update' or . = 'Update')]</value>
+      <webElementGuid>6f64c22a-102d-4567-9ffa-2c1a45a50955</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

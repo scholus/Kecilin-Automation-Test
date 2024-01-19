@@ -219,6 +219,51 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Playback Video/CCTV Selection Bar_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/Account Management Sidebar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027sidenav-collapse-main\u0027]/ul/li[12]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/Account Management Sidebar_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Account/Name Field",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Create Account/Name Field_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Account/Email Field",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Create Account/Email Field_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Account/Role Selection",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027role\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Create Account/Role Selection_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Account/Image Field",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027image\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Create Account/Image Field_XPATH.png"
     }
   ]
 }

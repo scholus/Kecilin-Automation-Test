@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Back Button</name>
+   <tag></tag>
+   <elementGuidId>17df629d-e540-4b12-a8f2-77946b4b0567</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Back')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-warning.m-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>78c49e95-f718-4ff1-b813-86ef2c657a75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/roles</value>
+      <webElementGuid>3151e690-6d4e-47e4-8745-465c85f21b72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-warning m-0</value>
+      <webElementGuid>612f33ef-f83a-4623-8cc0-38dbaa9d9065</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back</value>
+      <webElementGuid>a6c1e077-91a4-42af-83d7-9cd64db15249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;g-sidenav-show  bg-gray-100&quot;]/main[@class=&quot;main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ps ps--active-y&quot;]/div[@class=&quot;container-fluid py-4&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header with-border d-flex justify-content-between align-items-center&quot;]/a[@class=&quot;btn btn-sm btn-warning m-0&quot;]</value>
+      <webElementGuid>f0b17e36-1ae9-46c5-8eff-108e3d0b3732</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Back')]</value>
+      <webElementGuid>d05f8cb4-9f29-4569-9feb-d883b0396d45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/roles')])[2]</value>
+      <webElementGuid>17a48b07-829a-4583-ad62-8c5f88c206f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/a</value>
+      <webElementGuid>1b91ea0a-26f6-49f4-b8ff-27946c6b83ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/roles' and (text() = 'Back' or . = 'Back')]</value>
+      <webElementGuid>e0db96a2-4346-4f73-a979-e0550add95ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Account Management Logo</name>
+   <tag></tag>
+   <elementGuidId>10c7d68c-ced5-4171-ad66-c1fb173822c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidenav-collapse-main']/ul/li[12]/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c15eafbc-b96d-4d5a-8200-2956c8853603</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center </value>
+      <webElementGuid>f0fab86c-d290-473f-a85f-0b487fb9694e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidenav-collapse-main&quot;)/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]/div[@class=&quot;icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center&quot;]</value>
+      <webElementGuid>1ead2956-ac5c-4175-b3b2-c5d11918fe60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidenav-collapse-main']/ul/li[12]/a/div</value>
+      <webElementGuid>68645a9e-1932-44a0-83d1-bdc888c6356a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[12]/a/div</value>
+      <webElementGuid>cc60a44d-9c06-4586-90c2-44b15bba6cb8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

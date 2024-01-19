@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Role Detail Button asas</name>
+   <tag></tag>
+   <elementGuidId>a5520453-f5d1-4d3a-a86e-0f6f301f6d58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table_data']/tbody/tr/td[4]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-action.btn-action--detail</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d8bc4c98-2c97-49d7-8230-d9dc1599d98c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/roles/detail/65aa32f712ca78ff5335bf4c</value>
+      <webElementGuid>f836a7ef-dd76-4987-afb2-cefba6cb3e02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-action btn-action--detail</value>
+      <webElementGuid>a0dc0bd5-49f9-455a-a1e9-d898ab683500</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table_data&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]/div[@class=&quot;d-flex gap-2&quot;]/a[@class=&quot;btn btn-action btn-action--detail&quot;]</value>
+      <webElementGuid>44f34dbf-5372-4ec7-be8d-800d1ed19b23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table_data']/tbody/tr/td[4]/div/a</value>
+      <webElementGuid>96f944f9-92b6-4ed4-bc63-e6a9a8e26304</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/roles/detail/65aa32f712ca78ff5335bf4c')]</value>
+      <webElementGuid>3e98f852-46d6-4886-bc89-f59e958aefea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/a</value>
+      <webElementGuid>5a0235eb-30e2-4262-a1e5-372d82f47531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/roles/detail/65aa32f712ca78ff5335bf4c']</value>
+      <webElementGuid>7751945c-aaa3-42ab-b1e3-638a968657b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

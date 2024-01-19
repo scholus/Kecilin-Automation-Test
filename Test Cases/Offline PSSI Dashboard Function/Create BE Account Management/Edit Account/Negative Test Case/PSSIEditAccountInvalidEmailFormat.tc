@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PSSIEditAccountInvalidEmailFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c47864a8-a4af-4f25-9c8e-939cee980c0c</testCaseGuid>
+</TestCaseEntity>

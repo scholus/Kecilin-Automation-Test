@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Role Selection</name>
+   <tag></tag>
+   <elementGuidId>5fa0f2aa-9db1-41b2-93bb-1aed50b45f70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#role</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='role']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5b651847-eae4-4261-be33-4313322eafa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control –</value>
+      <webElementGuid>8cbffb89-e8ee-41c1-a952-5fbd45eb8e38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>role</value>
+      <webElementGuid>5ea1a820-b227-42fe-8add-20a1679832ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>role</value>
+      <webElementGuid>671313f5-f57c-48fa-8963-a9b91a8c2284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Super Admin
+                                            Admin
+                                            Viewer
+                                        </value>
+      <webElementGuid>cb1a6016-2e82-49f8-bef3-018709f7d600</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;role&quot;)</value>
+      <webElementGuid>e2d035f0-0637-4ba0-a033-d66b2e176546</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='role']</value>
+      <webElementGuid>ed1aa100-1bde-4cf8-9c3d-606139289fbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>b35ac3fe-4c50-4983-ab53-f67f681eaeb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'role' and @name = 'role' and (text() = '
+                                            Super Admin
+                                            Admin
+                                            Viewer
+                                        ' or . = '
+                                            Super Admin
+                                            Admin
+                                            Viewer
+                                        ')]</value>
+      <webElementGuid>a225b105-7105-45aa-b07b-15f40c2a538a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

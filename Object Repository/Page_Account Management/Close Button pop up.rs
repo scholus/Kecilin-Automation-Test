@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Close Button pop up</name>
+   <tag></tag>
+   <elementGuidId>7b7f9d8a-c8fd-4d28-917e-ead8ff340cf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-close.text-dark > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='deleteModal']/div/div/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6e3abb9b-b502-4f6a-80fc-0388a8ddd80c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5c7dafe8-e4e6-4229-bde4-c7bdc550de7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×</value>
+      <webElementGuid>41a5f783-888d-42ae-98d1-0305fcb7b1a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;deleteModal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;btn-close text-dark&quot;]/span[1]</value>
+      <webElementGuid>5c97e465-f86b-4cbe-b0a2-3a2ba7ec9cff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='deleteModal']/div/div/div/button/span</value>
+      <webElementGuid>73bdb7a6-dccc-48b0-9ffe-e4ca99640531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>b8b7fed8-0f52-4aa3-a7a0-9cf1d561c0a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '×' or . = '×')]</value>
+      <webElementGuid>21c07673-c991-4afd-9396-0950dd885e33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

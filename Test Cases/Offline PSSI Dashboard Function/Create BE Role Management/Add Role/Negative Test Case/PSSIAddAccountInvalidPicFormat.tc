@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PSSIAddAccountInvalidPicFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be17c596-b39a-4b6e-9dcd-a3e133a4815d</testCaseGuid>
+</TestCaseEntity>

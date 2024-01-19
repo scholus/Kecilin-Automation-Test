@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PSSIAddAccountDuplicateEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea622edb-5005-4cd6-a8e6-39786801359c</testCaseGuid>
+</TestCaseEntity>

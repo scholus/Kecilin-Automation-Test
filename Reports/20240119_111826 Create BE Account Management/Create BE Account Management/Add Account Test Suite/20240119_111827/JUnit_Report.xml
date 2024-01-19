@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Account Test Suite" time="447.934" tests="6" failures="4" errors="0">
+   <testsuite name="Add Account Test Suite" tests="6" failures="4" errors="0" time="447.934" skipped="0" timestamp="19-01-2024T11:18:49" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Account Management/Add Account Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705637953922.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705637973410.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705637992649.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638010668.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638025231.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638039128.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638052856.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638076061.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638122756.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638170416.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638217137.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638263849.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638296104.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638316125.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638336381.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638355365.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="ba839782a4b5b46d0a4a28a6465215b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail" time="18.086" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'duplicate' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[19-01-2024T11:19:52 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'duplicate' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+19-01-2024T11:19:52 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:19:52 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:19:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:19:53 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement
+
+19-01-2024T11:19:53 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:19:53 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:19:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:19:53 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+19-01-2024T11:19:53 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:19:53 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:19:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T11:19:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-01-2024T11:19:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T11:19:53 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+19-01-2024T11:19:53 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+19-01-2024T11:19:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T11:19:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T11:19:54 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:19:55 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:19:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-01-2024T11:19:55 - [MESSAGE][PASSED] - Current window maximized
+
+19-01-2024T11:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:19:56 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:19:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:19:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:19:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:19:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+19-01-2024T11:20:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:20:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+19-01-2024T11:20:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+19-01-2024T11:20:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:20:01 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:20:02 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:20:02 - [MESSAGE][INFO] - 
+
+19-01-2024T11:20:02 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+19-01-2024T11:20:02 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+19-01-2024T11:20:02 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+19-01-2024T11:20:02 - [MESSAGE][INFO] - ==============================================================
+
+19-01-2024T11:20:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:20:02 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:20:02 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:20:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Name Field")): Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:20:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:20:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Name Field"), "eheheheheheh"): Text 'eheheheheheh' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:20:03 - [MESSAGE][PASSED] - Text 'eheheheheheh' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:20:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Email Field")): Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:20:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Email Field"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:20:05 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:20:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Password Field")): Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:20:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Password Field"), "Password"): Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:20:06 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:20:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Role Selection")): Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:20:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Create Account/Role Selection"), "Admin", true): All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:20:07 - [MESSAGE][PASSED] - All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:20:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Image Field")): Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:20:07 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Create Account/Image Field"), "C:\Users\USER\Downloads\unnamed (3).jpg"): File 'C:\Users\USER\Downloads\unnamed (3).jpg' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:20:08 - [MESSAGE][PASSED] - File 'C:\Users\USER\Downloads\unnamed (3).jpg' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:20:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:20:09 - [TEST_STEP][PASSED] - verifyTextPresent("Create Account", false): Text 'Create Account' is present on page 
+
+19-01-2024T11:20:10 - [MESSAGE][PASSED] - Text 'Create Account' is present on page 
+
+19-01-2024T11:20:10 - [TEST_STEP][FAILED] - verifyTextPresent("duplicate", false): Unable to verify text 'duplicate' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'duplicate' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+19-01-2024T11:20:10 - [MESSAGE][FAILED] - Text 'duplicate' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+19-01-2024T11:20:10 - [MESSAGE][FAILED] - Unable to verify text 'duplicate' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'duplicate' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638010668.png]]]]></system-out>
+         <system-err><![CDATA[19-01-2024T11:19:52 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'duplicate' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountEmptyMandatoryField" time="23.248" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountEmptyMandatoryField" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountEmptyMandatoryField FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)&#xa;	at PSSIAddAccountEmptyMandatoryField.run(PSSIAddAccountEmptyMandatoryField:50)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[19-01-2024T11:20:53 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountEmptyMandatoryField: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountEmptyMandatoryField FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddAccountEmptyMandatoryField.run(PSSIAddAccountEmptyMandatoryField:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:20:53 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:20:53 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:20:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T11:20:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-01-2024T11:20:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T11:20:53 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+19-01-2024T11:20:53 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+19-01-2024T11:20:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T11:20:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T11:20:54 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:20:55 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:20:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-01-2024T11:20:56 - [MESSAGE][PASSED] - Current window maximized
+
+19-01-2024T11:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:20:56 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:20:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:20:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:21:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:21:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+19-01-2024T11:21:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:21:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+19-01-2024T11:21:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+19-01-2024T11:21:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:21:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:21:06 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:21:06 - [MESSAGE][INFO] - 
+
+19-01-2024T11:21:06 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+19-01-2024T11:21:06 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+19-01-2024T11:21:06 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+19-01-2024T11:21:06 - [MESSAGE][INFO] - ==============================================================
+
+19-01-2024T11:21:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:21:06 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:21:07 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:21:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Image Field")): Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:21:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:21:07 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Create Account/Image Field"), "C:\Users\USER\Downloads\unnamed (3).jpg"): File 'C:\Users\USER\Downloads\unnamed (3).jpg' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:21:08 - [MESSAGE][PASSED] - File 'C:\Users\USER\Downloads\unnamed (3).jpg' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:21:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:21:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:21:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:21:13 - [TEST_STEP][PASSED] - verifyTextPresent("Create Account", false): Text 'Create Account' is present on page 
+
+19-01-2024T11:21:14 - [MESSAGE][PASSED] - Text 'Create Account' is present on page 
+
+19-01-2024T11:21:14 - [TEST_STEP][PASSED] - verifyTextPresent("Field Name is required", false): Text 'Field Name is required' is present on page 
+
+19-01-2024T11:21:14 - [MESSAGE][PASSED] - Text 'Field Name is required' is present on page 
+
+19-01-2024T11:21:14 - [TEST_STEP][PASSED] - verifyTextPresent("Field Email is required", false): Text 'Field Email is required' is present on page 
+
+19-01-2024T11:21:15 - [MESSAGE][PASSED] - Text 'Field Email is required' is present on page 
+
+19-01-2024T11:21:15 - [TEST_STEP][PASSED] - verifyTextPresent("Field Password is required", false): Text 'Field Password is required' is present on page 
+
+19-01-2024T11:21:15 - [MESSAGE][PASSED] - Text 'Field Password is required' is present on page 
+
+19-01-2024T11:21:15 - [TEST_STEP][FAILED] - verifyTextNotPresent("Invalid value", false): Unable to verify text 'Invalid value' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddAccountEmptyMandatoryField.run(PSSIAddAccountEmptyMandatoryField:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+19-01-2024T11:21:16 - [MESSAGE][FAILED] - Text 'Invalid value' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddAccountEmptyMandatoryField.run(PSSIAddAccountEmptyMandatoryField:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+19-01-2024T11:21:16 - [MESSAGE][FAILED] - Unable to verify text 'Invalid value' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddAccountEmptyMandatoryField.run(PSSIAddAccountEmptyMandatoryField:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638076061.png]]]]></system-out>
+         <system-err><![CDATA[19-01-2024T11:20:53 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountEmptyMandatoryField: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountEmptyMandatoryField FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at PSSIAddAccountEmptyMandatoryField.run(PSSIAddAccountEmptyMandatoryField:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountExceedMaxChar" time="46.693" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountExceedMaxChar" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountExceedMaxChar FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at PSSIAddAccountExceedMaxChar.run(PSSIAddAccountExceedMaxChar:89)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[19-01-2024T11:23:37 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountExceedMaxChar: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountExceedMaxChar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountExceedMaxChar.run(PSSIAddAccountExceedMaxChar:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:23:37 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:23:37 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:23:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T11:23:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-01-2024T11:23:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T11:23:37 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+19-01-2024T11:23:37 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+19-01-2024T11:23:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T11:23:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T11:23:39 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:23:39 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:23:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-01-2024T11:23:40 - [MESSAGE][PASSED] - Current window maximized
+
+19-01-2024T11:23:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:23:40 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:23:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:23:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:23:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:23:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:23:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+19-01-2024T11:23:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:23:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+19-01-2024T11:23:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+19-01-2024T11:23:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:23:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:23:46 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:23:46 - [MESSAGE][INFO] - 
+
+19-01-2024T11:23:46 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+19-01-2024T11:23:46 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+19-01-2024T11:23:46 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+19-01-2024T11:23:46 - [MESSAGE][INFO] - ==============================================================
+
+19-01-2024T11:23:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:23:46 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:23:46 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:23:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Name Field")): Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:23:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:23:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Name Field"), "superadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisiii"): Text 'superadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisiii' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:23:48 - [MESSAGE][PASSED] - Text 'superadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisuperadmin brisiii' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:23:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Email Field")): Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:23:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Email Field"), "vieweruser@yopmail.com"): Text 'vieweruser@yopmail.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:23:49 - [MESSAGE][PASSED] - Text 'vieweruser@yopmail.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:23:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Password Field")): Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:23:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Password Field"), "Password"): Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:23:50 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:23:50 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Role Selection")): Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:23:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Create Account/Role Selection"), "Admin", true): All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:23:52 - [MESSAGE][PASSED] - All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:23:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:23:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:23:53 - [TEST_STEP][PASSED] - verifyTextPresent("Create Account", false): Text 'Create Account' is present on page 
+
+19-01-2024T11:23:54 - [MESSAGE][PASSED] - Text 'Create Account' is present on page 
+
+19-01-2024T11:23:54 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid value", false): Text 'Invalid value' is present on page 
+
+19-01-2024T11:23:54 - [MESSAGE][PASSED] - Text 'Invalid value' is present on page 
+
+19-01-2024T11:23:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Name Field")): Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:23:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("name")[count(. | //input[@type = 'text' and @class = 'form-control ' and @id = 'name' and @name = 'name' and @placeholder = 'Nama']) = count(//input[@type = 'text' and @class = 'form-control ' and @id = 'name' and @name = 'name' and @placeholder = 'Nama'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:23:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Account/Name Field'. Try using Self-healing.
+
+19-01-2024T11:23:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Account/Name Field' was broken. Propose an alternative one: '//input[@id='name']'.
+
+19-01-2024T11:23:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Name Field"), "superadmin"): Text 'superadmin' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:23:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("name")[count(. | //input[@type = 'text' and @class = 'form-control ' and @id = 'name' and @name = 'name' and @placeholder = 'Nama']) = count(//input[@type = 'text' and @class = 'form-control ' and @id = 'name' and @name = 'name' and @placeholder = 'Nama'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:23:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Account/Name Field'. Try using Self-healing.
+
+19-01-2024T11:23:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Account/Name Field' was broken. Propose an alternative one: '//input[@id='name']'.
+
+19-01-2024T11:24:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("name")[count(. | //input[@type = 'text' and @class = 'form-control ' and @id = 'name' and @name = 'name' and @placeholder = 'Nama']) = count(//input[@type = 'text' and @class = 'form-control ' and @id = 'name' and @name = 'name' and @placeholder = 'Nama'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:24:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Account/Name Field'. Try using Self-healing.
+
+19-01-2024T11:24:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Account/Name Field' was broken. Propose an alternative one: '//input[@id='name']'.
+
+19-01-2024T11:24:02 - [MESSAGE][PASSED] - Text 'superadmin' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:24:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Email Field")): Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:24:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Email Field"), "superadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminsahskljagsaslssssbrisuperadminaa@y.com"): Text 'superadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminsahskljagsaslssssbrisuperadminaa@y.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:24:03 - [MESSAGE][PASSED] - Text 'superadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminsahskljagsaslssssbrisuperadminaa@y.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:24:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Password Field")): Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:24:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Password Field"), "Password"): Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:24:05 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:24:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Role Selection")): Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:24:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:24:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Create Account/Role Selection"), "Admin", true): All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:24:06 - [MESSAGE][PASSED] - All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:24:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:24:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:24:07 - [TEST_STEP][PASSED] - verifyTextPresent("Create Account", false): Text 'Create Account' is present on page 
+
+19-01-2024T11:24:08 - [MESSAGE][PASSED] - Text 'Create Account' is present on page 
+
+19-01-2024T11:24:08 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid value", false): Text 'Invalid value' is present on page 
+
+19-01-2024T11:24:08 - [MESSAGE][PASSED] - Text 'Invalid value' is present on page 
+
+19-01-2024T11:24:08 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Create Account/Password Field")): Text of object 'Object Repository/Page_Create Account/Password Field' is cleared
+
+19-01-2024T11:24:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Create Account/Password Field' is cleared
+
+19-01-2024T11:24:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Email Field")): Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:24:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("email")[count(. | //input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email']) = count(//input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:24:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Account/Email Field'. Try using Self-healing.
+
+19-01-2024T11:24:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Account/Email Field' was broken. Propose an alternative one: '//input[@id='email']'.
+
+19-01-2024T11:24:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:24:11 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Create Account/Email Field")): Text of object 'Object Repository/Page_Create Account/Email Field' is cleared
+
+19-01-2024T11:24:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("email")[count(. | //input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email']) = count(//input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:24:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Account/Email Field'. Try using Self-healing.
+
+19-01-2024T11:24:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Account/Email Field' was broken. Propose an alternative one: '//input[@id='email']'.
+
+19-01-2024T11:24:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Create Account/Email Field' is cleared
+
+19-01-2024T11:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Email Field"), "hagsjhgs@y.com"): Text 'hagsjhgs@y.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:24:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("email")[count(. | //input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email']) = count(//input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:24:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Account/Email Field'. Try using Self-healing.
+
+19-01-2024T11:24:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Account/Email Field' was broken. Propose an alternative one: '//input[@id='email']'.
+
+19-01-2024T11:24:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("email")[count(. | //input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email']) = count(//input[@type = 'email' and @class = 'form-control ' and @id = 'email' and @name = 'email' and @placeholder = 'Email'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:24:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Account/Email Field'. Try using Self-healing.
+
+19-01-2024T11:24:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Account/Email Field' was broken. Propose an alternative one: '//input[@id='email']'.
+
+19-01-2024T11:24:18 - [MESSAGE][PASSED] - Text 'hagsjhgs@y.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:24:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Password Field")): Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:24:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Password Field"), "superadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminsahskljagsaslssssbrisuperadminaa@y.com"): Text 'superadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminsahskljagsaslssssbrisuperadminaa@y.com' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:24:20 - [MESSAGE][PASSED] - Text 'superadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminbrisuperadminsahskljagsaslssssbrisuperadminaa@y.com' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:24:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Role Selection")): Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:24:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Create Account/Role Selection"), "Admin", true): All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:24:21 - [MESSAGE][PASSED] - All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:24:21 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:24:22 - [TEST_STEP][PASSED] - verifyTextPresent("Create Account", false): Text 'Create Account' is present on page 
+
+19-01-2024T11:24:23 - [MESSAGE][PASSED] - Text 'Create Account' is present on page 
+
+19-01-2024T11:24:23 - [TEST_STEP][FAILED] - verifyTextPresent("Invalid value", false): Unable to verify text 'Invalid value' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountExceedMaxChar.run(PSSIAddAccountExceedMaxChar:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+19-01-2024T11:24:23 - [MESSAGE][FAILED] - Text 'Invalid value' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountExceedMaxChar.run(PSSIAddAccountExceedMaxChar:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+19-01-2024T11:24:24 - [MESSAGE][FAILED] - Unable to verify text 'Invalid value' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountExceedMaxChar.run(PSSIAddAccountExceedMaxChar:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638263849.png]]]]></system-out>
+         <system-err><![CDATA[19-01-2024T11:23:37 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountExceedMaxChar: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountExceedMaxChar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid value' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountExceedMaxChar.run(PSSIAddAccountExceedMaxChar:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid value' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidEmailFormat" time="12.863" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidEmailFormat" status="PASSED">
+         <system-out><![CDATA[19-01-2024T11:24:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidEmailFormat: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidEmailFormat
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:24:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:24:24 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:24:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T11:24:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-01-2024T11:24:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T11:24:24 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+19-01-2024T11:24:24 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+19-01-2024T11:24:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T11:24:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T11:24:25 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:24:27 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:24:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-01-2024T11:24:27 - [MESSAGE][PASSED] - Current window maximized
+
+19-01-2024T11:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:24:27 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:24:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:24:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:24:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:24:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:24:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+19-01-2024T11:24:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:24:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+19-01-2024T11:24:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+19-01-2024T11:24:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:24:31 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:24:32 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:24:32 - [MESSAGE][INFO] - 
+
+19-01-2024T11:24:32 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+19-01-2024T11:24:32 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+19-01-2024T11:24:32 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+19-01-2024T11:24:32 - [MESSAGE][INFO] - ==============================================================
+
+19-01-2024T11:24:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:24:32 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:24:32 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:24:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Email Field")): Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:24:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:24:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Email Field"), "vieweruser@a"): Text 'vieweruser@a' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:24:34 - [MESSAGE][PASSED] - Text 'vieweruser@a' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:24:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Password Field")): Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:24:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:24:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:24:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:24:35 - [TEST_STEP][PASSED] - verifyTextPresent("Create Account", false): Text 'Create Account' is present on page 
+
+19-01-2024T11:24:36 - [MESSAGE][PASSED] - Text 'Create Account' is present on page 
+
+19-01-2024T11:24:36 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid value", false): Text 'Invalid value' is present on page 
+
+19-01-2024T11:24:36 - [MESSAGE][PASSED] - Text 'Invalid value' is present on page 
+
+19-01-2024T11:24:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-01-2024T11:24:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidPicFormat" time="18.976" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidPicFormat" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidPicFormat FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid picture format' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at PSSIAddAccountInvalidPicFormat.run(PSSIAddAccountInvalidPicFormat:54)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid picture format' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[19-01-2024T11:25:36 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidPicFormat: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidPicFormat FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid picture format' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountInvalidPicFormat.run(PSSIAddAccountInvalidPicFormat:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid picture format' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:25:36 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:25:36 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:25:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T11:25:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-01-2024T11:25:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T11:25:37 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+19-01-2024T11:25:37 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+19-01-2024T11:25:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T11:25:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T11:25:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:25:39 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:25:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-01-2024T11:25:39 - [MESSAGE][PASSED] - Current window maximized
+
+19-01-2024T11:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:25:40 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:25:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:25:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:25:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:25:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:25:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+19-01-2024T11:25:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:25:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+19-01-2024T11:25:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+19-01-2024T11:25:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:25:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:25:45 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:25:45 - [MESSAGE][INFO] - 
+
+19-01-2024T11:25:45 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+19-01-2024T11:25:45 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+19-01-2024T11:25:45 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+19-01-2024T11:25:45 - [MESSAGE][INFO] - ==============================================================
+
+19-01-2024T11:25:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:25:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:25:46 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:25:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Name Field")): Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:25:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Name Field"), "tes pic ngaco1"): Text 'tes pic ngaco1' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:25:47 - [MESSAGE][PASSED] - Text 'tes pic ngaco1' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:25:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Email Field")): Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:25:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:25:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Email Field"), "tespicngaco1@ngaco.com"): Text 'tespicngaco1@ngaco.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:25:48 - [MESSAGE][PASSED] - Text 'tespicngaco1@ngaco.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:25:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Password Field")): Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:25:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Password Field"), "Password"): Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:25:49 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:25:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Role Selection")): Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:25:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Create Account/Role Selection"), "Admin", true): All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:25:50 - [MESSAGE][PASSED] - All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:25:50 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Image Field")): Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:25:51 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Create Account/Image Field"), "C:\Users\USER\Downloads\BlueStacksInstaller_5.20.0.1037_native.exe"): File 'C:\Users\USER\Downloads\BlueStacksInstaller_5.20.0.1037_native.exe' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:25:51 - [MESSAGE][PASSED] - File 'C:\Users\USER\Downloads\BlueStacksInstaller_5.20.0.1037_native.exe' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:25:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:25:54 - [TEST_STEP][PASSED] - verifyTextPresent("Create Account", false): Text 'Create Account' is present on page 
+
+19-01-2024T11:25:54 - [MESSAGE][PASSED] - Text 'Create Account' is present on page 
+
+19-01-2024T11:25:54 - [TEST_STEP][FAILED] - verifyTextPresent("Invalid picture format", false): Unable to verify text 'Invalid picture format' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid picture format' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountInvalidPicFormat.run(PSSIAddAccountInvalidPicFormat:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid picture format' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+19-01-2024T11:25:55 - [MESSAGE][FAILED] - Text 'Invalid picture format' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid picture format' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountInvalidPicFormat.run(PSSIAddAccountInvalidPicFormat:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+19-01-2024T11:25:55 - [MESSAGE][FAILED] - Unable to verify text 'Invalid picture format' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid picture format' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountInvalidPicFormat.run(PSSIAddAccountInvalidPicFormat:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid picture format' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240119_111826\\Create BE Account Management\\Add Account Test Suite\\20240119_111827\\1705638355365.png]]]]></system-out>
+         <system-err><![CDATA[19-01-2024T11:25:36 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidPicFormat: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountInvalidPicFormat FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Invalid picture format' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountInvalidPicFormat.run(PSSIAddAccountInvalidPicFormat:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid picture format' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Positive Test Case/PSSIAddAccountValidData" time="21.677" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Positive Test Case/PSSIAddAccountValidData" status="PASSED">
+         <system-out><![CDATA[19-01-2024T11:25:55 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Positive Test Case/PSSIAddAccountValidData: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Positive Test Case/PSSIAddAccountValidData
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:25:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:25:56 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+19-01-2024T11:25:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T11:25:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-01-2024T11:25:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T11:25:56 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+19-01-2024T11:25:56 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+19-01-2024T11:25:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T11:25:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T11:25:57 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:25:58 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+19-01-2024T11:25:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-01-2024T11:25:59 - [MESSAGE][PASSED] - Current window maximized
+
+19-01-2024T11:25:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:25:59 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+19-01-2024T11:25:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:26:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+19-01-2024T11:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+19-01-2024T11:26:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+19-01-2024T11:26:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:26:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+19-01-2024T11:26:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-01-2024T11:26:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+19-01-2024T11:26:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+19-01-2024T11:26:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+19-01-2024T11:26:04 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:26:05 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts' successfully
+
+19-01-2024T11:26:05 - [MESSAGE][INFO] - 
+
+19-01-2024T11:26:05 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+19-01-2024T11:26:05 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+19-01-2024T11:26:05 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+19-01-2024T11:26:05 - [MESSAGE][INFO] - ==============================================================
+
+19-01-2024T11:26:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/View Account Management/PSSIViewAccountManagement' successfully
+
+19-01-2024T11:26:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/accounts/create", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:26:06 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/accounts/create' successfully
+
+19-01-2024T11:26:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Name Field")): Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Name Field' is clickable
+
+19-01-2024T11:26:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Name Field"), "hehehe"): Text 'hehehe' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:26:07 - [MESSAGE][PASSED] - Text 'hehehe' is set on object 'Object Repository/Page_Create Account/Name Field'
+
+19-01-2024T11:26:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Email Field")): Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Email Field' is clickable
+
+19-01-2024T11:26:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Email Field"), "hehehe1@yoo.com"): Text 'hehehe1@yoo.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:26:08 - [MESSAGE][PASSED] - Text 'hehehe1@yoo.com' is set on object 'Object Repository/Page_Create Account/Email Field'
+
+19-01-2024T11:26:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Password Field")): Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Password Field' is clickable
+
+19-01-2024T11:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Account/Password Field"), "Password"): Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:26:09 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_Create Account/Password Field'
+
+19-01-2024T11:26:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Role Selection")): Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:26:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Role Selection' is clickable
+
+19-01-2024T11:26:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Create Account/Role Selection"), "Admin", true): All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:26:10 - [MESSAGE][PASSED] - All options with value 'Admin' are selected in object 'Object Repository/Page_Create Account/Role Selection'  using regular expression
+
+19-01-2024T11:26:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Image Field")): Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:26:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Image Field' is clickable
+
+19-01-2024T11:26:11 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Create Account/Image Field"), "C:\Users\USER\Downloads\unnamed (3).jpg"): File 'C:\Users\USER\Downloads\unnamed (3).jpg' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:26:11 - [MESSAGE][PASSED] - File 'C:\Users\USER\Downloads\unnamed (3).jpg' sent to object: 'Object Repository/Page_Create Account/Image Field'
+
+19-01-2024T11:26:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Create Account/Save Button")): Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:26:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Account/Save Button' is clickable
+
+19-01-2024T11:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Account/Save Button")): Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account/Save Button' is clicked on
+
+19-01-2024T11:26:13 - [TEST_STEP][PASSED] - verifyTextPresent("Add New", false): Text 'Add New' is present on page 
+
+19-01-2024T11:26:14 - [MESSAGE][PASSED] - Text 'Add New' is present on page 
+
+19-01-2024T11:26:14 - [TEST_STEP][PASSED] - verifyTextPresent("Status", false): Text 'Status' is present on page 
+
+19-01-2024T11:26:15 - [MESSAGE][PASSED] - Text 'Status' is present on page 
+
+19-01-2024T11:26:15 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+19-01-2024T11:26:15 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+19-01-2024T11:26:15 - [TEST_STEP][PASSED] - verifyTextPresent("entries", false): Text 'entries' is present on page 
+
+19-01-2024T11:26:16 - [MESSAGE][PASSED] - Text 'entries' is present on page 
+
+19-01-2024T11:26:16 - [TEST_STEP][PASSED] - verifyTextPresent("hehehe", false): Text 'hehehe' is present on page 
+
+19-01-2024T11:26:16 - [MESSAGE][PASSED] - Text 'hehehe' is present on page 
+
+19-01-2024T11:26:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-01-2024T11:26:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-01-2024T11:18:49 - [TEST_SUITE][FAILED] - Add Account Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'duplicate' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[19-01-2024T11:18:49 - [TEST_SUITE][FAILED] - Add Account Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Account Management/Add Account/Negative Test Case/PSSIAddAccountDuplicateEmail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'duplicate' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at PSSIAddAccountDuplicateEmail.run(PSSIAddAccountDuplicateEmail:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705637907664.run(TempTestSuite1705637907664.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'duplicate' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
