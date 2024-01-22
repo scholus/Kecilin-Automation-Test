@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Detail Role Test Suite" time="67.582" tests="2" failures="1" errors="0">
+   <testsuite name="Detail Role Test Suite" tests="2" failures="1" errors="0" time="67.582" skipped="0" timestamp="22-01-2024T12:01:07" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Role Management/Detail Role Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Detail Role Test Suite\\20240122_114909"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Detail Role Test Suite\\20240122_114909\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Detail Role Test Suite\\20240122_114909\\1705899700103.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Detail Role Test Suite\\20240122_114909\\1705899712046.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Detail Role Test Suite\\20240122_114909\\1705899723292.png, C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Detail Role Test Suite\\20240122_114909\\1705899734925.png"/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="222eca9de5dfd2c9a734c65a1d89258f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIBackButtonDetailRole" time="20.533" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIBackButtonDetailRole" status="PASSED">
+         <system-out><![CDATA[22-01-2024T12:01:08 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIBackButtonDetailRole: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIBackButtonDetailRole
+
+22-01-2024T12:01:09 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T12:01:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement"), [:]): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement' successfully
+
+22-01-2024T12:01:10 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement
+
+22-01-2024T12:01:11 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T12:01:11 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T12:01:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+22-01-2024T12:01:11 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+22-01-2024T12:01:11 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T12:01:11 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T12:01:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2024T12:01:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-01-2024T12:01:12 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+22-01-2024T12:01:12 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+22-01-2024T12:01:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2024T12:01:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2024T12:01:16 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+22-01-2024T12:01:17 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+22-01-2024T12:01:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-01-2024T12:01:17 - [MESSAGE][PASSED] - Current window maximized
+
+22-01-2024T12:01:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+22-01-2024T12:01:18 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+22-01-2024T12:01:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+22-01-2024T12:01:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+22-01-2024T12:01:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+22-01-2024T12:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+22-01-2024T12:01:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+22-01-2024T12:01:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+22-01-2024T12:01:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+22-01-2024T12:01:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-01-2024T12:01:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+22-01-2024T12:01:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+22-01-2024T12:01:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+22-01-2024T12:01:23 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/roles", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles' successfully
+
+22-01-2024T12:01:24 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles' successfully
+
+22-01-2024T12:01:24 - [MESSAGE][INFO] - 
+
+22-01-2024T12:01:24 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+22-01-2024T12:01:24 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+22-01-2024T12:01:24 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+22-01-2024T12:01:24 - [MESSAGE][INFO] - ==============================================================
+
+22-01-2024T12:01:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement' successfully
+
+22-01-2024T12:01:24 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/roles/edit/65ade43e12ca78ff5335c467"): Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles/edit/65ade43e12ca78ff5335c467' successfully
+
+22-01-2024T12:01:24 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles/edit/65ade43e12ca78ff5335c467' successfully
+
+22-01-2024T12:01:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Edit Role/Back Button"), 1): Object 'Object Repository/Page_Edit Role/Back Button' is present
+
+22-01-2024T12:01:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Edit Role/Back Button' is present
+
+22-01-2024T12:01:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Edit Role/Back Button")): Object 'Object Repository/Page_Edit Role/Back Button' is clickable
+
+22-01-2024T12:01:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Edit Role/Back Button' is clickable
+
+22-01-2024T12:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Edit Role/Back Button")): Object: 'Object Repository/Page_Edit Role/Back Button' is clicked on
+
+22-01-2024T12:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Edit Role/Back Button' is clicked on
+
+22-01-2024T12:01:26 - [TEST_STEP][PASSED] - verifyTextPresent("Description", false): Text 'Description' is present on page 
+
+22-01-2024T12:01:27 - [MESSAGE][PASSED] - Text 'Description' is present on page 
+
+22-01-2024T12:01:27 - [TEST_STEP][PASSED] - verifyTextPresent("Action", false): Text 'Action' is present on page 
+
+22-01-2024T12:01:27 - [MESSAGE][PASSED] - Text 'Action' is present on page 
+
+22-01-2024T12:01:27 - [TEST_STEP][PASSED] - verifyTextPresent("Name", false): Text 'Name' is present on page 
+
+22-01-2024T12:01:28 - [MESSAGE][PASSED] - Text 'Name' is present on page 
+
+22-01-2024T12:01:28 - [TEST_STEP][PASSED] - verifyTextPresent("entries", false): Text 'entries' is present on page 
+
+22-01-2024T12:01:28 - [MESSAGE][PASSED] - Text 'entries' is present on page 
+
+22-01-2024T12:01:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2024T12:01:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole" time="11.645" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)&#xa;	at PSSIViewDetailRole.run(PSSIViewDetailRole:40)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705898949482.run(TempTestSuite1705898949482.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.helper.KeywordHelper$checkTestObjectParameter.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 24 more&#xa;"/>
+         <system-out><![CDATA[22-01-2024T12:02:03 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIViewDetailRole.run(PSSIViewDetailRole:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705898949482.run(TempTestSuite1705898949482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.helper.KeywordHelper$checkTestObjectParameter.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 24 more
+
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement' successfully
+
+22-01-2024T12:02:03 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+22-01-2024T12:02:03 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T12:02:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2024T12:02:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-01-2024T12:02:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-01-2024T12:02:04 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+22-01-2024T12:02:04 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+22-01-2024T12:02:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2024T12:02:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2024T12:02:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+22-01-2024T12:02:06 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+22-01-2024T12:02:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-01-2024T12:02:06 - [MESSAGE][PASSED] - Current window maximized
+
+22-01-2024T12:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+22-01-2024T12:02:07 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+22-01-2024T12:02:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+22-01-2024T12:02:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+22-01-2024T12:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+22-01-2024T12:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+22-01-2024T12:02:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+22-01-2024T12:02:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+22-01-2024T12:02:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+22-01-2024T12:02:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-01-2024T12:02:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+22-01-2024T12:02:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+22-01-2024T12:02:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+22-01-2024T12:02:12 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/roles", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles' successfully
+
+22-01-2024T12:02:13 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles' successfully
+
+22-01-2024T12:02:13 - [MESSAGE][INFO] - 
+
+22-01-2024T12:02:13 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+22-01-2024T12:02:13 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+22-01-2024T12:02:13 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+22-01-2024T12:02:13 - [MESSAGE][INFO] - ==============================================================
+
+22-01-2024T12:02:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement' successfully
+
+22-01-2024T12:02:13 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/roles/detail/65ade43e12ca78ff5335c467", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles/detail/65ade43e12ca78ff5335c467' successfully
+
+22-01-2024T12:02:13 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles/detail/65ade43e12ca78ff5335c467' successfully
+
+22-01-2024T12:02:13 - [TEST_STEP][PASSED] - verifyTextPresent("Detail Role", false): Text 'Detail Role' is present on page 
+
+22-01-2024T12:02:14 - [MESSAGE][PASSED] - Text 'Detail Role' is present on page 
+
+22-01-2024T12:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Add Role/Dashboard Index Toggle")): Object: 'Object Repository/Page_Add Role/Dashboard Index Toggle' is clicked on
+
+22-01-2024T12:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Role/Dashboard Index Toggle' is clicked on
+
+22-01-2024T12:02:14 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Page_Add Role/Active Dashboard Index Toggle"), 0): Unable to verify object is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIViewDetailRole.run(PSSIViewDetailRole:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705898949482.run(TempTestSuite1705898949482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.helper.KeywordHelper$checkTestObjectParameter.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Script1705898142366.run(Script1705898142366.groovy:40)
+	... 18 more
+)
+
+22-01-2024T12:02:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Add Role/Active Dashboard Index Toggle' does not exist
+
+22-01-2024T12:02:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+22-01-2024T12:02:15 - [MESSAGE][FAILED] - Unable to verify object is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIViewDetailRole.run(PSSIViewDetailRole:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705898949482.run(TempTestSuite1705898949482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.helper.KeywordHelper$checkTestObjectParameter.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Script1705898142366.run(Script1705898142366.groovy:40)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Detail Role Test Suite\\20240122_114909\\1705899734925.png]]]]></system-out>
+         <system-err><![CDATA[22-01-2024T12:02:03 - [TEST_CASE][FAILED] - Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIViewDetailRole.run(PSSIViewDetailRole:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705898949482.run(TempTestSuite1705898949482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.helper.KeywordHelper$checkTestObjectParameter.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 24 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-01-2024T12:01:07 - [TEST_SUITE][FAILED] - Detail Role Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIViewDetailRole.run(PSSIViewDetailRole:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705898949482.run(TempTestSuite1705898949482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.helper.KeywordHelper$checkTestObjectParameter.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-out>
+      <system-err><![CDATA[22-01-2024T12:01:07 - [TEST_SUITE][FAILED] - Detail Role Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Detail Role/PSSIViewDetailRole FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at PSSIViewDetailRole.run(PSSIViewDetailRole:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705898949482.run(TempTestSuite1705898949482.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.helper.KeywordHelper$checkTestObjectParameter.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+   </testsuite>
+</testsuites>

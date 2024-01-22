@@ -25,29 +25,7 @@ String baseUrl = GlobalVariable.offline_pssi_dashboard_url
 WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Integration Feature People Counting to Dashboard Monitoring/View People Counting Data/Positive Test Case/PSSIViewPeopleCounting'), [:])
 
 //ganti show entries
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CCTV/Data Entries Option'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CCTV/Data Entries Option'), '100', true)
-WebUI.scrollToElement(findTestObject('Page_CCTV/page 1'), 1)
-
-//cek apakah button 1 aktif karena lagi di halaman 1
-TestObject page1Object = findTestObject('Object Repository/Page_CCTV/page 1')
-page1Object.addProperty('css', ConditionType.EQUALS, 'li.paginate_button.page-item.active > a.page-link')
-WebUI.verifyElementPresent(page1Object, 3)
-
-//ganti show entries lalu ke halaman 2
-WebUI.scrollToElement(findTestObject('Page_CCTV//Data Entries Option'), 1)
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CCTV/Data Entries Option'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CCTV/Data Entries Option'), '25', true)
-
-WebUI.scrollToElement(findTestObject('Page_CCTV/page 2'), 1)
-
-WebUI.click(findTestObject('Object Repository/Page_CCTV/page 2'))
-
-// cek apakah button 2 aktif karena lagi di halaman 2
-TestObject page2Object = findTestObject('Object Repository/Page_CCTV/page 2')
-page2Object.addProperty('css', ConditionType.EQUALS, 'li.paginate_button.page-item.active > a.page-link')
-WebUI.verifyElementPresent(page2Object, 3)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CCTV/Export Button')) //skr test obj blm ada
+WebUI.click(findTestObject('Object Repository/Page_CCTV/Export Button'))
 
 WebUI.closeBrowser()

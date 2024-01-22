@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('Offline PSSI Dashboard Function/Create BE Role 
 
 //ke page edit account
 //id account msh hardcode kalau ada api doc baru http request trus pilih
-WebUI.navigateToUrl(baseUrl + '/roles/edit/65aa32e312ca78ff5335bf34', failureHandling)
+WebUI.navigateToUrl(baseUrl + '/roles/edit/65ade43e12ca78ff5335c467', failureHandling)
 
 //cari dan klik breadcrumb
 WebUI.verifyElementPresent(findTestObject('Page_Account Management Edit Role/Role Management Breadcrumb'), 0, failureHandling) //skr test obj blm ada

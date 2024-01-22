@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Entries and Pages Test Suite" time="20.1" tests="1" failures="0" errors="0">
+   <testsuite name="Data Entries and Pages Test Suite" tests="1" failures="0" errors="0" time="20.1" skipped="0" timestamp="22-01-2024T11:57:39" hostname="USER - DESKTOP-HLRVE9S" id="Test Suites/Create BE Role Management/Data Entries and Pages Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Data Entries and Pages Test Suite\\20240122_114905"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\Kecilin-Automation-Test\\Reports\\20240122_114859\\Create BE Role Management\\Data Entries and Pages Test Suite\\20240122_114905\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-HLRVE9S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.189"/>
+         <property name="sessionId" value="f5ea246835a098236c7b8ee2083c83fe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Data Entries and Pages/PSSIRoleManagementEntriesAndPages" time="19.727" classname="Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Data Entries and Pages/PSSIRoleManagementEntriesAndPages" status="PASSED">
+         <system-out><![CDATA[22-01-2024T11:57:39 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Data Entries and Pages/PSSIRoleManagementEntriesAndPages: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Data Entries and Pages/PSSIRoleManagementEntriesAndPages
+
+22-01-2024T11:57:40 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T11:57:40 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T11:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement' successfully
+
+22-01-2024T11:57:41 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement
+
+22-01-2024T11:57:41 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T11:57:41 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T11:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Offline PSSI Dashboard Function/Sign In/PSSISignInValidData"), [:], failureHandling): Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+22-01-2024T11:57:41 - [TEST_CASE][PASSED] - Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData: Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData
+
+22-01-2024T11:57:42 - [TEST_STEP][PASSED] - failureHandling = STOP_ON_FAILURE: null
+
+22-01-2024T11:57:42 - [TEST_STEP][PASSED] - baseUrl = offline_pssi_dashboard_url: null
+
+22-01-2024T11:57:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2024T11:57:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-01-2024T11:57:42 - [MESSAGE][INFO] - User set preference: ['unhandledPromptBehaviour', 'ignore']
+
+22-01-2024T11:57:42 - [MESSAGE][INFO] - User set preference: ['unexpectedAlertBehaviour', 'ignore']
+
+22-01-2024T11:57:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2024T11:57:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2024T11:57:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+22-01-2024T11:57:45 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id' successfully
+
+22-01-2024T11:57:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-01-2024T11:57:46 - [MESSAGE][PASSED] - Current window maximized
+
+22-01-2024T11:57:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_email"), "superadmin@app.com"): Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+22-01-2024T11:57:47 - [MESSAGE][PASSED] - Text 'superadmin@app.com' is set on object 'Object Repository/Page_Login/input_email'
+
+22-01-2024T11:57:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+22-01-2024T11:57:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+22-01-2024T11:57:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign In")): Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+22-01-2024T11:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+22-01-2024T11:57:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Sign In/PSSISignInValidData' successfully
+
+22-01-2024T11:57:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard/Account Management Sidebar"), 0): Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+22-01-2024T11:57:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '1'
+
+22-01-2024T11:57:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("sidenav-collapse-main")/ul[@class="navbar-nav"]/li[@class="nav-item"]/a[@class="nav-link"][count(. | //a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')]) = count(//a[@class = 'nav-link  ' and @href = '/accounts' and (text() = '
+            
+              
+                
+              
+            
+            Account Management
+          ' or . = '
+            
+              
+                
+              
+            
+            Account Management
+          ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-01-2024T11:57:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/Account Management Sidebar'. Try using Self-healing.
+
+22-01-2024T11:57:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/Account Management Sidebar' was broken. Propose an alternative one: '//div[@id='sidenav-collapse-main']/ul/li[12]/a'.
+
+22-01-2024T11:57:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard/Account Management Sidebar' successfully
+
+22-01-2024T11:57:52 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/roles", failureHandling): Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles' successfully
+
+22-01-2024T11:57:52 - [MESSAGE][PASSED] - Navigate to 'https://monitoring.pssi-dev.kecilin.id/roles' successfully
+
+22-01-2024T11:57:52 - [MESSAGE][INFO] - 
+
+22-01-2024T11:57:52 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+22-01-2024T11:57:52 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+22-01-2024T11:57:52 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+22-01-2024T11:57:52 - [MESSAGE][INFO] - ==============================================================
+
+22-01-2024T11:57:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/View Role Management/PSSIViewRoleManagement' successfully
+
+22-01-2024T11:57:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CCTV/Data Entries Option")): Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+22-01-2024T11:57:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+22-01-2024T11:57:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CCTV/Data Entries Option"), "100", true): All options with value '100' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+22-01-2024T11:57:54 - [MESSAGE][PASSED] - All options with value '100' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+22-01-2024T11:57:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV/page 1"), 1): Scroll to object 'Object Repository/Page_CCTV/page 1' successfully
+
+22-01-2024T11:57:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV/page 1' successfully
+
+22-01-2024T11:57:55 - [TEST_STEP][PASSED] - page1Object = findTestObject("Object Repository/Page_CCTV/page 1"): null
+
+22-01-2024T11:57:55 - [TEST_STEP][PASSED] - page1Object.addProperty("css", EQUALS, "li.paginate_button.page-item.active > a.page-link"): null
+
+22-01-2024T11:57:55 - [TEST_STEP][PASSED] - is1Active = verifyElementPresent(page1Object, 3): Object 'Object Repository/Page_CCTV/page 1' is present
+
+22-01-2024T11:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/page 1' is present
+
+22-01-2024T11:57:55 - [TEST_STEP][PASSED] - if (is1Active): Test passed because user still on page 1
+
+22-01-2024T11:57:55 - [TEST_STEP][PASSED] - markPassed("Test passed because user still on page 1"): Test passed because user still on page 1
+
+22-01-2024T11:57:55 - [MESSAGE][PASSED] - Test passed because user still on page 1
+
+22-01-2024T11:57:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV//Data Entries Option"), 1): Scroll to object 'Object Repository/Page_CCTV//Data Entries Option' successfully
+
+22-01-2024T11:57:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV//Data Entries Option' successfully
+
+22-01-2024T11:57:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CCTV/Data Entries Option")): Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+22-01-2024T11:57:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/Data Entries Option' is clickable
+
+22-01-2024T11:57:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CCTV/Data Entries Option"), "10", true): All options with value '10' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+22-01-2024T11:57:57 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Page_CCTV/Data Entries Option'  using regular expression
+
+22-01-2024T11:57:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CCTV/page 2"), 1): Scroll to object 'Object Repository/Page_CCTV/page 2' successfully
+
+22-01-2024T11:57:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CCTV/page 2' successfully
+
+22-01-2024T11:57:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CCTV/page 2")): Object: 'Object Repository/Page_CCTV/page 2' is clicked on
+
+22-01-2024T11:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCTV/page 2' is clicked on
+
+22-01-2024T11:57:58 - [TEST_STEP][PASSED] - page2Object = findTestObject("Object Repository/Page_CCTV/page 2"): null
+
+22-01-2024T11:57:58 - [TEST_STEP][PASSED] - page2Object.addProperty("css", EQUALS, "li.paginate_button.page-item.active > a.page-link"): null
+
+22-01-2024T11:57:58 - [TEST_STEP][PASSED] - is2Active = verifyElementPresent(page2Object, 3): Object 'Object Repository/Page_CCTV/page 2' is present
+
+22-01-2024T11:57:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CCTV/page 2' is present
+
+22-01-2024T11:57:59 - [TEST_STEP][PASSED] - if (is2Active): Test passed because user still on page 2
+
+22-01-2024T11:57:59 - [TEST_STEP][PASSED] - markPassed("Test passed because user still on page 2"): Test passed because user still on page 2
+
+22-01-2024T11:57:59 - [MESSAGE][PASSED] - Test passed because user still on page 2
+
+22-01-2024T11:57:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2024T11:57:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-01-2024T11:57:39 - [TEST_SUITE][PASSED] - Data Entries and Pages Test Suite: Test Cases/Offline PSSI Dashboard Function/Create BE Role Management/Data Entries and Pages/PSSIRoleManagementEntriesAndPages]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

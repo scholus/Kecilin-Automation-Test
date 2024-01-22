@@ -37,6 +37,7 @@ WebUI.setText(findTestObject('Page_Add Role/Desc Field'), 'ashjagsgajs')
 WebUI.click(findTestObject('Page_Add Role/CCTV Data Delete Toggle'))
 
 //klik save
+WebUI.scrollToElement(findTestObject('Page_Add Role/Save Button'), 0)
 WebUI.verifyElementClickable(findTestObject('Page_Add Role/Save Button'))
 WebUI.click(findTestObject('Page_Add Role/Save Button'))
 

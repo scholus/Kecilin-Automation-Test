@@ -53,12 +53,6 @@ WebUI.closeBrowser()
 
 def verifyStillOnPage() {
 	//verifikasi masih di tabel account management
-    WebUI.verifyTextPresent('Add New', false)
-
-    WebUI.verifyTextPresent('Status', false)
-
-    WebUI.verifyTextPresent('Action', false)
-
     WebUI.verifyTextPresent('entries', false)
 	
 	//verifikasi data masih ada

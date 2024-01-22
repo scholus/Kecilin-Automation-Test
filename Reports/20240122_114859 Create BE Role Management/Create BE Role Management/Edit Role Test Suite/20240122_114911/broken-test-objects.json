@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/Account Management Sidebar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027sidenav-collapse-main\u0027]/ul/li[12]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240122_114859/Create BE Role Management/Edit Role Test Suite/20240122_114911/Object Repository/Page_Dashboard/Account Management Sidebar_XPATH.png"
+    }
+  ]
+}
